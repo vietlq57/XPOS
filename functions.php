@@ -44,7 +44,8 @@ function xpos_setup() {
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
-		'menu-1' => esc_html__( 'Primary', 'xpos' ),
+		'primary_menu' => esc_html__( 'Primary', 'xpos' ),
+        'top_menu' => esc_html__( 'Top', 'xpos' ),
 	) );
 
 	/*
@@ -148,3 +149,8 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+/**
+ * Load custom nav walker
+ */
+require get_template_directory() . '/inc/navwalker.php';
