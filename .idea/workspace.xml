@@ -2,11 +2,238 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8280a60-70f9-4710-8f10-d859ff298728" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/navwalker.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/apple-touch-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-ExtraLight.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-ExtraLight.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-ExtraLight.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-ExtraLight.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-Light.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-Light.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-Light.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-Medium.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-Medium.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-Medium.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-Medium.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-Regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-Regular.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-Regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-light.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-light.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/OpenSans-Bold.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/OpenSans-Bold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/OpenSans-Bold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/OpenSans-Bold.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/about-blog-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/about-icon-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/about-icon-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/about-icon-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/about-icon-4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/about-icon-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/about-icon-6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/arrow-next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/arrow-prev.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/bg-partners.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/bg-quotes.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/breadcrumb-payment.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/breadcrumb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/cirle-w-line.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/contact-us-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/contact-us-banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/disney.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/etsy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/faqs-hero-banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/fearture-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/fearture.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/germany.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/har.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/hardware-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/hardware-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/hardware-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/hardware-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/hardware-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/hardware-6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/hardware-banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/home-banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-book-dot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-checkout.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-customer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-in-store.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-khien.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-magento-webstore.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-mail-move.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-message.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-multi-store-management.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-omni-customer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-on-the-go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-payments.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-product.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-report-system.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-social-network.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-star-circle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-tape.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/icon-check-done.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/icon-check-hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/icon-check.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/icon-help-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/icon-help-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/icon-help-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/icon-ios.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/icon-mac.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/icon-tab-content.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/icon-windows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/integration-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/integration-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/integration-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/integration-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/integration-5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/integration-banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/izettle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/kuk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/list-item-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/logo-pay-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/logo-pay-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/logo-pay-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/logo-pay-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/logo-pay-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/magento1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/magento2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/nasa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/omni-img-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/omni-img-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/omni-img-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/omni-img-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/omni-img-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/omni-img-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/omni-img-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/omnichannel-hero-banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/partners-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/partners-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/partners-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/partners-4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/partners-5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/partners-6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/partners-7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/partners-8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/partners-9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/partners-banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/payment-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/payment-banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/paypal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/pricing-img-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/product1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/product2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/product3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/product4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/quote-after.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/quote-first.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/quotes-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/socket.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/together.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/trial-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/trial-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/trial-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/trial-4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/trial-5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/trial-6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/trial-7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/trial-8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/tyro.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/vantiv.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/wwf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/lang/ninja-forms-mp-pl_PL.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/about-us.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/contact-us.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/faqs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fearture.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-ExtraLight.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-Light.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-Medium.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-Regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/OpenSans-Bold.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/hardware.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/integration.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/omnichannel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/partners.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/payment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/popup-modal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/pricing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/scripts/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/scripts/main.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/scripts/modernizr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/scripts/vendor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/scripts/vendor.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/styles/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/styles/fearture.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/styles/home.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/styles/main - Copy.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/styles/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/trial.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/css/ninja-forms-mp-admin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/css/ninja-forms-mp-display.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/admin/ajax.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/admin/close-div.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/admin/edit-field-ul.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/admin/form-settings-metabox.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/admin/labels.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/admin/open-div.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/admin/scripts.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/deprecated/admin-scripts.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/deprecated/before-pre-process.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/deprecated/breadcrumb.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/deprecated/close-div.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/deprecated/display-scripts.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/deprecated/edit-field-ul.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/deprecated/filter-fields.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/deprecated/form-settings-metabox.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/deprecated/functions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/deprecated/nav.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/deprecated/ninja-forms-mp-admin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/deprecated/open-div.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/deprecated/output-divs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/deprecated/page-divider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/deprecated/post-process.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/display/breadcrumb.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/display/filter-fields.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/display/form/confirm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/display/nav.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/display/output-divs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/display/page-title.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/display/processing/before-pre-process.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/display/processing/confirm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/display/processing/post-process.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/display/progress-bar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/display/scripts.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/fields/page-divider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/functions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/js/dev/ninja-forms-mp-admin-deprecated.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/js/dev/ninja-forms-mp-admin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/js/dev/ninja-forms-mp-display.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/js/min/ninja-forms-mp-admin-deprecated.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/js/min/ninja-forms-mp-admin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/js/min/ninja-forms-mp-display.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/lang/ninja-forms-mp-pl_PL.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/lang/ninja-forms-mp.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/lang/ninja-forms-mp.pot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/multi-part.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/readme.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,12 +247,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="47" column="70" lean-forward="false" selection-start-line="47" selection-start-column="70" selection-end-line="47" selection-end-column="70" />
+            <state relative-caret-position="180">
+              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -34,11 +261,9 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="576">
+              <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -46,7 +271,7 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
+            <state relative-caret-position="504">
               <caret line="140" column="49" lean-forward="false" selection-start-line="140" selection-start-column="49" selection-end-line="140" selection-end-column="49" />
               <folding>
                 <element signature="e#480#2165#1#PHP" expanded="true" />
@@ -111,7 +336,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -134,17 +358,18 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="inc" />
+              <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="/home/quocviet/Downloads/illdy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../.." />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -184,6 +409,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -217,7 +448,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1493176283780</updated>
-      <workItem from="1493176285278" duration="12401000" />
+      <workItem from="1493176285278" duration="20277000" />
+      <workItem from="1493289584378" duration="1431000" />
     </task>
     <task id="LOCAL-00001" summary="header footer">
       <created>1493177871573</created>
@@ -226,31 +458,38 @@
       <option name="project" value="LOCAL" />
       <updated>1493177871573</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="header footer">
+      <created>1493194134177</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1493194134177</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12401000" />
+    <option name="totallyTimeSpent" value="21708000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24940239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25338647" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -270,6 +509,44 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="140" column="49" lean-forward="false" selection-start-line="140" selection-start-column="49" selection-end-line="140" selection-end-column="49" />
+          <folding>
+            <element signature="e#480#2165#1#PHP" expanded="true" />
+            <element signature="n#xpos_content_width#0;n#!!top" expanded="true" />
+            <element signature="n#xpos_widgets_init#0;n#!!top" expanded="true" />
+            <element signature="n#xpos_scripts#0;n#!!top" expanded="true" />
+            <element signature="e#4239#4313#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/navwalker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/inc/navwalker.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -280,7 +557,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
+        <state relative-caret-position="504">
           <caret line="140" column="49" lean-forward="false" selection-start-line="140" selection-start-column="49" selection-end-line="140" selection-end-column="49" />
           <folding>
             <element signature="e#480#2165#1#PHP" expanded="true" />
@@ -294,18 +571,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="576">
+          <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="47" column="70" lean-forward="false" selection-start-line="47" selection-start-column="70" selection-end-line="47" selection-end-column="70" />
+        <state relative-caret-position="180">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>
