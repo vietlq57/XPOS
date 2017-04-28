@@ -110,6 +110,8 @@ function xpos_scripts() {
 
     wp_enqueue_style( 'xpos-fonts', get_template_directory_uri() . '/inc/css/fonts.css' );
 
+    wp_enqueue_style( 'xpos-style-main', get_template_directory_uri() . '/inc/css/main.css' );
+
 	wp_enqueue_style( 'xpos-style', get_stylesheet_uri() );
 
     // Add Modernizr for better HTML5 and CSS3 support

@@ -28,29 +28,30 @@
                     <div class="item-footer">
                         <h5>Point of sale</h5>
                         <ul class="no-bullet">
-                            <li><a href="#" title="Features">Features</a></li>
-                            <li><a href="#" title="Payments">Payments</a></li>
-                            <li><a href="#" title="Hardware">Hardware</a></li>
-                            <li><a href="#" title="Pricing">Pricing</a></li>
-                            <li><a href="#" title="Integrations">Integrations</a></li>
+                            <li><a href="<?php echo esc_url(home_url('/feature'));?>" title="Features">Features</a></li>
+                            <li><a href="<?php echo esc_url(home_url('/payments'));?>" title="Payments">Payments</a></li>
+                            <li><a href="<?php echo esc_url(home_url('/hardware'));?>" title="Hardware">Hardware</a></li>
+                            <li><a href="<?php echo esc_url(home_url('/pricing'));?>" title="Pricing">Pricing</a></li>
+                            <li><a href="<?php echo esc_url(home_url('/integration'));?>" title="Integrations">Integrations</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-4">
                     <div class="item-footer">
-                        <h5><a href="#" title="omnichannel">omnichannel</a></h5>
-                        <h5><a href="#" title="For partners">For partners</a></h5>
+                        <h5><a href="<?php echo esc_url(home_url('/omni-channel'));?>" title="omnichannel">omnichannel</a></h5>
+                        <h5><a href="<?php echo esc_url(home_url('/for-partners'));?>" title="For partners">For partners</a></h5>
                         <h5>Supports</h5>
                         <ul class="no-bullet">
-                            <li><a href="#" title="FAQs">FAQs </a></li>
-                            <li><a href="#" title="Help Center">Help Center</a></li>
+                            <li><a href="<?php echo esc_url(home_url('/faqs'));?>" title="FAQs">FAQs </a></li>
+                            <li><a href="https://support.smartosc.com/" title="Help Center">Help Center</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-4">
                     <div class="item-footer">
-                        <h5><a href="#" title="Blog">Blog</a></h5>
-                        <h5><a href="#" title="Follow us">Follow us</a></h5>
+                        <h5><a href="<?php echo esc_url(home_url('/contact-us'));?>" title="Contact Us">Contact Us</a></h5>
+                        <h5><a href="http://xpos.smartosc.com/blog/" title="Blog">Blog</a></h5>
+                        <h5>Follow us</h5>
                         <ul class="no-bullet list-inline">
                             <li><a href="#" title=""><i class="fa fa-facebook-f"></i></a></li>
                             <li><a href="#" title=""><i class="fa fa-twitter"></i></a></li>

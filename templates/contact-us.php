@@ -52,54 +52,53 @@ get_header(); ?>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 col-md-offset-3">
-                    <div class="trial-content-main custom-contact">
-                        <h2 class="title-page">Get in touch with us!</h2>
-                        <h3 class="title-page-2">We'd love to hear from you.</h3>
-                        <form action="#">
-                            <div class="row custom-row-3">
-                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                    <input class="form-control" type="text" placeholder="First name *">
-                                </div>
-                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                    <input class="form-control" type="text" placeholder="Last name *">
-                                </div>
+                <div class="trial-content-main custom-contact">
+                    <h2 class="title-page">Get in touch with us!</h2>
+                    <h3 class="title-page-2">We'd love to hear from you.</h3>
+                    <!--<form action="#">
+                        <div class="row custom-row-3">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input class="form-control" type="text" placeholder="First name *">
                             </div>
-                            <div class="row custom-row-3">
-                                <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <select class="form-control">
-                                        <option>City, Country</option>
-                                        <option>City, Country 2</option>
-                                        <option>City, Country 3</option>
-                                    </select>
-                                </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input class="form-control" type="text" placeholder="Last name *">
                             </div>
-                            <div class="row custom-row-3">
-                                <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <select class="form-control">
-                                        <option>Topic</option>
-                                        <option>Topic 2</option>
-                                        <option>Topic 3</option>
-                                    </select>
-                                </div>
+                        </div>
+                        <div class="row custom-row-3">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <select class="form-control">
+                                    <option>City, Country</option>
+                                    <option>City, Country 2</option>
+                                    <option>City, Country 3</option>
+                                </select>
                             </div>
-                            <div class="row custom-row-3">
-                                <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <input class="form-control" type="text" placeholder="Message *">
-                                </div>
+                        </div>
+                        <div class="row custom-row-3">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <select class="form-control">
+                                    <option>Topic</option>
+                                    <option>Topic 2</option>
+                                    <option>Topic 3</option>
+                                </select>
                             </div>
-                            <div class="row custom-row-3">
-                                <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <button class="button-submit" type="submit">send</button>
-                                </div>
+                        </div>
+                        <div class="row custom-row-3">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <input class="form-control" type="text" placeholder="Message *">
                             </div>
-                            <div class="row">
-                                <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <p class="title-page-2 custom-form-text">We'll get back to you within 12 hours.</p>
-                                </div>
+                        </div>
+                        <div class="row custom-row-3">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <button class="button-submit" type="submit">send</button>
                             </div>
-                        </form>
-                    </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <p class="title-page-2 custom-form-text">We'll get back to you within 12 hours.</p>
+                            </div>
+                        </div>
+                    </form>-->
+                    <?php echo do_shortcode( ' [ninja_form id=6] ' ); ?>
                 </div>
             </div>
         </div>
