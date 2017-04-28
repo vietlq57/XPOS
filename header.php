@@ -19,7 +19,7 @@
 <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> ontouchstart="">
 <div id="page" class="site">
     <header class="header">
         <div class="top-header">
@@ -80,13 +80,4 @@
             </nav>
         </div>
     </header>
-    <div class="banner">
-        <div class="hero-img" style="background-image: url('<?php echo(get_template_directory_uri()); ?>/inc/images/faqs-hero-banner.jpg');"><img class="hidden" src="<?php echo(get_template_directory_uri()); ?>/inc/images/faqs-hero-banner.jpg" alt="">
-            <div class="content text-center">
-                <h1>Frequently Asked Questions</h1>
-                <div>Find quick answers to most frequently asked questions about ConnectPOS. Check out our FAQs below</div>
-            </div>
-        </div>
-    </div>
 
-	<div id="content" class="site-content">

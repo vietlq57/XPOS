@@ -2,238 +2,104 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8280a60-70f9-4710-8f10-d859ff298728" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/apple-touch-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-ExtraLight.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-ExtraLight.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-ExtraLight.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-ExtraLight.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-Light.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-Light.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-Light.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-Medium.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-Medium.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-Medium.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-Medium.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-Regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-Regular.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-Regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-light.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-light.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/OpenSans-Bold.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/OpenSans-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/OpenSans-Bold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/OpenSans-Bold.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/about-blog-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/about-icon-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/about-icon-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/about-icon-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/about-icon-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/about-icon-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/about-icon-6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/arrow-next.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/arrow-prev.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/bg-partners.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/bg-quotes.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/breadcrumb-payment.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/breadcrumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/cirle-w-line.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/contact-us-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/contact-us-banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/disney.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/etsy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/faqs-hero-banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/fearture-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/fearture.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/germany.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/har.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/hardware-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/hardware-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/hardware-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/hardware-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/hardware-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/hardware-6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/hardware-banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/home-banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-book-dot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-checkout.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-customer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-in-store.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-khien.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-magento-webstore.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-mail-move.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-message.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-multi-store-management.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-omni-customer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-on-the-go.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-payments.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-product.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-report-system.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-social-network.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-star-circle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-tape.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/icon-check-done.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/icon-check-hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/icon-check.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/icon-help-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/icon-help-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/icon-help-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/icon-ios.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/icon-mac.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/icon-tab-content.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/icon-windows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/integration-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/integration-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/integration-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/integration-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/integration-5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/integration-banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/izettle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/kuk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/list-item-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/logo-pay-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/logo-pay-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/logo-pay-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/logo-pay-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/logo-pay-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/magento1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/magento2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/nasa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/omni-img-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/omni-img-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/omni-img-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/omni-img-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/omni-img-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/omni-img-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/omni-img-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/omnichannel-hero-banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/partners-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/partners-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/partners-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/partners-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/partners-5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/partners-6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/partners-7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/partners-8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/partners-9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/partners-banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/payment-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/payment-banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/paypal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/pricing-img-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/product1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/product2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/product3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/product4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/quote-after.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/quote-first.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/quotes-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/socket.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/star.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/together.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/trial-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/trial-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/trial-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/trial-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/trial-5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/trial-6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/trial-7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/trial-8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/tyro.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/vantiv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/wwf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/lang/ninja-forms-mp-pl_PL.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/about-us.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/contact-us.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/faqs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fearture.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-ExtraLight.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-Light.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-Medium.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-Regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/OpenSans-Bold.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/hardware.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/integration.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/omnichannel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/partners.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/payment.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/popup-modal.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/pricing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/scripts/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/scripts/main.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/scripts/modernizr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/scripts/vendor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/scripts/vendor.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/styles/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/styles/fearture.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/styles/home.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/styles/main - Copy.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/styles/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/trial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/css/ninja-forms-mp-admin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/css/ninja-forms-mp-display.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/admin/ajax.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/admin/close-div.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/admin/edit-field-ul.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/admin/form-settings-metabox.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/admin/labels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/admin/open-div.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/admin/scripts.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/deprecated/admin-scripts.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/deprecated/before-pre-process.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/deprecated/breadcrumb.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/deprecated/close-div.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/deprecated/display-scripts.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/deprecated/edit-field-ul.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/deprecated/filter-fields.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/deprecated/form-settings-metabox.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/deprecated/functions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/deprecated/nav.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/deprecated/ninja-forms-mp-admin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/deprecated/open-div.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/deprecated/output-divs.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/deprecated/page-divider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/deprecated/post-process.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/display/breadcrumb.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/display/filter-fields.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/display/form/confirm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/display/nav.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/display/output-divs.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/display/page-title.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/display/processing/before-pre-process.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/display/processing/confirm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/display/processing/post-process.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/display/progress-bar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/display/scripts.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/fields/page-divider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/includes/functions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/js/dev/ninja-forms-mp-admin-deprecated.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/js/dev/ninja-forms-mp-admin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/js/dev/ninja-forms-mp-display.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/js/min/ninja-forms-mp-admin-deprecated.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/js/min/ninja-forms-mp-admin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/js/min/ninja-forms-mp-display.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/lang/ninja-forms-mp-pl_PL.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/lang/ninja-forms-mp.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/lang/ninja-forms-mp.pot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/multi-part.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ninja-forms-multi-part/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/fonts/Montserrat-ExtraLight.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/fonts/Montserrat-ExtraLight.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/fonts/Montserrat-ExtraLight.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/fonts/Montserrat-ExtraLight.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/fonts/OpenSans-Bold.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/fonts/OpenSans-Bold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/fonts/OpenSans-Bold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/fonts/OpenSans-Bold.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/bg-partners.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/cirle-w-line.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/contact-us-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/contact-us-banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/disney.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/etsy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/fearture-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/fearture.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/germany.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/har.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/hardware-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/hardware-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/hardware-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/hardware-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/hardware-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/hardware-6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/hardware-banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/home-banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/ico-in-store.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/ico-magento-webstore.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/ico-omni-customer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/ico-on-the-go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/ico-social-network.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/icon-check-done.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/icon-check-hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/icon-check.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/icon-help-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/icon-help-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/icon-help-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/integration-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/integration-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/integration-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/integration-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/integration-5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/integration-banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/izettle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/kuk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/nasa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/omni-img-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/omni-img-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/omni-img-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/omni-img-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/omni-img-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/omni-img-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/omni-img-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/omnichannel-hero-banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/partners-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/partners-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/partners-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/partners-4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/partners-5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/partners-6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/partners-7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/partners-8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/partners-9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/partners-banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/payment-banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/paypal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/pricing-img-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/quote-after.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/quote-first.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/socket.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/together.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/trial-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/trial-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/trial-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/trial-4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/trial-5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/trial-6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/trial-7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/trial-8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/tyro.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/vantiv.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/wwf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-page.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/fonts/Montserrat-ExtraLight.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/fonts/OpenSans-Bold.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/about-us.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/contact-us.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/faqs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/feature.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/css/fonts.css" afterPath="$PROJECT_DIR$/inc/css/fonts.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/js/main.js" afterPath="$PROJECT_DIR$/inc/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/js/modernizr.js" afterPath="$PROJECT_DIR$/inc/js/modernizr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/js/vendor.js" afterPath="$PROJECT_DIR$/inc/js/vendor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -248,53 +114,85 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/footer.php">
+      <file leaf-file-name="about-us.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/about-us.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="140" column="49" lean-forward="false" selection-start-line="140" selection-start-column="49" selection-end-line="140" selection-end-column="49" />
+            <state relative-caret-position="136">
+              <caret line="8" column="134" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="134" />
               <folding>
-                <element signature="e#480#2165#1#PHP" expanded="true" />
-                <element signature="n#xpos_content_width#0;n#!!top" expanded="true" />
-                <element signature="n#xpos_widgets_init#0;n#!!top" expanded="true" />
-                <element signature="n#xpos_scripts#0;n#!!top" expanded="true" />
-                <element signature="e#4239#4313#0#PHP" expanded="true" />
+                <element signature="e#6#40#0#PHP" expanded="true" />
+                <element signature="e#115#219#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navwalker.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inc/navwalker.php">
+      <file leaf-file-name="fearture.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/fearture.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            <state relative-caret-position="560">
+              <caret line="317" column="14" lean-forward="true" selection-start-line="290" selection-start-column="4" selection-end-line="317" selection-end-column="14" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="feature.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/feature.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="252" column="103" lean-forward="false" selection-start-line="252" selection-start-column="103" selection-end-line="252" selection-end-column="103" />
+              <folding>
+                <element signature="e#6#39#0#PHP" expanded="true" />
+                <element signature="e#114#224#0#HTML" expanded="true" />
+                <element signature="e#1638#1746#0#HTML" expanded="true" />
+                <element signature="e#3824#3932#0#HTML" expanded="true" />
+                <element signature="e#7278#7386#0#HTML" expanded="true" />
+                <element signature="e#9510#9618#0#HTML" expanded="true" />
+                <element signature="e#11747#11855#0#HTML" expanded="true" />
+                <element signature="e#13945#14053#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="6084" column="10" lean-forward="true" selection-start-line="6084" selection-start-column="10" selection-end-line="6084" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hardware.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dist/hardware.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4000">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>font-face</find>
+      <find>.banner .hom</find>
+      <find>.fearture-item .hardware</find>
+      <find>.fearture-item .fearture-item-icon</find>
+      <find>.together</find>
+      <find>backgrou</find>
+      <find>&lt;div class=&quot;container&quot;&gt;       &lt;div class=&quot;ask-more&quot;&gt;         &lt;h3&gt;Can't find the answer you need? Don't hesitate to contact us!&lt;/h3&gt;         &lt;ul class=&quot;list-inline&quot;&gt;           &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;ico80x80 ico-book-dot&quot;&gt;&lt;/i&gt;&lt;span&gt;View our Help Center&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;           &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;ico80x80 ico-mail-move&quot;&gt;&lt;/i&gt;&lt;span&gt;Send us your question&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;           &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;ico80x80 ico-message&quot;&gt;&lt;/i&gt;&lt;span&gt;Chat with our team&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;         &lt;/ul&gt;       &lt;/div&gt;     &lt;/div&gt;</find>
+      <find>ico-star-circle</find>
+      <find>item-icon</find>
+      <find>.item-icon</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -305,6 +203,14 @@
         <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/inc/css/fonts.css" />
+        <option value="$PROJECT_DIR$/front-page.php" />
+        <option value="$PROJECT_DIR$/templates/contact-us.php" />
+        <option value="$PROJECT_DIR$/dist/faqs.html" />
+        <option value="$PROJECT_DIR$/templates/faqs.php" />
+        <option value="$PROJECT_DIR$/templates/about-us.php" />
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/templates/feature.php" />
       </list>
     </option>
   </component>
@@ -316,9 +222,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1301" />
+    <option name="x" value="-8" />
+    <option name="width" value="1374" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectView">
@@ -336,6 +241,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -358,6 +264,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="XPOS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="XPOS" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -365,7 +285,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -450,6 +369,7 @@
       <updated>1493176283780</updated>
       <workItem from="1493176285278" duration="20277000" />
       <workItem from="1493289584378" duration="1431000" />
+      <workItem from="1493392399322" duration="5886000" />
     </task>
     <task id="LOCAL-00001" summary="header footer">
       <created>1493177871573</created>
@@ -469,19 +389,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21708000" />
+    <option name="totallyTimeSpent" value="27594000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
+    <frame x="-8" y="0" width="1374" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25338647" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25405008" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -519,6 +439,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2278">
+          <caret line="140" column="49" lean-forward="false" selection-start-line="140" selection-start-column="49" selection-end-line="140" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/navwalker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
           <folding />
@@ -529,13 +481,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="140" column="49" lean-forward="false" selection-start-line="140" selection-start-column="49" selection-end-line="140" selection-end-column="49" />
-          <folding>
-            <element signature="e#480#2165#1#PHP" expanded="true" />
-            <element signature="n#xpos_content_width#0;n#!!top" expanded="true" />
-            <element signature="n#xpos_widgets_init#0;n#!!top" expanded="true" />
-            <element signature="n#xpos_scripts#0;n#!!top" expanded="true" />
-            <element signature="e#4239#4313#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -549,7 +495,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/inc/navwalker.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
+        <state relative-caret-position="68">
           <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
           <folding />
         </state>
@@ -557,22 +503,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
+        <state relative-caret-position="2278">
           <caret line="140" column="49" lean-forward="false" selection-start-line="140" selection-start-column="49" selection-end-line="140" selection-end-column="49" />
-          <folding>
-            <element signature="e#480#2165#1#PHP" expanded="true" />
-            <element signature="n#xpos_content_width#0;n#!!top" expanded="true" />
-            <element signature="n#xpos_widgets_init#0;n#!!top" expanded="true" />
-            <element signature="n#xpos_scripts#0;n#!!top" expanded="true" />
-            <element signature="e#4239#4313#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -580,7 +512,153 @@
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/css/fonts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="3705" column="15" lean-forward="true" selection-start-line="3705" selection-start-column="15" selection-end-line="3705" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4905">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/about-us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="160" column="14" lean-forward="true" selection-start-line="128" selection-start-column="4" selection-end-line="160" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="134" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="134" />
+          <folding>
+            <element signature="e#84#189#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/contact-us.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding>
+            <element signature="e#117#228#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/contact-us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="61" column="12" lean-forward="true" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/faqs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="233" column="167" lean-forward="false" selection-start-line="233" selection-start-column="167" selection-end-line="233" selection-end-column="167" />
+          <folding>
+            <element signature="e#6#36#0#PHP" expanded="true" />
+            <element signature="e#111#221#0#HTML" expanded="true" />
+            <element signature="e#870#979#0#HTML" expanded="true" />
+            <element signature="e#1090#1192#0#HTML" expanded="true" />
+            <element signature="e#1327#1430#0#HTML" expanded="true" />
+            <element signature="e#13934#14039#0#HTML" expanded="true" />
+            <element signature="e#14153#14259#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/faqs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="281" column="10" lean-forward="true" selection-start-line="281" selection-start-column="10" selection-end-line="281" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/about-us.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="134" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="134" />
+          <folding>
+            <element signature="e#6#40#0#PHP" expanded="true" />
+            <element signature="e#115#219#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/fearture.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="317" column="14" lean-forward="true" selection-start-line="290" selection-start-column="4" selection-end-line="317" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/feature.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="252" column="103" lean-forward="false" selection-start-line="252" selection-start-column="103" selection-end-line="252" selection-end-column="103" />
+          <folding>
+            <element signature="e#6#39#0#PHP" expanded="true" />
+            <element signature="e#114#224#0#HTML" expanded="true" />
+            <element signature="e#1638#1746#0#HTML" expanded="true" />
+            <element signature="e#3824#3932#0#HTML" expanded="true" />
+            <element signature="e#7278#7386#0#HTML" expanded="true" />
+            <element signature="e#9510#9618#0#HTML" expanded="true" />
+            <element signature="e#11747#11855#0#HTML" expanded="true" />
+            <element signature="e#13945#14053#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="6084" column="10" lean-forward="true" selection-start-line="6084" selection-start-column="10" selection-end-line="6084" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/hardware.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4000">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
