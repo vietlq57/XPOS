@@ -63,12 +63,11 @@ get_header(); ?>
             <div class="block block-slider-product">
                 <h2 class="title-page">Over 100 ConnectPOS partners worldwide <br> welcome to the club!</h2>
                 <div class="slick-slider slick-slider-product">
-                    <div class="item"><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-5.png"></a><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-5.png"></a></div>
-                    <div class="item"><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-6.png"></a><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-6.png"></a></div>
-                    <div class="item"><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-7.png"></a><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-7.png"></a></div>
-                    <div class="item"><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-8.png"></a><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-8.png"></a></div>
-                    <div class="item"><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-9.png"></a><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-9.png"></a></div>
-                    <div class="item"><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-5.png"></a><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-5.png"></a></div>
+                    <div class="item"><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-5.png"></a><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/awork2.png"></a></div>
+                    <div class="item"><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-6.png"></a><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/trl.png"></a></div>
+                    <div class="item"><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-7.png"></a><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/Rovan.png"></a></div>
+                    <div class="item"><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-8.png"></a><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/Natsort.png"></a></div>
+                    <div class="item"><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-9.png"></a><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/LMT.png"></a></div>
                 </div>
             </div>
         </div>

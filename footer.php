@@ -49,13 +49,21 @@
                 </div>
                 <div class="col-md-4 col-sm-4">
                     <div class="item-footer">
-                        <h5><a href="<?php echo esc_url(home_url('/contact-us'));?>" title="Contact Us">Contact Us</a></h5>
-                        <h5><a href="http://xpos.smartosc.com/blog/" title="Blog">Blog</a></h5>
-                        <h5>Follow us</h5>
-                        <ul class="no-bullet list-inline">
-                            <li><a href="#" title=""><i class="fa fa-facebook-f"></i></a></li>
-                            <li><a href="#" title=""><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#" title=""><i class="fa fa-google-plus"></i></a></li>
+                        <h5><a href="#" title="Blog">Blog</a></h5>
+                        <h5><a href="javascript:void(0);" title="Follow us">Follow us</a>
+                            <ul class="no-bullet list-inline social-ico">
+                                <li><a href="#" title=""><i class="fa fa-facebook-f"></i></a></li>
+                                <li><a href="#" title=""><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#" title=""><i class="fa fa-google-plus"></i></a></li>
+                            </ul>
+                        </h5>
+                        <ul class="no-bullet">
+                            <li>
+                                <p>18th Floor, Handico Tower, Me Tri Ha New Urban Area, Pham Hung Street, Nam Tu Liem District, Hanoi</p>
+                            </li>
+                            <li>
+                                <p><a href="tel:0437620248">(+84) 4 3762 0248</a></p>
+                            </li>
                         </ul>
                     </div>
                 </div>

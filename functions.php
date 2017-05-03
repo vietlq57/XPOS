@@ -121,6 +121,8 @@ function xpos_scripts() {
 
     wp_enqueue_script('xpos-main', get_template_directory_uri().'/inc/js/main.js', array(), false, true );
 
+    wp_enqueue_script('xpos-extra', get_template_directory_uri().'/inc/js/extra.js', array(), false, true );
+
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}

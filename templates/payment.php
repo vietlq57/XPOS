@@ -111,18 +111,20 @@ get_header(); ?>
                                         <p>Their support team is always available to answer your questions either by phone or via email.</p>
                                         <p>PayPal Here is fully integrated into ConnectPOS.</p>
                                     </div>
-                                    <div class="pull-left"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/imgpsh_fullsize.png"></div>
-                                    <div class="pull-right">
-                                        <ul>
-                                            <li><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-ios.png"></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="content-text">
-                                        <h4>iZettle</h4>
-                                        <p>Card and contactless payments are made easy with iZettle, Europe’s number one mobile payments provider.</p>
-                                        <p>iZettle charges no monthly fees. Instead, iZettle charges pay a small transaction fee and the more you sell, the less you pay.</p>
-                                        <p>iZettle offers world-class security and is approved by EMV for handling card data. Their systems are regularly inspected by internal as well as external security experts.</p>
-                                        <p>iZettle is fully integrated into ConnectPOS.</p>
+                                    <div class="content list-system">
+                                        <div class="pull-left"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/imgpsh_fullsize.png"></div>
+                                        <div class="pull-right">
+                                            <ul>
+                                                <li><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-ios.png"></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="content-text">
+                                            <h4>iZettle</h4>
+                                            <p>Card and contactless payments are made easy with iZettle, Europe’s number one mobile payments provider.</p>
+                                            <p>iZettle charges no monthly fees. Instead, iZettle charges pay a small transaction fee and the more you sell, the less you pay.</p>
+                                            <p>iZettle offers world-class security and is approved by EMV for handling card data. Their systems are regularly inspected by internal as well as external security experts.</p>
+                                            <p>iZettle is fully integrated into ConnectPOS.</p>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="tab-pane" id="europe" role="tabpanel">
@@ -178,14 +180,14 @@ get_header(); ?>
                         <div class="content-container-pay">
                             <div class="row">
                                 <div class="col-md-6 col-sm-6">
-                                    <div class="pagination pagination-prev pull-left"><a href="<?php echo esc_url(home_url('/feature'));?>">Back</a>
+                                    <a class="pagination pagination-prev pull-left" href="<?php echo esc_url(home_url('/feature'));?>">Back
                                         <h5>Features</h5>
-                                    </div>
+                                    </a>
                                 </div>
                                 <div class="col-md-6 col-sm-6">
-                                    <div class="pagination pagination-next pull-right"><a href="<?php echo esc_url(home_url('/hardware'));?>">Next</a>
+                                    <a class="pagination pagination-next pull-right" href="<?php echo esc_url(home_url('/hardware'));?>">Next
                                         <h5>Hardware</h5>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>

@@ -5,7 +5,7 @@
 
 get_header(); ?>
 
-    <div class="banner">
+    <div class="banner" xmlns="http://www.w3.org/1999/html">
         <div class="hero-img" style="background-image: url('<?php echo(get_template_directory_uri()); ?>/inc/images/integration-banner.jpg');"><img class="hidden" src="<?php echo(get_template_directory_uri()); ?>/inc/images/integration-banner.jpg" alt="">
             <div class="content text-center">
                 <h1>Integrations</h1>
@@ -98,9 +98,9 @@ get_header(); ?>
     <section class="omni">
         <div class="container">
             <div class="content-container-pay">
-                <div class="pagination pagination-prev pull-left"><a href="<?php echo esc_url(home_url('/pricing'));?>">Back</a>
+                <a class="pagination pagination-prev pull-left" href="<?php echo esc_url(home_url('/pricing'));?>">Back
                     <h5>Pricing</h5>
-                </div>
+                </a>
             </div>
         </div>
     </section>

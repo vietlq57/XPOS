@@ -186,10 +186,6 @@ get_header(); ?>
                                     <p>Get all critical metrics in a clear dashboard with advanced options and built-in filters</p>
                                 </li>
                                 <li>
-                                    <h4 class="header-title"> <a href="javascript:void(0)">Insight Distillation</a></h4>
-                                    <p>Analyze and gain insight into your store’s growth, from best-selling products, staff performance to customer behaviors</p>
-                                </li>
-                                <li>
                                     <h4 class="header-title"> <a href="javascript:void(0)">Export Reports</a></h4>
                                     <p>Export data to CSV file for further analysis or send reports to your accountants</p>
                                 </li>
@@ -201,7 +197,7 @@ get_header(); ?>
                                     <h4 class="header-title"> <a href="javascript:void(0)">Insight Distillation</a></h4>
                                     <p>Analyze and gain insight into your store’s growth, from best-selling products, staff performance to customer behaviors</p>
                                 </li>
-                                <li><a href="javascript:void(0)"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/product1.jpg"></a></li>
+                                <li><a href="javascript:void(0)"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/Report.jpg"></a></li>
                             </ul>
                         </div>
                     </div>
@@ -231,7 +227,7 @@ get_header(); ?>
                                     <h4 class="header-title"> <a href="javascript:void(0)">Real Time Synchronization</a></h4>
                                     <p>Sync your physical stores in real time with your online business, avoid selling out-of-stock products</p>
                                 </li>
-                                <li><a href="javascript:void(0)"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/product1.jpg"></a></li>
+                                <li><a href="javascript:void(0)"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/Multistores.jpg"></a></li>
                             </ul>
                         </div>
                     </div>
@@ -267,10 +263,10 @@ get_header(); ?>
             </div>
             <div class="row">
                 <div class="content-container-pay">
-                    <div class="col-md-12">
-                        <div class="pagination pagination-next pull-right"><a href="<?php echo esc_url(home_url('/payments'));?>">Next</a>
+                    <a class="col-md-12">
+                        <a class="pagination pagination-next pull-right" href="<?php echo esc_url(home_url('/payments'));?>">Next
                             <h5>Payment</h5>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>

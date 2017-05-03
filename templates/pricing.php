@@ -12,15 +12,15 @@ get_header(); ?>
                 <div class="desc">Our pricing is simple, straightforward without any hidden fees. <br>Choose the right one for your business.</div>
             </div>
             <div class="switch-state text-center clearfix">
-                <div class="txt pull-right off">Annually</div>
-                <input type="checkbox"><span class="switchery"><small></small></span>
-                <div class="txt pull-left">Monthly</div>
+                <div class="txt pull-right">Annually</div>
+                <input type="checkbox" id="pricing"><span class="switchery"><small></small></span>
+                <div class="txt pull-left off">Monthly</div>
             </div>
             <div class="row mg0">
                 <div class="col-xs-12 col-sm-3 col-sm-offset-1 pd0">
                     <div class="planbox">
                         <div class="title">Standard</div>
-                        <div class="price"><sup class="currency">$</sup>59<span>/mo</span></div>
+                        <div class="price"><sup class="currency">$</sup><span id="standard">59</span><span>/mo</span></div>
                         <div class="unit">Billed in USD annually</div>
                         <p>The first step to the brick-and-mortar store in your dream</p>
                         <ul>
@@ -35,7 +35,7 @@ get_header(); ?>
                 <div class="col-xs-12 col-sm-4 pd0">
                     <div class="planbox highlight">
                         <div class="title">Advanced</div>
-                        <div class="price"><sup class="currency">$</sup>89<span>/mo</span></div>
+                        <div class="price"><sup class="currency">$</sup><span id="advanced">89<span>/mo</span></div>
                         <div class="unit">Billed in USD annually</div>
                         <p>Scale up your business, increase sales and profit</p>
                         <ul>
@@ -50,7 +50,7 @@ get_header(); ?>
                 <div class="col-xs-12 col-sm-3 pd0">
                     <div class="planbox">
                         <div class="title">Multi-outlet</div>
-                        <div class="price"><sup class="currency">$</sup>159<span>/mo</span></div>
+                        <div class="price"><sup class="currency">$</sup><span id="multioutlet">159</span><span>/mo</span></div>
                         <div class="unit">Billed in USD annually</div>
                         <p>Embrace and win omnichannel retail</p>
                         <ul>
@@ -64,7 +64,7 @@ get_header(); ?>
                     </div>
                 </div>
             </div>
-            <div class="to-desc text-center"> <span>* </span>Fee for an additional active user: $ 39</div>
+            <div class="to-desc text-center"> <span>* </span>Fee for an additional active user: $39/mo</div>
         </div>
     </section>
 
@@ -387,6 +387,26 @@ get_header(); ?>
     <section class="container">
         <div class="btn-trial text-center">
             <h3>Experience a free demo first, decide on a plan later!</h3><a class="btn btn-primary" href="<?php echo esc_url(home_url('/free-trial'));?>">free trial</a><span class="no-required">No credit card required</span>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="content-container-pay">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <a class="pagination pagination-prev pull-left" href="<?php echo esc_url(home_url('/hardware'));?>">Back
+                                <h5>Hardware</h5>
+                            </a>
+                        </div>
+                        <a class="col-md-6 col-sm-6">
+                            <a class="pagination pagination-next pull-right" href="<?php echo esc_url(home_url('/integration'));?>">Next
+                                <h5>Integrations</h5>
+                            </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 

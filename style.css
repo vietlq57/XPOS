@@ -54,7 +54,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
     margin-right: -4px;
 }
 
-.list-system:not(:first-child){
+.tab-pane .list-system:not(:first-child){
     margin-top: 30px;
 }
 hr {

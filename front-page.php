@@ -65,10 +65,7 @@ get_header(); ?>
                                 </video>
                             </div>
                             <div class="tab-pane fade" role="tabpanel" id="tab6">
-                                <video class="tab-video" muted="" volume="0" canplay="false">
-                                    <source type="video/webm" src="https://cdn.shopify.com/assets2/pos-flow-payment-d51fc4f9137e9095159fbb2cf498c9879dc80fd9ec64690dc64d2f947e7e8f12.webm">
-                                    <source type="video/mp4" src="https://cdn.shopify.com/assets2/pos-flow-payment-b6ab166f90ac35bd13a8deaa92fad29fb180f0622d2dfb99a3758f06c87549e5.mp4">
-                                </video>
+                                <div class="img"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/2-devices.png" alt=""></div>
                             </div>
                         </div>
                     </div>
@@ -116,18 +113,18 @@ get_header(); ?>
         </div>
     </section>
 
-    <section class="together" style="background: url('<?php echo(get_template_directory_uri()); ?>/inc/images/together.jpg') no-repeat center/cover;">
+    <section class="together">
         <div class="container">
             <h2 class="header-content">Together, with the industry leaders...</h2>
             <div class="row">
                 <div class="col-md-8 col-sm-12 col-md-offset-2 col-sm-offset-0">
                     <div class="row">
-                        <div class="col-md-4 col-sm-4 col-xs-12 logo-content"><a class="img" href="javascript:void(0);"></a><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/socket.png"></div>
-                        <div class="col-md-4 col-sm-4 col-xs-12 logo-content"><a class="img" href="javascript:void(0);"></a><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/paypal.png"></div>
-                        <div class="col-md-4 col-sm-4 col-xs-12 logo-content"><a class="img" href="javascript:void(0);"></a><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/tyro.png"></div>
-                        <div class="col-md-4 col-sm-4 col-xs-12 logo-content"><a class="img" href="javascript:void(0);"></a><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/vantiv.png"></div>
-                        <div class="col-md-4 col-sm-4 col-xs-12 logo-content"><a class="img" href="javascript:void(0);"></a><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/star.png"></div>
-                        <div class="col-md-4 col-sm-4 col-xs-12 logo-content"><a class="img" href="javascript:void(0);"></a><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/izettle.png"></div>
+                        <div class="col-md-4 col-sm-4 col-xs-12 logo-content"><a class="img" href="javascript:void(0);"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/socket.png"></a></div>
+                        <div class="col-md-4 col-sm-4 col-xs-12 logo-content"><a class="img" href="javascript:void(0);"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/paypal.png"></a></div>
+                        <div class="col-md-4 col-sm-4 col-xs-12 logo-content"><a class="img" href="javascript:void(0);"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/tyro.png"></a></div>
+                        <div class="col-md-4 col-sm-4 col-xs-12 logo-content"><a class="img" href="javascript:void(0);"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/vantiv.png"></a></div>
+                        <div class="col-md-4 col-sm-4 col-xs-12 logo-content"><a class="img" href="javascript:void(0);"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/star.png"></a></div>
+                        <div class="col-md-4 col-sm-4 col-xs-12 logo-content"><a class="img" href="javascript:void(0);"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/izettle.png"></a></div>
                     </div>
                 </div>
             </div>
@@ -143,24 +140,24 @@ get_header(); ?>
                         <div>
                             <div class="slide-item">
                                 <div class="row">
-                                    <div class="col-md-4 col-sm-6"><a class="logo-item" href="javascript:void(0);"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/Anovo.jpg"></a></div>
-                                    <div class="col-md-4 col-sm-6"><a class="logo-item" href="javascript:void(0);"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/disney.png"></a></div>
-                                    <div class="col-md-4 col-sm-6"><a class="logo-item" href="javascript:void(0);"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/nasa.png"></a></div>
-                                    <div class="col-md-4 col-sm-6"><a class="logo-item" href="javascript:void(0);"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/etsy.png"></a></div>
-                                    <div class="col-md-4 col-sm-6"><a class="logo-item" href="javascript:void(0);"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/har.png"></a></div>
-                                    <div class="col-md-4 col-sm-6"><a class="logo-item" href="javascript:void(0);"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/kuk.png"></a></div>
+                                    <div class="col-md-4 col-sm-6"><a class="logo-item" href="javascript:void(0);"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/Anovo_Grayscale.png"><img class="img-responsive img-hover" src="<?php echo(get_template_directory_uri()); ?>/inc/images/Anovo.jpg"></a></div>
+                                    <div class="col-md-4 col-sm-6"><a class="logo-item" href="javascript:void(0);"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/Nescafe_Dolce_Gusto_Grayscale.png"><img class="img-responsive img-hover" src="<?php echo(get_template_directory_uri()); ?>/inc/images/Nescafe_Dolce_Gusto.jpg"></a></div>
+                                    <div class="col-md-4 col-sm-6"><a class="logo-item" href="javascript:void(0);"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/United_Nude_Grayscale.png"><img class="img-responsive img-hover" src="<?php echo(get_template_directory_uri()); ?>/inc/images/United_Nude.jpg"></a></div>
+                                    <div class="col-md-4 col-sm-6"><a class="logo-item" href="javascript:void(0);"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/Kwerkee_Grayscale.png"><img class="img-responsive img-hover" src="<?php echo(get_template_directory_uri()); ?>/inc/images/Kwerkee.png"></a></div>
+                                    <div class="col-md-4 col-sm-6"><a class="logo-item" href="javascript:void(0);"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/Live_your_truth_grayscale.png"><img class="img-responsive img-hover" src="<?php echo(get_template_directory_uri()); ?>/inc/images/Live_your_truth.png"></a></div>
+                                    <div class="col-md-4 col-sm-6"><a class="logo-item" href="javascript:void(0);"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/Pinetree_Grayscale.png"><img class="img-responsive img-hover" src="<?php echo(get_template_directory_uri()); ?>/inc/images/Pinetree.png"></a></div>
                                 </div>
                             </div>
                         </div>
                         <div>
                             <div class="slide-item">
                                 <div class="row">
-                                    <div class="col-md-4 col-sm-6"><a class="logo-item" href="javascript:void(0);"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/wwf.png"></a></div>
-                                    <div class="col-md-4 col-sm-6"><a class="logo-item" href="javascript:void(0);"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/disney.png"></a></div>
-                                    <div class="col-md-4 col-sm-6"><a class="logo-item" href="javascript:void(0);"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/nasa.png"></a></div>
-                                    <div class="col-md-4 col-sm-6"><a class="logo-item" href="javascript:void(0);"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/etsy.png"></a></div>
-                                    <div class="col-md-4 col-sm-6"><a class="logo-item" href="javascript:void(0);"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/har.png"></a></div>
-                                    <div class="col-md-4 col-sm-6"><a class="logo-item" href="javascript:void(0);"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/kuk.png"></a></div>
+                                    <div class="col-md-4 col-sm-6"><a class="logo-item" href="javascript:void(0);"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/Plum_Pretty_Sugar_Grayscale.png"><img class="img-responsive img-hover" src="<?php echo(get_template_directory_uri()); ?>/inc/images/Plum_Pretty_Sugar.png"></a></div>
+                                    <div class="col-md-4 col-sm-6"><a class="logo-item" href="javascript:void(0);"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/Sophie_Juliet_Grayscale.png"><img class="img-responsive img-hover" src="<?php echo(get_template_directory_uri()); ?>/inc/images/Sophie_and_Juliet.png"></a></div>
+                                    <div class="col-md-4 col-sm-6"><a class="logo-item" href="javascript:void(0);"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/Toronto_Brewing_Grayscale.png"><img class="img-responsive img-hover" src="<?php echo(get_template_directory_uri()); ?>/inc/images/Toronto_Brewing.png"></a></div>
+                                    <div class="col-md-4 col-sm-6"><a class="logo-item" href="javascript:void(0);"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/Vix_Grayscale.png"><img class="img-responsive img-hover" src="<?php echo(get_template_directory_uri()); ?>/inc/images/Vix.png"></a></div>
+                                    <div class="col-md-4 col-sm-6"><a class="logo-item" href="javascript:void(0);"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/Bathroom_Takeaway_Grayscale.png"><img class="img-responsive img-hover" src="<?php echo(get_template_directory_uri()); ?>/inc/images/Bathroom_Takeaway.jpg"></a></div>
+                                    <div class="col-md-4 col-sm-6"><a class="logo-item" href="javascript:void(0);"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/Cyclo_Monster_Grayscale.png"><img class="img-responsive img-hover" src="<?php echo(get_template_directory_uri()); ?>/inc/images/Cyclo_Monster.png"></a></div>
                                 </div>
                             </div>
                         </div>
@@ -202,16 +199,16 @@ get_header(); ?>
         </div>
     </section>
 
-    <section class="block-content-global">
-        <div class="container">
-            <div class="block-content-pay">
-                <div class="row">
-                    <div class="col-md-5">
-                        <h2 class="title text-left-title">ConnectPOS is present in 50 countries</h2>
-                        <p>Join the growing community of omni-channel retailers all over the world now!</p><a class="btn btn-free" href="<?php echo esc_url(home_url('/free-trial'));?>">free trial</a><span class="no-required">No credit card required</span>
-                    </div>
-                    <div class="col-md-7">
-                        <div class="pull-right"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/germany.jpg"></div>
+    <section class="block-content-global clearfix">
+        <div class="img"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/germany.jpg"></div>
+        <div class="map-txt">
+            <div class="container">
+                <div class="block-content-pay">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <h2 class="title text-left-title">ConnectPOS is present in 50 countries</h2>
+                            <p>Join the growing community of omni-channel retailers all over the world now!</p><a class="btn btn-free" href="<?php echo esc_url(home_url('/free-trial'));?>">free trial</a><span class="no-required">No credit card required</span>
+                        </div>
                     </div>
                 </div>
             </div>

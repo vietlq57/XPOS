@@ -142,53 +142,47 @@ get_header(); ?>
                 <div class="block-help">
                     <h2 class="title-page">If you need help in setting up hardware or want to check<br> the hardware compatibility, we're just one click away.</h2>
                     <div class="row">
-                        <div class="col-md-8 col-md-offset-2">
-                            <div class="col-md-6 col-sm-6">
-                                <div class="item-help">
-                                    <div class="item-thum"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-help-1.png"></div>
-                                    <div class="item-content"><a class="title-page-2" href="https://support.smartosc.com/">View our Help Center</a></div>
-                                </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="item-help">
+                                <div class="item-thum"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-help-1.png"></div>
+                                <div class="item-content"><a class="title-page-2" href="https://support.smartosc.com/">View our Help Center</a></div>
                             </div>
-                            <div class="col-md-6 col-sm-6">
-                                <div class="item-help">
-                                    <div class="item-thum"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-help-2.png"></div>
-                                    <div class="item-content"><a class="title-page-2" href="<?php echo esc_url(home_url('/contact-us'));?>">Send us your question</a></div>
-                                </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="item-help">
+                                <div class="item-thum"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/Shape_38.png"></div>
+                                <div class="item-content"><a class="title-page-2" href="<?php echo esc_url(home_url('/faqs'));?>">Frequently asked questions</a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="item-help">
+                                <div class="item-thum"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-help-2.png"></div>
+                                <div class="item-content"><a class="title-page-2" href="<?php echo esc_url(home_url('/contact-us'));?>">Send us your question</a></div>
                             </div>
                         </div>
                     </div>
                 </div>
         </div>
     </section>
-    <div class="block-content-pay">
-        <div class="row">
-            <div class="col-md-6 col-sm-6 col-xs-12">
-                <h2 class="title">We work with the best to make sure you have a great experience</h2><a class="btn btn-free" href="trial">free trial</a><span class="no-required">No credit card required</span>
-            </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
-                <div class="pull-right"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/payment-1.png"></div>
-            </div>
-        </div>
         <section class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="content-container-pay">
                         <div class="row">
                             <div class="col-md-6 col-sm-6">
-                                <div class="pagination pagination-prev pull-left"><a href="<?php echo esc_url(home_url('/payments'));?>">Back</a>
+                                <a class="pagination pagination-prev pull-left" href="<?php echo esc_url(home_url('/payments'));?>">Back
                                     <h5>Payments</h5>
-                                </div>
+                                </a>
                             </div>
                             <div class="col-md-6 col-sm-6">
-                                <div class="pagination pagination-next pull-right"><a href="<?php echo esc_url(home_url('/pricing'));?>">Next</a>
+                                <a class="pagination pagination-next pull-right" href="<?php echo esc_url(home_url('/pricing'));?>">Next
                                     <h5>Pricing</h5>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-    </div>
 <?php
 get_footer();
