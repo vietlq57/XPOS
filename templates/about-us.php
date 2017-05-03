@@ -19,8 +19,8 @@ get_header(); ?>
             <div class="block about-us-item">
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12">
-                        <h2 class="title">our story</h2>
-                        <div class="des">We are the first to provide point of sale solution for Magento retailers. Years working with <br> Magento merchants worldwide help us know exactly what you need in a POS: high-speed,<br> full-function and real time synchronization with your online business. Now you can get them all<br> with ConnectPOS - the best POS for omni-channel retailers.</div>
+                        <h2 class="title">Our story</h2>
+                        <div class="des">We are one of the first to provide a point of sale solution for Magento retailers. Years working with <br> Magento merchants worldwide help us know exactly what you need in a POS: high-speed,<br> full-function and real time synchronization with your online business. Now you can get them all<br> with ConnectPOS - the best POS for omni-channel retailers.</div>
                         <div class="about-content">
                             <div class="row custom-row">
                                 <div class="col-md-6 col-sm-6 col-xs-6">
@@ -30,7 +30,7 @@ get_header(); ?>
                                 </div>
                                 <div class="col-md-6 col-sm-6 col-xs-6">
                                     <div class="item-block"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/about-icon-2.png"><strong>670,000+</strong>
-                                        <p>list of code</p>
+                                        <p>lines of code</p>
                                     </div>
                                 </div>
                             </div>
@@ -73,8 +73,8 @@ get_header(); ?>
                 <div class="entry-item">
                     <div class="entry-thumb"><img class="img-circle" src="<?php echo(get_template_directory_uri()); ?>/inc/images/quotes-1.jpg"></div>
                     <div class="entry-content">
-                        <h3>Eli Wallach</h3><span>Marketing Manager at Toronto Brewing</span>
-                        <p>The product delivers exactly what it advertises and does so in a very sophisticated and eloquent way. Moreover, the support I received from SmartOSC was second to none!</p>
+                        <h3>Mohammad Cheema</h3><span>Bathroom Takeaway, UK</span>
+                        <p>The team has shown outstanding work and commitment to our help requests. I would really like to thank you all for your hard work and efforts, without your help we would be clueless and worried.</p>
                     </div>
                 </div>
             </div>
@@ -109,7 +109,7 @@ get_header(); ?>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-12"><a class="about-check" href="#">Check our blog here</a></div>
+                    <div class="col-md-12"><a class="about-check" href="http://xpos.smartosc.com/blog/">Check our blog here</a></div>
                 </div>
             </div>
         </div>

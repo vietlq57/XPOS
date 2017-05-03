@@ -31,3 +31,44 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 .nf-form-fields-required{
     display: none;
 }
+
+.trial-block, .pricing-plans{
+    margin-top: 40px;
+}
+
+.btn{
+    font-weight: 500;
+}
+
+.block-content-global .block-content-pay p {
+    margin-bottom: 10px;
+}
+
+.customer{
+    margin-right: 15px;
+}
+.checkout {
+    margin-right: 8px;
+}
+.report-system{
+    margin-right: -4px;
+}
+
+.list-system:not(:first-child){
+    margin-top: 30px;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eeeeee;
+}
+
+.button-submit{
+    width: 100% !important;
+    height: 50px !important;
+}
+
+.nf-error-field-errors{
+    display: none;
+}

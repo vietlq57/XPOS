@@ -19,7 +19,7 @@ get_header(); ?>
             <div class="block-container-product">
                 <div class="block-use">
                     <h2 class="title-page">Use your hardware</h2>
-                    <p class="title-page-2">ConnectPOS is compatible with many POS hardware providers so it's likely to work well<br> with the peripheral devices you've already had</p><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/hardware-1.png">
+                    <p class="title-page-2">ConnectPOS is compatible with many POS hardware providers so it's likely to work well<br> with the peripheral devices you already have</p><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/hardware-1.png">
                     <h3 class="title-page-3">Check out our list of recommended hardware<br> for Windows, Mac and iPad below</h3>
                 </div>
                 <div class="block-product">
@@ -66,7 +66,7 @@ get_header(); ?>
                         <div class="col-md-9 col-sm-9">
                             <div class="content">
                                 <div class="description">
-                                    <p>ConnectPOS is compatible with any cash drawers & tills in work with the receipt printer, providing fundamental safeguard and management for onsite cash.</p>
+                                    <p>ConnectPOS is compatible with any cash drawers & tills that work with the receipt printer, providing fundamental safeguard and management for onsite cash.</p>
                                     <p>Recommended Models:</p>
                                     <p>- Wincor Nixdorf KA11</p>
                                     <p>- APG Vasario 320 series</p>
@@ -101,7 +101,7 @@ get_header(); ?>
                             <div class="content">
                                 <h5 class="title-page">iPad</h5>
                                 <div class="description">
-                                    <p>We support majority of all barcode scanners that have bluetooth connection with iPad and highly recommend barcode scanners that support iOS mode.</p>
+                                    <p>We support the majority of all barcode scanners that have bluetooth connection with iPad and highly recommend barcode scanners that support iOS mode.</p>
                                     <p>Recommended Models:</p>
                                     <p>- Socket Mobile 7Ci or 7Qi</p><em><span>*</span>Please note that we do NOT support scanners that ONLY support RS232 interface</em>
                                 </div>
@@ -132,7 +132,7 @@ get_header(); ?>
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <h2 class="title-page">Get new hardware</h2>
-                            <div class="description">You can buy new hardware from our partner and set it up easily. There's a wide range of POS bundles, all-in-one, printers, cash drawers, scanners for you to choose. All the hardware provided by our partner work well with ConnectPOS.</div><a class="btn btn-free" href="#">Buy from our partner</a>
+                            <div class="description">You can buy new hardware from our partner and set it up easily. There's a wide range of POS bundles, all-in-one, printers, cash drawers, scanners for you to choose. All the hardware provided by our partner work well with ConnectPOS.</div><a class="btn btn-free" href="https://partner.posportal.com/xpos/xpos/">Buy from our partner</a>
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="pull-right"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/hardware-6.png"></div>
@@ -142,28 +142,53 @@ get_header(); ?>
                 <div class="block-help">
                     <h2 class="title-page">If you need help in setting up hardware or want to check<br> the hardware compatibility, we're just one click away.</h2>
                     <div class="row">
-                        <div class="col-md-4 col-sm-4">
-                            <div class="item-help">
-                                <div class="item-thum"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-help-1.png"></div>
-                                <div class="item-content"><a class="title-page-2" href="#">View our Help Center</a></div>
+                        <div class="col-md-8 col-md-offset-2">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="item-help">
+                                    <div class="item-thum"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-help-1.png"></div>
+                                    <div class="item-content"><a class="title-page-2" href="https://support.smartosc.com/">View our Help Center</a></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="item-help">
+                                    <div class="item-thum"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-help-2.png"></div>
+                                    <div class="item-content"><a class="title-page-2" href="<?php echo esc_url(home_url('/contact-us'));?>">Send us your question</a></div>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-4">
-                            <div class="item-help">
-                                <div class="item-thum"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-help-2.png"></div>
-                                <div class="item-content"><a class="title-page-2" href="#">Send us your question</a></div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <div class="block-content-pay">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <h2 class="title">We work with the best to make sure you have a great experience</h2><a class="btn btn-free" href="trial">free trial</a><span class="no-required">No credit card required</span>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="pull-right"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/payment-1.png"></div>
+            </div>
+        </div>
+        <section class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="content-container-pay">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="pagination pagination-prev pull-left"><a href="<?php echo esc_url(home_url('/payments'));?>">Back</a>
+                                    <h5>Payments</h5>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-4 col-sm-4">
-                            <div class="item-help">
-                                <div class="item-thum"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-help-3.png"></div>
-                                <div class="item-content"><a class="title-page-2" href="#">Chat with our team</a></div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="pagination pagination-next pull-right"><a href="<?php echo esc_url(home_url('/pricing'));?>">Next</a>
+                                    <h5>Pricing</h5>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
 <?php
 get_footer();

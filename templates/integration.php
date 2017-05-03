@@ -8,7 +8,7 @@ get_header(); ?>
     <div class="banner">
         <div class="hero-img" style="background-image: url('<?php echo(get_template_directory_uri()); ?>/inc/images/integration-banner.jpg');"><img class="hidden" src="<?php echo(get_template_directory_uri()); ?>/inc/images/integration-banner.jpg" alt="">
             <div class="content text-center">
-                <h1>Integration</h1>
+                <h1>Integrations</h1>
                 <div></div>
             </div>
         </div>
@@ -82,7 +82,7 @@ get_header(); ?>
                         </div>
                     </div>
                 </div>
-                <div class="get-link"><a class="btn-free" href="#">Get Reward Points Extension</a></div>
+                <div class="get-link"><a class="btn-free" href="https://ecommerce.aheadworks.com/magento-2-extensions/points-and-rewards">Get Reward Points Extension</a></div>
                 <h2 class="title-page-3">And we have many more to come so make sure you come back<br> and check regularly</h2>
             </div>
         </div>
@@ -91,14 +91,14 @@ get_header(); ?>
     <section class="omni">
         <div class="container block">
             <div class="block-content-pay custom-block-push">
-                <h2 class="title">Push the limit of your store!</h2><a class="btn btn-free custom-btn-1" href="#">FREE TRIAL</a><span class="no-required">No credit card required</span>
+                <h2 class="title">Push the limit of your store!</h2><a class="btn btn-free custom-btn-1" href="<?php echo esc_url(home_url('/free-trial'));?>">FREE TRIAL</a><span class="no-required">No credit card required</span>
             </div>
         </div>
     </section>
     <section class="omni">
         <div class="container">
             <div class="content-container-pay">
-                <div class="pagination pagination-prev pull-left"><a href="#">Back</a>
+                <div class="pagination pagination-prev pull-left"><a href="<?php echo esc_url(home_url('/pricing'));?>">Back</a>
                     <h5>Pricing</h5>
                 </div>
             </div>

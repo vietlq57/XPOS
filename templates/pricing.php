@@ -9,7 +9,7 @@ get_header(); ?>
         <div class="container">
             <div class="text-center">
                 <h2>Transparent and flexible plans</h2>
-                <div class="desc">Our pricing is simple, straightforward without any hidden fees. <br>Let's choose the right one for your business.</div>
+                <div class="desc">Our pricing is simple, straightforward without any hidden fees. <br>Choose the right one for your business.</div>
             </div>
             <div class="switch-state text-center clearfix">
                 <div class="txt pull-right off">Annually</div>
@@ -19,54 +19,52 @@ get_header(); ?>
             <div class="row mg0">
                 <div class="col-xs-12 col-sm-3 col-sm-offset-1 pd0">
                     <div class="planbox">
-                        <div class="title">Starter</div>
-                        <div class="price"><sup class="currency">$</sup>99<span>/mo</span></div>
+                        <div class="title">Standard</div>
+                        <div class="price"><sup class="currency">$</sup>59<span>/mo</span></div>
                         <div class="unit">Billed in USD annually</div>
                         <p>The first step to the brick-and-mortar store in your dream</p>
                         <ul>
                             <li>Single outlet</li>
                             <li>One register</li>
-                            <li>One active user *</li>
-                            <li>24/7 support</li>
+                            <li>One active user*</li>
                             <li>Basic reports</li>
-                            <li>Free updates</li>
-                        </ul><a class="btn" href="#">Free trial</a>
+                            <li>Email & chat support</li>
+                        </ul><a class="btn" href="<?php echo esc_url(home_url('/free-trial'));?>">Free trial</a>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-4 pd0">
                     <div class="planbox highlight">
-                        <div class="title">Professional</div>
-                        <div class="price"><sup class="currency">$</sup>99<span>/mo</span></div>
+                        <div class="title">Advanced</div>
+                        <div class="price"><sup class="currency">$</sup>89<span>/mo</span></div>
                         <div class="unit">Billed in USD annually</div>
-                        <p>Scale up your omni-channel business, multiple all the way</p>
+                        <p>Scale up your business, increase sales and profit</p>
                         <ul>
-                            <li>Multiple outlets</li>
+                            <li>Single outlet</li>
                             <li>Unlimited registers</li>
-                            <li>3 active users *</li>
-                            <li>24/7 support</li>
+                            <li>3 active users*</li>
                             <li>Advanced reports</li>
-                            <li>Free updates</li>
-                        </ul><a class="btn" href="#">Free trial</a>
+                            <li>Email & chat support</li>
+                        </ul><a class="btn" href="<?php echo esc_url(home_url('/free-trial'));?>">Free trial</a>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-3 pd0">
                     <div class="planbox">
-                        <div class="title">Life-time</div>
-                        <div class="price"><sup class="currency">$</sup>1999<span>/mo</span></div>
+                        <div class="title">Multi-outlet</div>
+                        <div class="price"><sup class="currency">$</sup>159<span>/mo</span></div>
                         <div class="unit">Billed in USD annually</div>
-                        <p>Pay once and you're ready to go</p>
+                        <p>Embrace and win omnichannel retail</p>
                         <ul>
                             <li>Multiple outlets</li>
                             <li>Unlimited registers</li>
-                            <li>2 active users *</li>
-                            <li>24/7 support</li>
-                            <li>Basic reports</li>
-                            <li>One-year free update</li>
-                        </ul><a class="btn" href="#">Free trial</a>
+                            <li>5 active users*</li>
+                            <li>Advanced reports</li>
+							<li>Email & chat support</li>
+                            <li>24/7 priority phone support</li>
+                        </ul><a class="btn" href="<?php echo esc_url(home_url('/free-trial'));?>">Free trial</a>
                     </div>
                 </div>
             </div>
-            <div class="to-desc text-center"> <span>* </span>Fee for an additional active user: $ 99</div>
+            <div class="to-desc text-center"> <span>* </span>Fee for an additional active user: $ 39</div>
         </div>
     </section>
 
@@ -78,9 +76,9 @@ get_header(); ?>
                     <thead>
                     <tr>
                         <th></th>
-                        <th>Free</th>
                         <th>Standard</th>
-                        <th>Professional</th>
+                        <th>Advanced</th>
+                        <th>Multi-outlet</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -89,18 +87,18 @@ get_header(); ?>
                     </tr>
                     <tr>
                         <td>Paid annually</td>
-                        <td>-</td>
-                        <td>$19/mo</td>
-                        <td>$19/mo</td>
+                        <td>$59/mo</td>
+                        <td>$89/mo</td>
+                        <td>$159/mo</td>
                     </tr>
                     <tr>
-                        <td>Pain monthly</td>
-                        <td>$1/mo</td>
-                        <td>$19/mo</td>
-                        <td>$19/mo</td>
+                        <td>Paid monthly</td>
+                        <td>$69/mo</td>
+                        <td>$102/mo</td>
+                        <td>$169/mo</td>
                     </tr>
                     <tr>
-                        <td class="tit" colspan="4">Plan limits</td>
+                        <td class="tit" colspan="4">Plan Limits</td>
                     </tr>
                     <tr>
                         <td>Outlets</td>
@@ -121,22 +119,40 @@ get_header(); ?>
                         <td>5</td>
                     </tr>
                     <tr>
-                        <td>Orders per day</td>
-                        <td>10</td>
-                        <td>Unlimited</td>
-                        <td>Unlimited</td>
-                    </tr>
-                    <tr>
                         <td class="tit" colspan="4">Features</td>
                     </tr>
+					<tr>
+                        <td>Barcode scanning</td>
+                        <td></td>
+                        <td><i class="fa fa-check"></i></td>
+                        <td><i class="fa fa-check"></i></td>
+                    </tr>
+					<tr>
+                        <td>Check Magento stock</td>
+                        <td><i class="fa fa-check"></i></td>
+                        <td><i class="fa fa-check"></i></td>
+                        <td><i class="fa fa-check"></i></td>
+                    </tr>
+					<tr>
+                        <td>Check inventory from other stores</td>
+                        <td></td>
+                        <td><i class="fa fa-check"></i></td>
+                        <td><i class="fa fa-check"></i></td>
+                    </tr>
                     <tr>
-                        <td>Order comments</td>
+                        <td>Order notes</td>
                         <td></td>
                         <td> <i class="fa fa-check"></i></td>
                         <td><i class="fa fa-check"></i></td>
                     </tr>
+					<tr>
+                        <td>Price override</td>
+                        <td><i class="fa fa-check"></i></td>
+                        <td><i class="fa fa-check"></i></td>
+                        <td><i class="fa fa-check"></i></td>
+                    </tr>
                     <tr>
-                        <td>Promotions</td>
+                        <td>Custom Discounts</td>
                         <td> <i class="fa fa-check"></i></td>
                         <td><i class="fa fa-check"></i></td>
                         <td><i class="fa fa-check"></i></td>
@@ -153,25 +169,13 @@ get_header(); ?>
                         <td><i class="fa fa-check"></i></td>
                         <td><i class="fa fa-check"></i></td>
                     </tr>
-                    <tr>
-                        <td>Price override</td>
+					<tr>
+                        <td>Custom payment methods</td>
                         <td><i class="fa fa-check"></i></td>
                         <td><i class="fa fa-check"></i></td>
                         <td><i class="fa fa-check"></i></td>
                     </tr>
-                    <tr>
-                        <td>Search online orders</td>
-                        <td><i class="fa fa-check"></i></td>
-                        <td><i class="fa fa-check"></i></td>
-                        <td><i class="fa fa-check"></i></td>
-                    </tr>
-                    <tr>
-                        <td>Custom discounts</td>
-                        <td><i class="fa fa-check"></i></td>
-                        <td><i class="fa fa-check"></i></td>
-                        <td><i class="fa fa-check"></i></td>
-                    </tr>
-                    <tr>
+					<tr>
                         <td>Split Tenders</td>
                         <td><i class="fa fa-check"></i></td>
                         <td><i class="fa fa-check"></i></td>
@@ -183,13 +187,7 @@ get_header(); ?>
                         <td><i class="fa fa-check"></i></td>
                         <td><i class="fa fa-check"></i></td>
                     </tr>
-                    <tr>
-                        <td>Add products to cart from wishlist</td>
-                        <td></td>
-                        <td><i class="fa fa-check"></i></td>
-                        <td><i class="fa fa-check"></i></td>
-                    </tr>
-                    <tr>
+					<tr>
                         <td>Reward points</td>
                         <td></td>
                         <td><i class="fa fa-check"></i></td>
@@ -201,9 +199,21 @@ get_header(); ?>
                         <td><i class="fa fa-check"></i></td>
                         <td><i class="fa fa-check"></i></td>
                     </tr>
-                    <tr>
-                        <td>Check Magento stock</td>
+					<tr>
+                        <td>Refund/Exchange</td>
                         <td><i class="fa fa-check"></i></td>
+                        <td><i class="fa fa-check"></i></td>
+                        <td><i class="fa fa-check"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Add products to cart from wishlist</td>
+                        <td></td>
+                        <td><i class="fa fa-check"></i></td>
+                        <td><i class="fa fa-check"></i></td>
+                    </tr>
+					<tr>
+                        <td>Search online orders</td>
+                        <td></td>
                         <td><i class="fa fa-check"></i></td>
                         <td><i class="fa fa-check"></i></td>
                     </tr>
@@ -211,30 +221,6 @@ get_header(); ?>
                         <td>Multiwarehouse</td>
                         <td></td>
                         <td></td>
-                        <td><i class="fa fa-check"></i></td>
-                    </tr>
-                    <tr>
-                        <td>Check inventory from other stores</td>
-                        <td></td>
-                        <td><i class="fa fa-check"></i></td>
-                        <td><i class="fa fa-check"></i></td>
-                    </tr>
-                    <tr>
-                        <td>Barcode scanning</td>
-                        <td></td>
-                        <td><i class="fa fa-check"></i></td>
-                        <td><i class="fa fa-check"></i></td>
-                    </tr>
-                    <tr>
-                        <td>Refund/Exchange</td>
-                        <td><i class="fa fa-check"></i></td>
-                        <td><i class="fa fa-check"></i></td>
-                        <td><i class="fa fa-check"></i></td>
-                    </tr>
-                    <tr>
-                        <td>Custom payment methods</td>
-                        <td></td>
-                        <td><i class="fa fa-check"></i></td>
                         <td><i class="fa fa-check"></i></td>
                     </tr>
                     <tr>
@@ -280,7 +266,7 @@ get_header(); ?>
                         <td class="tit" colspan="4">Support</td>
                     </tr>
                     <tr>
-                        <td>Access to knowledgebase</td>
+                        <td>Access to knowledge base</td>
                         <td><i class="fa fa-check"></i></td>
                         <td><i class="fa fa-check"></i></td>
                         <td><i class="fa fa-check"></i></td>
@@ -292,7 +278,7 @@ get_header(); ?>
                         <td><i class="fa fa-check"></i></td>
                     </tr>
                     <tr>
-                        <td>24/7 Priority Phone Support</td>
+                        <td>24/7 priority phone support</td>
                         <td></td>
                         <td></td>
                         <td><i class="fa fa-check"></i></td>
@@ -310,7 +296,7 @@ get_header(); ?>
             </div>
             <div class="col-xs-12 col-sm-6">
                 <h2>Custom Solution</h2>
-                <p>If you need a tailored solution that meets your specific needs, we're here to help.</p><a class="btn btn-primary" data-toggle="modal" data-target="#myModal">Submit your request</a>
+                <p>If you need a tailored solution that meets your specific needs, we're here to help.</p><a class="btn btn-primary" data-toggle="modal" data-target="#myModal">Contact us</a>
                 <div class="modal fade" id="myModal" role="dialog">
                     <div class="modal-dialog">
                         <div class="modal-content">
@@ -335,61 +321,61 @@ get_header(); ?>
                     <div class="panel-group panel-omni" id="accordion1">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapse21"> <span>1</span><i class="fa fa-plus"></i>Is X-POS compatible with my existing hardware?</a></h4>
+                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapse21"> <span>1</span><i class="fa fa-plus"></i>Do I need to enter my credit card details to sign up?</a></h4>
                             </div>
                             <div class="panel-collapse collapse" id="collapse21">
                                 <div class="panel-body">
-                                    <p> </p>
+                                    <p>No. You can sign up and use ConnectPOS for 30 days without entering your credit card details. When you decide on a plan at the end of your trial, you will need to enter your credit card details.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapse22"> <span>2</span><i class="fa fa-plus"></i>I need a POS machine, do you also supply hardware?</a></h4>
+                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapse22"> <span>2</span><i class="fa fa-plus"></i>What types of payment do you accept?</a></h4>
                             </div>
                             <div class="panel-collapse collapse" id="collapse22">
                                 <div class="panel-body">
-                                    <p> </p>
+                                    <p>We accept Credit card and Paypal. If you want to wire transfer the money, please contact our support team.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapse23"> <span>3</span><i class="fa fa-plus"></i>Which payment methods does X-POS support?</a></h4>
+                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapse23"> <span>3</span><i class="fa fa-plus"></i>Do I have to sign a long term contract?</a></h4>
                             </div>
                             <div class="panel-collapse collapse" id="collapse23">
                                 <div class="panel-body">
-                                    <p> </p>
+                                    <p>You can trial ConnectPOS with no commitment. If you choose to activate your account to a paid plan, you pay monthly and can cancel at any time. There is no commitment and no long-term contracts.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapse24"> <span>4</span><i class="fa fa-plus"></i>How does X-POS connect with a card reader?</a></h4>
+                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapse24"> <span>4</span><i class="fa fa-plus"></i>Can I change plans and add more cashiers?</a></h4>
                             </div>
                             <div class="panel-collapse collapse" id="collapse24">
                                 <div class="panel-body">
-                                    <p> </p>
+                                    <p>Sure! You can change at any time to whatever plan best suits your needs.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapse25"> <span>5</span><i class="fa fa-plus"></i>Is X-POS compatible with other extensions that I have already installed?</a></h4>
+                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapse25"> <span>5</span><i class="fa fa-plus"></i>Can I cancel my account at any time?</a></h4>
                             </div>
                             <div class="panel-collapse collapse" id="collapse25">
                                 <div class="panel-body">
-                                    <p> </p>
+                                    <p>Yes. If you think that ConnectPOS isn’t the one for your business, you can simply cancel your account.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapse25"> <span>6</span><i class="fa fa-plus"></i>Is X-POS compatible with other extensions that I have already installed?</a></h4>
+                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapse26"> <span>6</span><i class="fa fa-plus"></i>Need a tailored solution?</a></h4>
                             </div>
-                            <div class="panel-collapse collapse" id="collapse25">
+                            <div class="panel-collapse collapse" id="collapse26">
                                 <div class="panel-body">
-                                    <p> </p>
+                                    <p>Contact us and we'll make it fit you like a glove.</p>
                                 </div>
                             </div>
                         </div>
@@ -400,7 +386,7 @@ get_header(); ?>
     </section>
     <section class="container">
         <div class="btn-trial text-center">
-            <h3>Embrace and win Omnichannel with ConnectPOS</h3><a class="btn btn-primary" href="#">free trial</a><span class="no-required">No credit card required</span>
+            <h3>Experience a free demo first, decide on a plan later!</h3><a class="btn btn-primary" href="<?php echo esc_url(home_url('/free-trial'));?>">free trial</a><span class="no-required">No credit card required</span>
         </div>
     </section>
 

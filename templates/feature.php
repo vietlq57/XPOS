@@ -8,7 +8,7 @@ get_header(); ?>
     <div class="banner">
         <div class="hero-img" style="background-image: url('<?php echo(get_template_directory_uri()); ?>/inc/images/faqs-hero-banner.jpg');"><img class="hidden" src="'<?php echo(get_template_directory_uri()); ?>/inc/images/faqs-hero-banner.jpg" alt="">
             <div class="content text-center">
-                <h1>Feature</h1>
+                <h1>Features</h1>
                 <div></div>
             </div>
         </div>
@@ -77,7 +77,7 @@ get_header(); ?>
                                 </li>
                                 <li>
                                     <h4 class="header-title"> <a href="javascript:void(0)">Promotions</a></h4>
-                                    <p>Discount by percentage or number on selected items or the whole cart. Support coupon, gift card, reward points.</p>
+                                    <p>Discount by percentage or number on selected items or the whole cart. Support coupons, gift cards and reward points.</p>
                                 </li>
                                 <li>
                                     <h4 class="header-title"> <a href="javascript:void(0)">Multiple Tax Levels</a></h4>
@@ -93,7 +93,7 @@ get_header(); ?>
                                 </li>
                                 <li>
                                     <h4 class="header-title"> <a href="javascript:void(0)">Receipts</a></h4>
-                                    <p>Create receipt templates for different purpose, with your logo, website and store address. Email or print receipts after a sale.</p>
+                                    <p>Create receipt templates for different purposes, with your logo, website and store address. Email or print receipts after a sale.</p>
                                 </li>
                                 <li>
                                     <h4 class="header-title"> <a href="javascript:void(0)">iPad Support</a></h4>
@@ -141,7 +141,7 @@ get_header(); ?>
                             <ul class="no-bullet">
                                 <li>
                                     <h4 class="header-title"> <a href="javascript:void(0)">Customer Profile</a></h4>
-                                    <p>Create, edit customer information quickly, even in Offline Mode or let him/ her check out as guest</p>
+                                    <p>Create, edit customer information quickly, even in Offline Mode or let them check out as guest</p>
                                 </li>
                                 <li>
                                     <h4 class="header-title"> <a href="javascript:void(0)">Customer Database</a></h4>
@@ -149,7 +149,7 @@ get_header(); ?>
                                 </li>
                                 <li>
                                     <h4 class="header-title"> <a href="javascript:void(0)">Customer Loyalty</a></h4>
-                                    <p>Award loyal customers with coupon, reward points and discounts and keep them coming back for more</p>
+                                    <p>Award loyal customers with coupons, reward points and discounts and keep them coming back for more</p>
                                 </li>
                                 <li>
                                     <h4 class="header-title"> <a href="javascript:void(0)">Wish-list</a></h4>
@@ -170,24 +170,36 @@ get_header(); ?>
                         <div class="col-md-6 col-sm-6 col-xs-6">
                             <ul class="no-bullet">
                                 <li>
-                                    <h4 class="header-title"> <a href="javascript:void(0)">Product Organization</a></h4>
-                                    <p>Support all Magento product types. Search products quickly by name, ID, SKU or barcode.</p>
+                                    <h4 class="header-title"> <a href="javascript:void(0)">Central Data Management</a></h4>
+                                    <p>View reports from your offline and online stores in one place to get a better view of your business</p>
                                 </li>
                                 <li>
-                                    <h4 class="header-title"> <a href="javascript:void(0)">Product Display</a></h4>
-                                    <p>Switch easily between grid view and list view</p>
+                                    <h4 class="header-title"> <a href="javascript:void(0)">Cash Float</a></h4>
+                                    <p>Easily monitor all cash register adjustments and staff changes throughout the day</p>
                                 </li>
                                 <li>
-                                    <h4 class="header-title"> <a href="javascript:void(0)">Barcode Support</a></h4>
-                                    <p>Assign existing barcodes to products or create new ones. Scan barcode to add products to customers' carts.</p>
+                                    <h4 class="header-title"> <a href="javascript:void(0)">Diverse Reports</a></h4>
+                                    <p>20 different reports - all the information needed for store owners and cashiers</p>
+                                </li>
+                                <li>
+                                    <h4 class="header-title"> <a href="javascript:void(0)">Customizable Dashboard</a></h4>
+                                    <p>Get all critical metrics in a clear dashboard with advanced options and built-in filters</p>
+                                </li>
+                                <li>
+                                    <h4 class="header-title"> <a href="javascript:void(0)">Insight Distillation</a></h4>
+                                    <p>Analyze and gain insight into your store’s growth, from best-selling products, staff performance to customer behaviors</p>
+                                </li>
+                                <li>
+                                    <h4 class="header-title"> <a href="javascript:void(0)">Export Reports</a></h4>
+                                    <p>Export data to CSV file for further analysis or send reports to your accountants</p>
                                 </li>
                             </ul>
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-6">
                             <ul class="no-bullet">
                                 <li>
-                                    <h4 class="header-title"> <a href="javascript:void(0)">Inventory Look-see</a></h4>
-                                    <p>Check the stocks of each store. Sync in real time with online store, avoid selling out-of-stock products.</p>
+                                    <h4 class="header-title"> <a href="javascript:void(0)">Insight Distillation</a></h4>
+                                    <p>Analyze and gain insight into your store’s growth, from best-selling products, staff performance to customer behaviors</p>
                                 </li>
                                 <li><a href="javascript:void(0)"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/product1.jpg"></a></li>
                             </ul>
@@ -200,24 +212,24 @@ get_header(); ?>
                         <div class="col-md-6 col-sm-6 col-xs-6">
                             <ul class="no-bullet">
                                 <li>
-                                    <h4 class="header-title"> <a href="javascript:void(0)">Product Organization</a></h4>
-                                    <p>Support all Magento product types. Search products quickly by name, ID, SKU or barcode.</p>
+                                    <h4 class="header-title"> <a href="javascript:void(0)">Add outlets and warehouses</a></h4>
+                                    <p>Scale up your business? Add more stores and assign warehouses accordingly in just minutes. Adjust tax and language to go local.</p>
                                 </li>
                                 <li>
-                                    <h4 class="header-title"> <a href="javascript:void(0)">Product Display</a></h4>
-                                    <p>Switch easily between grid view and list view</p>
+                                    <h4 class="header-title"> <a href="javascript:void(0)">Add registers</a></h4>
+                                    <p>Add registers to sell more during peak season and easily deactivate them when they're needed</p>
                                 </li>
                                 <li>
-                                    <h4 class="header-title"> <a href="javascript:void(0)">Barcode Support</a></h4>
-                                    <p>Assign existing barcodes to products or create new ones. Scan barcode to add products to customers' carts.</p>
+                                    <h4 class="header-title"> <a href="javascript:void(0)">Translation Tool</a></h4>
+                                    <p>You can change the language of the user interface and the receipt into the local language.</p>
                                 </li>
                             </ul>
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-6">
                             <ul class="no-bullet">
                                 <li>
-                                    <h4 class="header-title"> <a href="javascript:void(0)">Inventory Look-see</a></h4>
-                                    <p>Check the stocks of each store. Sync in real time with online store, avoid selling out-of-stock products.</p>
+                                    <h4 class="header-title"> <a href="javascript:void(0)">Real Time Synchronization</a></h4>
+                                    <p>Sync your physical stores in real time with your online business, avoid selling out-of-stock products</p>
                                 </li>
                                 <li><a href="javascript:void(0)"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/product1.jpg"></a></li>
                             </ul>
@@ -231,7 +243,7 @@ get_header(); ?>
     <section class="omni omni-quotes">
         <div class="container">
             <div class="about-quotes pd90">
-                <h2>Let's hear from our clients as well</h2>
+                <h2>ConnectPOS through our clients' views</h2>
                 <div class="entry-item">
                     <div class="entry-thumb"><img class="img-circle" src="<?php echo(get_template_directory_uri()); ?>/inc/images/quotes-1.jpg"></div>
                     <div class="entry-content">
@@ -247,7 +259,7 @@ get_header(); ?>
         <div class="block-content-pay">
             <div class="row">
                 <div class="col-md-6">
-                    <h2 class="title">We work with the best to make sure you have great experience</h2><a class="btn btn-free" href="#">free trial</a><span class="no-required">No credit card required</span>
+                    <h2 class="title">Power your store with the best POS for Magento</h2><a class="btn btn-free" href="trial">free trial</a><span class="no-required">No credit card required</span>
                 </div>
                 <div class="col-md-6">
                     <div class="pull-right"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/fearture.jpg"></div>
@@ -255,16 +267,9 @@ get_header(); ?>
             </div>
             <div class="row">
                 <div class="content-container-pay">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="pagination pagination-prev pull-left"><a href="#">Back</a>
-                                <h5>Features</h5>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="pagination pagination-next pull-right"><a href="#">Next</a>
-                                <h5>Payment</h5>
-                            </div>
+                    <div class="col-md-12">
+                        <div class="pagination pagination-next pull-right"><a href="<?php echo esc_url(home_url('/payments'));?>">Next</a>
+                            <h5>Payment</h5>
                         </div>
                     </div>
                 </div>

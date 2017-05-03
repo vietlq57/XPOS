@@ -8,7 +8,7 @@ get_header(); ?>
     <div class="banner">
         <div class="hero-img" style="background-image: url('<?php echo(get_template_directory_uri()); ?>/inc/images/contact-us-banner.jpg');"><img class="hidden" src="<?php echo(get_template_directory_uri()); ?>/inc/images/contact-us-banner.jpg" alt="">
             <div class="content text-center">
-                <h1>About Us</h1>
+                <h1>Contact Us</h1>
                 <div></div>
             </div>
         </div>

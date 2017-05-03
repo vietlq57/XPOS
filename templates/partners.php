@@ -8,8 +8,8 @@ get_header(); ?>
     <div class="banner">
         <div class="hero-img" style="background-image: url('<?php echo(get_template_directory_uri()); ?>/inc/images/partners-banner.jpg');"><img class="hidden" src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-banner.jpg" alt="">
             <div class="content text-center">
-                <h1>About Us</h1>
-                <div></div>
+                <h1>Partners</h1>
+                <div>Become our partner and earn impressive revenue share plus special benefits only for our valued partners</div>
             </div>
         </div>
     </div>
@@ -22,7 +22,7 @@ get_header(); ?>
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="contact-item custom-item">
                             <div class="item-thumb"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-1.png"></div>
-                            <div class="item-content"><a class="title-page-4" href="#">High Commission</a>
+                            <div class="item-content"><a class="title-page-4" href="javascript:void(0)">High Commission</a>
                                 <p>Look for POS for your client? Refer them to ConnectPOS and earn ongoing monthly income. Our commission policy is simple and sweet and no minimum number of activations is required.</p>
                             </div>
                         </div>
@@ -30,7 +30,7 @@ get_header(); ?>
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="contact-item custom-item">
                             <div class="item-thumb"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-2.png"></div>
-                            <div class="item-content"><a class="title-page-4" href="#">Training & Marketing Materials</a>
+                            <div class="item-content"><a class="title-page-4" href="javascript:void(0)">Training & Marketing Materials</a>
                                 <p>We provide on-going training and inform you of updates right away so you can consult your clients best. And there are many marketing materials available to help you promote ConnectPOS at ease.</p>
                             </div>
                         </div>
@@ -40,7 +40,7 @@ get_header(); ?>
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="contact-item custom-item">
                             <div class="item-thumb"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-3.png"></div>
-                            <div class="item-content"><a class="title-page-4" href="#">Customer Referral</a>
+                            <div class="item-content"><a class="title-page-4" href="javascript:void(0)">Customer Referral</a>
                                 <p>If clients in your area contact us, we'll refer them to you so they can get the best support quickly within their reach and you can have more clients and income.</p>
                             </div>
                         </div>
@@ -48,7 +48,7 @@ get_header(); ?>
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="contact-item custom-item">
                             <div class="item-thumb"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-4.png"></div>
-                            <div class="item-content"><a class="title-page-4" href="#">Advanced Support</a>
+                            <div class="item-content"><a class="title-page-4" href="javascript:void(0)">Advanced Support</a>
                                 <p>You will get dedicated support from the account manager and our whole team. Don't worry about the technical issues of your clients, we're here to help.</p>
                             </div>
                         </div>
@@ -63,12 +63,12 @@ get_header(); ?>
             <div class="block block-slider-product">
                 <h2 class="title-page">Over 100 ConnectPOS partners worldwide <br> welcome to the club!</h2>
                 <div class="slick-slider slick-slider-product">
-                    <div class="item"><a href="#"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-5.png"></a><a href="#"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-5.png"></a></div>
-                    <div class="item"><a href="#"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-6.png"></a><a href="#"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-6.png"></a></div>
-                    <div class="item"><a href="#"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-7.png"></a><a href="#"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-7.png"></a></div>
-                    <div class="item"><a href="#"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-8.png"></a><a href="#"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-8.png"></a></div>
-                    <div class="item"><a href="#"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-9.png"></a><a href="#"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-9.png"></a></div>
-                    <div class="item"><a href="#"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-5.png"></a><a href="#"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-5.png"></a></div>
+                    <div class="item"><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-5.png"></a><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-5.png"></a></div>
+                    <div class="item"><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-6.png"></a><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-6.png"></a></div>
+                    <div class="item"><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-7.png"></a><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-7.png"></a></div>
+                    <div class="item"><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-8.png"></a><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-8.png"></a></div>
+                    <div class="item"><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-9.png"></a><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-9.png"></a></div>
+                    <div class="item"><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-5.png"></a><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/partners-5.png"></a></div>
                 </div>
             </div>
         </div>
@@ -82,7 +82,7 @@ get_header(); ?>
                         <div class="trial-content-main custom-contact custom-block-2">
                             <h2 class="title-page">Can't wait to join our Partner Program?</h2>
                             <h3 class="title-page-3">Submit the information and we'll get back to you within 12 hours.</h3>
-                            <form action="#">
+                            <form action="javascript:void(0)">
                                 <div class="row custom-row-3">
                                     <div class="col-md-6 col-sm-6 col-xs-12">
                                         <input class="form-control" type="text" placeholder="First name *">

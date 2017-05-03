@@ -175,7 +175,7 @@ get_header(); ?>
         <section class="container">
             <hr>
             <div class="btn-trial text-center">
-                <h3>Embrace and win Omnichannel with ConnectPOS</h3><a class="btn btn-primary" href="#">free trial</a><span class="no-required">No credit card required</span>
+                <h3>Embrace and win Omnichannel with ConnectPOS</h3><a class="btn btn-primary" href="<?php echo esc_url(home_url('/free-trial'));?>">free trial</a><span class="no-required">No credit card required</span>
             </div>
         </section>
     </div>

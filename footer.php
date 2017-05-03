@@ -16,7 +16,7 @@
             <div class="row">
                 <div class="col-md-4 col-sm-12">
                     <div class="intro">
-                        <h5>About us</h5>
+                        <h5><a href="<?php echo esc_url(home_url('/about-us'));?>" title="Blog">About us</a></h5>
                         <p>Developed by SmartOSC, the pioneer in Magento POS, X-POS is the high-speed software for omni-channel retailers.</p>
                         <ul class="list-inline">
                             <li><a href="#" title="certificate"> <img src="<?php echo(get_template_directory_uri()); ?>/inc/images/magento1.png" alt="Magento 1"></a></li>
