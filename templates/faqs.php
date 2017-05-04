@@ -18,9 +18,9 @@ get_header(); ?>
         <div id="faqs">
             <h3>You can choose the topic and find the quick answers to your questions here</h3>
             <div class="ul list-inline categories">
-                <li><a href="#connect-features"><i class="ico40x40 ico-star-circle" style="background-image: url('<?php echo(get_template_directory_uri()); ?>/inc/images/ico-star-circle.png');"></i><span>ConnectPOS Features</span></a></li>
-                <li><a href="#hpi"><i class="ico40x40 ico-tape" style="background-image: url('<?php echo(get_template_directory_uri()); ?>/inc/images/ico-tape.png');"></i><span>Hardware, Payments and Integrations</span></a></li>
-                <li><a href="#our-policy"><i class="ico40x40 ico-khien" style="background-image: url('<?php echo(get_template_directory_uri()); ?>/inc/images/ico-khien.png');"></i><span>Our Policy</span></a></li>
+                <li><a href="javascript:FE.global.gotoArea('#connect-features')"><i class="ico40x40 ico-star-circle" style="background-image: url('<?php echo(get_template_directory_uri()); ?>/inc/images/ico-star-circle.png');"></i><span>ConnectPOS Features</span></a></li>
+                <li><a href="javascript:FE.global.gotoArea('#hpi')"><i class="ico40x40 ico-tape" style="background-image: url('<?php echo(get_template_directory_uri()); ?>/inc/images/ico-tape.png');"></i><span>Hardware, Payments and Integrations</span></a></li>
+                <li><a href="javascript:FE.global.gotoArea('#our-policy')"><i class="ico40x40 ico-khien" style="background-image: url('<?php echo(get_template_directory_uri()); ?>/inc/images/ico-khien.png');"></i><span>Our Policy</span></a></li>
             </div>
         </div>
     </div>

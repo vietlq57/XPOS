@@ -72,3 +72,7 @@ hr {
 .nf-error-field-errors{
     display: none;
 }
+
+.logo img{
+    margin-top: -8px;
+}

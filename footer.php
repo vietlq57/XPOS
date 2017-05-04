@@ -17,7 +17,7 @@
                 <div class="col-md-4 col-sm-12">
                     <div class="intro">
                         <h5><a href="<?php echo esc_url(home_url('/about-us'));?>" title="Blog">About us</a></h5>
-                        <p>Developed by SmartOSC, the pioneer in Magento POS, X-POS is the high-speed software for omni-channel retailers.</p>
+                        <p>Developed by SmartOSC, the pioneer in Magento POS, ConnectPOS is the high-speed software for omni-channel retailers.</p>
                         <ul class="list-inline">
                             <li><a href="#" title="certificate"> <img src="<?php echo(get_template_directory_uri()); ?>/inc/images/magento1.png" alt="Magento 1"></a></li>
                             <li><a href="#" title="certificate"> <img src="<?php echo(get_template_directory_uri()); ?>/inc/images/magento2.png" alt="Magento 2"></a></li>
@@ -77,8 +77,8 @@
                     <div class="col-sm-6">
                         <div class="text-right">
                             <ul class="list-inline">
-                                <li><a href="#" title="Terms of Use">Terms of Use</a></li>
-                                <li><a href="#" title="Privacy Policy">Privacy Policy</a></li>
+                                <li><a href="<?php echo esc_url(home_url('/terms-of-use'));?>" title="Terms of Use">Terms of Use</a></li>
+                                <li><a href="<?php echo esc_url(home_url('/privacy-policy'));?>" title="Privacy Policy">Privacy Policy</a></li>
                             </ul>
                         </div>
                     </div>

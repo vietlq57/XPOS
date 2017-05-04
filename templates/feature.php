@@ -6,7 +6,7 @@
 get_header(); ?>
 
     <div class="banner">
-        <div class="hero-img" style="background-image: url('<?php echo(get_template_directory_uri()); ?>/inc/images/faqs-hero-banner.jpg');"><img class="hidden" src="'<?php echo(get_template_directory_uri()); ?>/inc/images/faqs-hero-banner.jpg" alt="">
+        <div class="hero-img" style="background-image: url('<?php echo(get_template_directory_uri()); ?>/inc/images/features-banner.jpg');"><img class="hidden" src="'<?php echo(get_template_directory_uri()); ?>/inc/images/faqs-hero-banner.jpg" alt="">
             <div class="content text-center">
                 <h1>Features</h1>
                 <div></div>
@@ -43,7 +43,7 @@ get_header(); ?>
                                 </li>
                                 <li>
                                     <h4 class="header-title"> <a href="javascript:void(0)">Barcode Support</a></h4>
-                                    <p>Assign existing barcodes to products or create new ones. Scan barcode to add products to customers' carts.</p>
+                                    <p>Assign existing barcodes to products. Scan barcode to add products to customers' carts.</p>
                                 </li>
                             </ul>
                         </div>
