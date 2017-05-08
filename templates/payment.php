@@ -19,14 +19,12 @@ get_header(); ?>
             <div class="row">
                 <div class="col-md-10 col-md-offset-1 col-sm-12 col-sm-offset-0">
                     <div class="block block-tabs-content">
-                        <div class="des">We integrate with many payment solution providers all over the<br> world to make sure you get paid fast and conveniently.</div>
+                        <h3>We integrate with many payment solution providers all over the<br> world to make sure you get paid fast and conveniently.</h3>
                         <div class="image-content">
                             <ul>
-                                <li><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/logo-pay-2.jpg"></a></li>
-                                <li><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/logo-pay-5.jpg"></a></li>
-                                <li><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/logo-pay-1.jpg"></a></li>
-                                <li><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/logo-pay-3.jpg"></a></li>
-                                <li><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/logo-pay-4.jpg"></a></li>
+                                <li><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/logo-pay-3.jpg"></li>
+                                <li><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/logo-pay-4.jpg"></li>
+                                <li><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/logo-pay-1.jpg"></li>
                             </ul>
                         </div>
                         <div class="tabs-container">
@@ -44,9 +42,9 @@ get_header(); ?>
                                         <div class="pull-left"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-tab-content.jpg"></div>
                                         <div class="pull-right">
                                             <ul>
-                                                <li><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-ios.png"></a></li>
-                                                <li><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-mac.png"></a></li>
-                                                <li><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-windows.png"></a></li>
+                                                <li><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-ios.png"></li>
+                                                <li><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-mac.png"></li>
+                                                <li><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-windows.png"></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -57,15 +55,30 @@ get_header(); ?>
                                         <p>Their support team is always available to answer your questions either by phone or via email.</p>
                                         <p>PayPal Here is fully integrated into ConnectPOS.</p>
                                     </div>
+                                    <div class="content list-system">
+                                        <div class="pull-left"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/imgpsh_fullsize.png"></div>
+                                        <div class="pull-right">
+                                            <ul>
+                                                <li><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-ios.png"></li>
+                                            </ul>
+                                        </div>
+                                        <div class="content-text">
+                                            <h4 class="other">iZettle</h4>
+                                            <p>Card and contactless payments are made easy with iZettle, Europe’s number one mobile payments provider.</p>
+                                            <p>iZettle charges no monthly fees. Instead, iZettle charges pay a small transaction fee and the more you sell, the less you pay.</p>
+                                            <p>iZettle offers world-class security and is approved by EMV for handling card data. Their systems are regularly inspected by internal as well as external security experts.</p>
+                                            <p>iZettle is fully integrated into ConnectPOS.</p>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="tab-pane" id="australia" role="tabpanel">
 									<div class="content list-system">
                                         <div class="pull-left"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-tab-content.jpg"></div>
                                         <div class="pull-right">
                                             <ul>
-                                                <li><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-ios.png"></a></li>
-                                                <li><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-mac.png"></a></li>
-                                                <li><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-windows.png"></a></li>
+                                                <li><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-ios.png"></li>
+                                                <li><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-mac.png"></li>
+                                                <li><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-windows.png"></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -80,9 +93,9 @@ get_header(); ?>
                                         <div class="pull-left"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/imgtyro_fullsize.png"></div>
                                         <div class="pull-right">
                                             <ul>
-                                                <li><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-ios.png"></a></li>
-                                                <li><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-mac.png"></a></li>
-                                                <li><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-windows.png"></a></li>
+                                                <li><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-ios.png"></li>
+                                                <li><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-mac.png"></li>
+                                                <li><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-windows.png"></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -98,9 +111,9 @@ get_header(); ?>
                                         <div class="pull-left"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-tab-content.jpg"></div>
                                         <div class="pull-right">
                                             <ul>
-                                                <li><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-ios.png"></a></li>
-                                                <li><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-mac.png"></a></li>
-                                                <li><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-windows.png"></a></li>
+                                                <li><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-ios.png"></a></li>
+                                                <li><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-mac.png"></a></li>
+                                                <li><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-windows.png"></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -115,11 +128,11 @@ get_header(); ?>
                                         <div class="pull-left"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/imgpsh_fullsize.png"></div>
                                         <div class="pull-right">
                                             <ul>
-                                                <li><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-ios.png"></a></li>
+                                                <li><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-ios.png"></li>
                                             </ul>
                                         </div>
                                         <div class="content-text">
-                                            <h4>iZettle</h4>
+                                            <h4 class="other">iZettle</h4>
                                             <p>Card and contactless payments are made easy with iZettle, Europe’s number one mobile payments provider.</p>
                                             <p>iZettle charges no monthly fees. Instead, iZettle charges pay a small transaction fee and the more you sell, the less you pay.</p>
                                             <p>iZettle offers world-class security and is approved by EMV for handling card data. Their systems are regularly inspected by internal as well as external security experts.</p>
@@ -132,12 +145,12 @@ get_header(); ?>
                                         <div class="pull-left"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/imgpsh_fullsize.png"></div>
                                         <div class="pull-right">
                                             <ul>
-                                                <li><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-ios.png"></a></li>
+                                                <li><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-ios.png"></li>
                                             </ul>
                                         </div>
                                     </div>
                                     <div class="content-text">
-                                        <h4>iZettle</h4>
+                                        <h4 class="other">iZettle</h4>
                                         <p>Card and contactless payments are made easy with iZettle, Europe’s number one mobile payments provider.</p>
                                         <p>iZettle charges no monthly fees. Instead, iZettle charges pay a small transaction fee and the more you sell, the less you pay.</p>
                                         <p>iZettle offers world-class security and is approved by EMV for handling card data. Their systems are regularly inspected by internal as well as external security experts.</p>
@@ -149,7 +162,7 @@ get_header(); ?>
                                         <div class="pull-left"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/imgpsh_fullsize.png"></div>
                                         <div class="pull-right">
                                             <ul>
-                                                <li><a href="javascript:void(0)"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-ios.png"></a></li>
+                                                <li><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-ios.png"></li>
                                             </ul>
                                         </div>
                                     </div>

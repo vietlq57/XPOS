@@ -16,7 +16,7 @@ get_header(); ?>
 
     <div class="container">
         <div id="faqs">
-            <h3>You can choose the topic and find the quick answers to your questions here</h3>
+            <h3>Choose the topic and find quick answers to your questions</h3>
             <div class="ul list-inline categories">
                 <li><a href="javascript:FE.global.gotoArea('#connect-features')"><i class="ico40x40 ico-star-circle" style="background-image: url('<?php echo(get_template_directory_uri()); ?>/inc/images/ico-star-circle.png');"></i><span>ConnectPOS Features</span></a></li>
                 <li><a href="javascript:FE.global.gotoArea('#hpi')"><i class="ico40x40 ico-tape" style="background-image: url('<?php echo(get_template_directory_uri()); ?>/inc/images/ico-tape.png');"></i><span>Hardware, Payments and Integrations</span></a></li>
@@ -116,7 +116,7 @@ get_header(); ?>
                         </div>
                         <div class="panel-collapse collapse" id="collapse9">
                             <div class="panel-body">
-                                <p>Yes, ConnectPOS is integrated with Reward Points from Aheadworks. For more information, please go here.</p>
+                                <p>Yes, ConnectPOS is integrated with Reward Points from Aheadworks. For more information, please go <a href="<?php echo esc_url(home_url('/integrations'));?>">here.</a></p>
                             </div>
                         </div>
                     </div>
@@ -126,7 +126,7 @@ get_header(); ?>
                         </div>
                         <div class="panel-collapse collapse" id="collapse10">
                             <div class="panel-body">
-                                <p>You can't customize the software on your own but we can tailor the software to meet your needs. For more information, please contact us for more details.</p>
+                                <p>You can't customize the software on your own but we can tailor the software to meet your needs. Please contact us for more information.</p>
                             </div>
                         </div>
                     </div>

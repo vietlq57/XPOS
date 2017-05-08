@@ -52,7 +52,7 @@ get_header(); ?>
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="item-main">
-                            <h2 class="title">We've gained recognition from<br> our strategic partner</h2>
+                            <h2>We've gained recognition from<br> our strategic partner</h2>
                             <div class="about-content">
                                 <div class="row">
                                     <div class="col-md-6 col-sm-6 col-xs-12"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/about-icon-5.jpg"></div>
@@ -88,23 +88,20 @@ get_header(); ?>
                 <div class="row">
                     <div class="col-md-4 col-sm-4 col-xs-12">
                         <div class="blog-item">
-                            <div class="blog-thumb"><a href="#"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/about-blog-1.jpg">
-                                    <div class="bg-image" src="<?php echo(get_template_directory_uri()); ?>/inc/images/about-blog-1.jpg"></div></a></div>
-                            <div class="blog-content"><span>9/12/2016</span><a href="#">Innovated X-POS launched in April 2017</a></div>
+                            <div class="blog-thumb"><a href="http://www.smartosc.com/en/news/courts-singapore-looks-tackle-southeast-asia%E2%80%99s-growing-e-commerce-market-smartosc%E2%80%99s-partnership"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/Courts-SG_Aug12-e1369196773449.jpg"></a></div>
+                            <div class="blog-content"><span>Mar 31, 2017</span><a href="http://www.smartosc.com/en/news/courts-singapore-looks-tackle-southeast-asia%E2%80%99s-growing-e-commerce-market-smartosc%E2%80%99s-partnership">Courts Singapore looks to tackle Southeast Asia’s growing e-commerce market with SmartOSC’s partnership</a></div>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-12">
                         <div class="blog-item">
-                            <div class="blog-thumb"><a href="#"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/about-blog-1.jpg">
-                                    <div class="bg-image" src="<?php echo(get_template_directory_uri()); ?>/inc/images/about-blog-1.jpg"></div></a></div>
-                            <div class="blog-content"><span>9/12/2016</span><a href="#">Retail trends in 2017</a></div>
+                            <div class="blog-thumb"><a href="http://www.smartosc.com/en/news/dotmailer-allies-smartosc-strengthen-southeast-asia-presence"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/iStock-502224978.jpg"></a></div>
+                            <div class="blog-content"><span>Mar 31, 2017</span><a href="http://www.smartosc.com/en/news/dotmailer-allies-smartosc-strengthen-southeast-asia-presence">dotmailer allies with SmartOSC to strengthen Southeast Asia presence</a></div>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-12">
                         <div class="blog-item">
-                            <div class="blog-thumb"><a href="#"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/about-blog-1.jpg">
-                                    <div class="bg-image" src="<?php echo(get_template_directory_uri()); ?>/inc/images/about-blog-1.jpg"></div></a></div>
-                            <div class="blog-content"><span>9/12/2016</span><a href="#">Club 21 Sucessfully Relaunches Its Omnichannel Commerce</a></div>
+                            <div class="blog-thumb"><a href="http://www.smartosc.com/en/news/club-21-sucessfully-relaunches-its-omnichannel-commerce"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/Capture22.png"></a></div>
+                            <div class="blog-content"><span>Mar 13, 2017</span><a href="http://www.smartosc.com/en/news/club-21-sucessfully-relaunches-its-omnichannel-commerce">Club 21 sucessfully relaunches its omnichannel commerce</a></div>
                         </div>
                     </div>
                 </div>

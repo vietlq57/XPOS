@@ -19,8 +19,8 @@
                         <h5><a href="<?php echo esc_url(home_url('/about-us'));?>" title="Blog">About us</a></h5>
                         <p>Developed by SmartOSC, the pioneer in Magento POS, ConnectPOS is the high-speed software for omni-channel retailers.</p>
                         <ul class="list-inline">
-                            <li><a href="#" title="certificate"> <img src="<?php echo(get_template_directory_uri()); ?>/inc/images/magento1.png" alt="Magento 1"></a></li>
-                            <li><a href="#" title="certificate"> <img src="<?php echo(get_template_directory_uri()); ?>/inc/images/magento2.png" alt="Magento 2"></a></li>
+                            <li> <img src="<?php echo(get_template_directory_uri()); ?>/inc/images/magento1.png" alt="Magento 1"></li>
+                            <li> <img src="<?php echo(get_template_directory_uri()); ?>/inc/images/magento2.png" alt="Magento 2"></li>
                         </ul>
                     </div>
                 </div>
@@ -44,13 +44,14 @@
                         <ul class="no-bullet">
                             <li><a href="<?php echo esc_url(home_url('/faqs'));?>" title="FAQs">FAQs </a></li>
                             <li><a href="https://support.smartosc.com/" title="Help Center">Help Center</a></li>
+                            <li><a href="<?php echo esc_url(home_url('/contact-us'));?>" title="contact">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-4">
                     <div class="item-footer">
                         <h5><a href="#" title="Blog">Blog</a></h5>
-                        <h5><a href="javascript:void(0);" title="Follow us">Follow us</a>
+                        <h5>Follow us
                             <ul class="no-bullet list-inline social-ico">
                                 <li><a href="#" title=""><i class="fa fa-facebook-f"></i></a></li>
                                 <li><a href="#" title=""><i class="fa fa-twitter"></i></a></li>

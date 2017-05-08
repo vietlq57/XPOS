@@ -122,7 +122,6 @@ get_header(); ?>
                                     <p>ConnectPOS is compatible with all the global leaders in payment processing, namely Paypal Here, Tyro, iZettle to ensure that it is easy for you to take payments.</p>
                                     <p>Recommended Models:</p>
                                     <p>- PayPal Here: CC Reader, Pinpad</p>
-                                    <p>- MagTek Dynamo</p>
                                 </div>
                             </div>
                         </div>
@@ -132,7 +131,7 @@ get_header(); ?>
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <h2 class="title-page">Get new hardware</h2>
-                            <div class="description">You can buy new hardware from our partner and set it up easily. There's a wide range of POS bundles, all-in-one, printers, cash drawers, scanners for you to choose. All the hardware provided by our partner work well with ConnectPOS.</div><a class="btn btn-free" href="https://partner.posportal.com/xpos/xpos/">Buy from our partner</a>
+                            <div class="description">You can buy new hardware from our partner and set it up easily. There's a wide range of POS bundles, all-in-one, printers, cash drawers, scanners for you to choose. All the hardware provided by our partner work well with ConnectPOS.</div><a class="btn btn-free" href="https://partner.posportal.com/xpos/xpos/" target="_blank">Buy from our partner</a>
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="pull-right"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/hardware-6.png"></div>

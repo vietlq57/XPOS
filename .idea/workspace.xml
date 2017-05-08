@@ -2,182 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8280a60-70f9-4710-8f10-d859ff298728" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/fonts/icomoon.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/fonts/icomoon/fonts/icomoon.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/fonts/icomoon/fonts/icomoon.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/fonts/icomoon/fonts/icomoon.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/2-devices.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/Makers.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/about-icon-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/contact-us-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/hardware-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/hardware-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/payment-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/fonts/icomoon/Read Me.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/fonts/icomoon/demo-files/demo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/fonts/icomoon/demo-files/demo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/fonts/icomoon/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/fonts/icomoon/fonts/icomoon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/fonts/icomoon/selection.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/fonts/icomoon/style.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/images/Rovan.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/images/Rovandesign.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/images/disney.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/images/etsy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/images/kuk.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/images/nasa.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/images/quotes-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/images/wwf.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/inc/fonts/FontAwesome.otf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/Montserrat-ExtraLight.eot" afterPath="$PROJECT_DIR$/inc/fonts/Montserrat-ExtraLight.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/Montserrat-ExtraLight.otf" afterPath="$PROJECT_DIR$/inc/fonts/Montserrat-ExtraLight.otf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/Montserrat-ExtraLight.ttf" afterPath="$PROJECT_DIR$/inc/fonts/Montserrat-ExtraLight.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/Montserrat-ExtraLight.woff" afterPath="$PROJECT_DIR$/inc/fonts/Montserrat-ExtraLight.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/Montserrat-Light.otf" afterPath="$PROJECT_DIR$/inc/fonts/Montserrat-Light.otf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/Montserrat-Light.ttf" afterPath="$PROJECT_DIR$/inc/fonts/Montserrat-Light.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/Montserrat-Light.woff" afterPath="$PROJECT_DIR$/inc/fonts/Montserrat-Light.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/Montserrat-Medium.eot" afterPath="$PROJECT_DIR$/inc/fonts/Montserrat-Medium.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/Montserrat-Medium.otf" afterPath="$PROJECT_DIR$/inc/fonts/Montserrat-Medium.otf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/Montserrat-Medium.ttf" afterPath="$PROJECT_DIR$/inc/fonts/Montserrat-Medium.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/Montserrat-Medium.woff" afterPath="$PROJECT_DIR$/inc/fonts/Montserrat-Medium.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/Montserrat-Regular.eot" afterPath="$PROJECT_DIR$/inc/fonts/Montserrat-Regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/Montserrat-Regular.otf" afterPath="$PROJECT_DIR$/inc/fonts/Montserrat-Regular.otf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/Montserrat-Regular.ttf" afterPath="$PROJECT_DIR$/inc/fonts/Montserrat-Regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/Montserrat-Regular.woff" afterPath="$PROJECT_DIR$/inc/fonts/Montserrat-Regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/Montserrat-light.eot" afterPath="$PROJECT_DIR$/inc/fonts/Montserrat-light.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/Montserrat-light.woff2" afterPath="$PROJECT_DIR$/inc/fonts/Montserrat-light.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/OpenSans-Bold.eot" afterPath="$PROJECT_DIR$/inc/fonts/OpenSans-Bold.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/OpenSans-Bold.ttf" afterPath="$PROJECT_DIR$/inc/fonts/OpenSans-Bold.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/OpenSans-Bold.woff" afterPath="$PROJECT_DIR$/inc/fonts/OpenSans-Bold.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/OpenSans-Bold.woff2" afterPath="$PROJECT_DIR$/inc/fonts/OpenSans-Bold.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/inc/fonts/fontawesome-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/inc/fonts/fontawesome-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/inc/fonts/fontawesome-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/inc/fonts/fontawesome-webfont.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/inc/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/inc/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/inc/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/inc/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/LMT.png" afterPath="$PROJECT_DIR$/inc/images/LMT.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/Natsort.png" afterPath="$PROJECT_DIR$/inc/images/Natsort.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/about-blog-1.jpg" afterPath="$PROJECT_DIR$/inc/images/about-blog-1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/about-icon-1.png" afterPath="$PROJECT_DIR$/inc/images/about-icon-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/about-icon-2.png" afterPath="$PROJECT_DIR$/inc/images/about-icon-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/about-icon-3.png" afterPath="$PROJECT_DIR$/inc/images/about-icon-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/about-icon-4.png" afterPath="$PROJECT_DIR$/inc/images/about-icon-4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/about-icon-5.jpg" afterPath="$PROJECT_DIR$/inc/images/about-icon-5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/about-icon-6.png" afterPath="$PROJECT_DIR$/inc/images/about-icon-6.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/arrow-next.png" afterPath="$PROJECT_DIR$/inc/images/arrow-next.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/arrow-prev.png" afterPath="$PROJECT_DIR$/inc/images/arrow-prev.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/awork2.png" afterPath="$PROJECT_DIR$/inc/images/awork2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/cirle-w-line.png" afterPath="$PROJECT_DIR$/inc/images/cirle-w-line.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/contact-us-1.png" afterPath="$PROJECT_DIR$/inc/images/contact-us-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/fearture-icon.png" afterPath="$PROJECT_DIR$/inc/images/fearture-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/fearture.jpg" afterPath="$PROJECT_DIR$/inc/images/fearture.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/germany.jpg" afterPath="$PROJECT_DIR$/inc/images/germany.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/hardware-1.png" afterPath="$PROJECT_DIR$/inc/images/hardware-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/hardware-2.jpg" afterPath="$PROJECT_DIR$/inc/images/hardware-2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/hardware-3.jpg" afterPath="$PROJECT_DIR$/inc/images/hardware-3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/hardware-4.jpg" afterPath="$PROJECT_DIR$/inc/images/hardware-4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/hardware-5.jpg" afterPath="$PROJECT_DIR$/inc/images/hardware-5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/hardware-6.png" afterPath="$PROJECT_DIR$/inc/images/hardware-6.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/ico-book-dot.png" afterPath="$PROJECT_DIR$/inc/images/ico-book-dot.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/ico-checkout.png" afterPath="$PROJECT_DIR$/inc/images/ico-checkout.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/ico-customer.png" afterPath="$PROJECT_DIR$/inc/images/ico-customer.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/ico-in-store.png" afterPath="$PROJECT_DIR$/inc/images/ico-in-store.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/ico-khien.png" afterPath="$PROJECT_DIR$/inc/images/ico-khien.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/ico-magento-webstore.png" afterPath="$PROJECT_DIR$/inc/images/ico-magento-webstore.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/ico-mail-move.png" afterPath="$PROJECT_DIR$/inc/images/ico-mail-move.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/ico-message.png" afterPath="$PROJECT_DIR$/inc/images/ico-message.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/ico-multi-store-management.png" afterPath="$PROJECT_DIR$/inc/images/ico-multi-store-management.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/ico-omni-customer.png" afterPath="$PROJECT_DIR$/inc/images/ico-omni-customer.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/ico-on-the-go.png" afterPath="$PROJECT_DIR$/inc/images/ico-on-the-go.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/ico-payments.png" afterPath="$PROJECT_DIR$/inc/images/ico-payments.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/ico-product.png" afterPath="$PROJECT_DIR$/inc/images/ico-product.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/ico-report-system.png" afterPath="$PROJECT_DIR$/inc/images/ico-report-system.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/ico-social-network.png" afterPath="$PROJECT_DIR$/inc/images/ico-social-network.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/ico-star-circle.png" afterPath="$PROJECT_DIR$/inc/images/ico-star-circle.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/ico-tape.png" afterPath="$PROJECT_DIR$/inc/images/ico-tape.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/icon-check-done.png" afterPath="$PROJECT_DIR$/inc/images/icon-check-done.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/icon-check-hover.png" afterPath="$PROJECT_DIR$/inc/images/icon-check-hover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/icon-check.png" afterPath="$PROJECT_DIR$/inc/images/icon-check.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/icon-help-1.png" afterPath="$PROJECT_DIR$/inc/images/icon-help-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/icon-help-2.png" afterPath="$PROJECT_DIR$/inc/images/icon-help-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/icon-help-3.png" afterPath="$PROJECT_DIR$/inc/images/icon-help-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/icon-ios.png" afterPath="$PROJECT_DIR$/inc/images/icon-ios.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/icon-mac.png" afterPath="$PROJECT_DIR$/inc/images/icon-mac.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/icon-tab-content.jpg" afterPath="$PROJECT_DIR$/inc/images/icon-tab-content.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/icon-windows.png" afterPath="$PROJECT_DIR$/inc/images/icon-windows.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/integration-2.png" afterPath="$PROJECT_DIR$/inc/images/integration-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/integration-3.png" afterPath="$PROJECT_DIR$/inc/images/integration-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/integration-4.jpg" afterPath="$PROJECT_DIR$/inc/images/integration-4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/integration-5.png" afterPath="$PROJECT_DIR$/inc/images/integration-5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/izettle.png" afterPath="$PROJECT_DIR$/inc/images/izettle.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/list-item-icon.png" afterPath="$PROJECT_DIR$/inc/images/list-item-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/logo-pay-1.jpg" afterPath="$PROJECT_DIR$/inc/images/logo-pay-1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/logo-pay-2.jpg" afterPath="$PROJECT_DIR$/inc/images/logo-pay-2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/logo-pay-3.jpg" afterPath="$PROJECT_DIR$/inc/images/logo-pay-3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/logo-pay-4.jpg" afterPath="$PROJECT_DIR$/inc/images/logo-pay-4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/logo-pay-5.jpg" afterPath="$PROJECT_DIR$/inc/images/logo-pay-5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/magento1.png" afterPath="$PROJECT_DIR$/inc/images/magento1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/Capture22.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/Courts-SG_Aug12-e1369196773449.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/feedback.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/iStock-502224978.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/product1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/images/together.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/logo.png" afterPath="$PROJECT_DIR$/inc/images/logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/magento2.png" afterPath="$PROJECT_DIR$/inc/images/magento2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/omni-img-1.jpg" afterPath="$PROJECT_DIR$/inc/images/omni-img-1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/omni-img-1.png" afterPath="$PROJECT_DIR$/inc/images/omni-img-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/omni-img-2.jpg" afterPath="$PROJECT_DIR$/inc/images/omni-img-2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/omni-img-2.png" afterPath="$PROJECT_DIR$/inc/images/omni-img-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/omni-img-3.jpg" afterPath="$PROJECT_DIR$/inc/images/omni-img-3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/omni-img-3.png" afterPath="$PROJECT_DIR$/inc/images/omni-img-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/partners-1.png" afterPath="$PROJECT_DIR$/inc/images/partners-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/partners-2.png" afterPath="$PROJECT_DIR$/inc/images/partners-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/partners-3.png" afterPath="$PROJECT_DIR$/inc/images/partners-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/partners-4.png" afterPath="$PROJECT_DIR$/inc/images/partners-4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/partners-5.png" afterPath="$PROJECT_DIR$/inc/images/partners-5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/partners-6.png" afterPath="$PROJECT_DIR$/inc/images/partners-6.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/partners-7.png" afterPath="$PROJECT_DIR$/inc/images/partners-7.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/partners-8.png" afterPath="$PROJECT_DIR$/inc/images/partners-8.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/partners-9.png" afterPath="$PROJECT_DIR$/inc/images/partners-9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/payment-1.png" afterPath="$PROJECT_DIR$/inc/images/payment-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/paypal.png" afterPath="$PROJECT_DIR$/inc/images/paypal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/product1.jpg" afterPath="$PROJECT_DIR$/inc/images/product1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/product2.jpg" afterPath="$PROJECT_DIR$/inc/images/product2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/product3.jpg" afterPath="$PROJECT_DIR$/inc/images/product3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/product4.jpg" afterPath="$PROJECT_DIR$/inc/images/product4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/quote-after.png" afterPath="$PROJECT_DIR$/inc/images/quote-after.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/quote-first.png" afterPath="$PROJECT_DIR$/inc/images/quote-first.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/quotes-1.jpg" afterPath="$PROJECT_DIR$/inc/images/quotes-1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/socket.png" afterPath="$PROJECT_DIR$/inc/images/socket.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/star.png" afterPath="$PROJECT_DIR$/inc/images/star.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/together.jpg" afterPath="$PROJECT_DIR$/inc/images/together.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/trial-1.png" afterPath="$PROJECT_DIR$/inc/images/trial-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/trial-2.png" afterPath="$PROJECT_DIR$/inc/images/trial-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/trial-7.png" afterPath="$PROJECT_DIR$/inc/images/trial-7.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/trial-8.png" afterPath="$PROJECT_DIR$/inc/images/trial-8.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/trl.png" afterPath="$PROJECT_DIR$/inc/images/trl.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/tyro.png" afterPath="$PROJECT_DIR$/inc/images/tyro.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/images/vantiv.png" afterPath="$PROJECT_DIR$/inc/images/vantiv.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/video/Manage_multiple_outlets.mp4" afterPath="$PROJECT_DIR$/inc/video/Manage_multiple_outlets.mp4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/video/Order_Click.mp4" afterPath="$PROJECT_DIR$/inc/video/Order_Click.mp4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/video/Realtime_sync_(effect).mp4" afterPath="$PROJECT_DIR$/inc/video/Realtime_sync_(effect).mp4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/video/Refund_Exchange_(effects).mp4" afterPath="$PROJECT_DIR$/inc/video/Refund_Exchange_(effects).mp4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/video/Split _tenders_Layaway.mp4" afterPath="$PROJECT_DIR$/inc/video/Split _tenders_Layaway.mp4" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front-page.php" afterPath="$PROJECT_DIR$/front-page.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/css/main.css" afterPath="$PROJECT_DIR$/inc/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/Montserrat-ExtraLight.svg" afterPath="$PROJECT_DIR$/inc/fonts/Montserrat-ExtraLight.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/Montserrat-Light.svg" afterPath="$PROJECT_DIR$/inc/fonts/Montserrat-Light.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/Montserrat-Medium.svg" afterPath="$PROJECT_DIR$/inc/fonts/Montserrat-Medium.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/Montserrat-Regular.svg" afterPath="$PROJECT_DIR$/inc/fonts/Montserrat-Regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/OpenSans-Bold.svg" afterPath="$PROJECT_DIR$/inc/fonts/OpenSans-Bold.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/inc/fonts/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/inc/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page.php" afterPath="$PROJECT_DIR$/page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/js/main.js" afterPath="$PROJECT_DIR$/inc/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-parts/content-page.php" afterPath="$PROJECT_DIR$/template-parts/content-page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/about-us.php" afterPath="$PROJECT_DIR$/templates/about-us.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/faqs.php" afterPath="$PROJECT_DIR$/templates/faqs.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/feature.php" afterPath="$PROJECT_DIR$/templates/feature.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/hardware.php" afterPath="$PROJECT_DIR$/templates/hardware.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/omnichannel.php" afterPath="$PROJECT_DIR$/templates/omnichannel.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/partners.php" afterPath="$PROJECT_DIR$/templates/partners.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/trial.php" afterPath="$PROJECT_DIR$/templates/trial.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/payment.php" afterPath="$PROJECT_DIR$/templates/payment.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pricing.php" afterPath="$PROJECT_DIR$/templates/pricing.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -192,123 +42,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="partners.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/partners.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="139" column="76" lean-forward="true" selection-start-line="139" selection-start-column="24" selection-end-line="139" selection-end-column="76" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="faqs.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="faqs.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/faqs.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="204" column="190" lean-forward="false" selection-start-line="204" selection-start-column="189" selection-end-line="204" selection-end-column="190" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inc/css/bootstrap.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content-page.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-parts/content-page.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="payment.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/payment.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="774">
-              <caret line="171" column="44" lean-forward="false" selection-start-line="171" selection-start-column="42" selection-end-line="171" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="80" column="95" lean-forward="false" selection-start-line="80" selection-start-column="95" selection-end-line="80" selection-end-column="95" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hardware.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/hardware.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="31" column="46" lean-forward="false" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="feature.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/feature.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="52" column="67" lean-forward="false" selection-start-line="52" selection-start-column="67" selection-end-line="52" selection-end-column="67" />
-              <folding>
-                <element signature="e#114#223#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="trial.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/trial.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="93" column="220" lean-forward="true" selection-start-line="93" selection-start-column="170" selection-end-line="93" selection-end-column="220" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about-us.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/about-us.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state relative-caret-position="279">
+              <caret line="135" column="60" lean-forward="false" selection-start-line="135" selection-start-column="60" selection-end-line="135" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -325,23 +63,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>button-su</find>
-      <find>Submit</find>
-      <find>ConnectPOS</find>
-      <find>font-face</find>
-      <find>free</find>
-      <find>Insign</find>
-      <find>free trial</find>
-      <find>X-POS</find>
-      <find>javas</find>
-      <find>trial</find>
-      <find>tab-content</find>
-      <find>java</find>
-      <find>&quot;#&quot;</find>
-      <find>Buy from</find>
-      <find>active</find>
-      <find>images/images</find>
-      <find>javascr</find>
       <find>39</find>
       <find>89</find>
       <find>pricing</find>
@@ -353,8 +74,25 @@
       <find>faqs</find>
       <find>.banner</find>
       <find>img-c</find>
-      <find>create</find>
       <find>We</find>
+      <find>create</find>
+      <find>needed</find>
+      <find>.header-sup-page</find>
+      <find>Wimmer</find>
+      <find>Create receipt templates</find>
+      <find>product1</find>
+      <find>iZettle</find>
+      <find>We'vee</find>
+      <find>Buy</find>
+      <find>Mag</find>
+      <find>Check inventory from other stores</find>
+      <find>unit</find>
+      <find>Email</find>
+      <find>.together</find>
+      <find>go here</find>
+      <find>here</find>
+      <find>href=&quot;#&quot;</find>
+      <find>Please</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php echo(get_template_directory_uri()); ?&gt;/inc/images</replace>
@@ -375,28 +113,28 @@
         <option value="$PROJECT_DIR$/templates/integration.html" />
         <option value="$PROJECT_DIR$/dist/pricing.html" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/templates/omnichannel.php" />
-        <option value="$PROJECT_DIR$/templates/about-us.php" />
         <option value="$PROJECT_DIR$/templates/contact-us.php" />
-        <option value="$PROJECT_DIR$/front-page.php" />
         <option value="$PROJECT_DIR$/templates/integration.php" />
         <option value="$PROJECT_DIR$/functions.php" />
+        <option value="$PROJECT_DIR$/inc/js/extra.js" />
+        <option value="$PROJECT_DIR$/../../../wp-config.php" />
+        <option value="$PROJECT_DIR$/template-parts/content-page.php" />
+        <option value="$PROJECT_DIR$/page.php" />
+        <option value="$PROJECT_DIR$/templates/trial.php" />
+        <option value="$PROJECT_DIR$/front-page.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/templates/feature.php" />
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/templates/about-us.php" />
+        <option value="$PROJECT_DIR$/templates/omnichannel.php" />
         <option value="$PROJECT_DIR$/templates/hardware.php" />
         <option value="$PROJECT_DIR$/templates/payment.php" />
         <option value="$PROJECT_DIR$/inc/js/main.js" />
         <option value="$PROJECT_DIR$/templates/pricing.php" />
-        <option value="$PROJECT_DIR$/inc/js/extra.js" />
-        <option value="$PROJECT_DIR$/templates/faqs.php" />
-        <option value="$PROJECT_DIR$/templates/partners.php" />
-        <option value="$PROJECT_DIR$/inc/css/main.css" />
-        <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/../../../wp-config.php" />
-        <option value="$PROJECT_DIR$/templates/feature.php" />
-        <option value="$PROJECT_DIR$/template-parts/content-page.php" />
-        <option value="$PROJECT_DIR$/page.php" />
-        <option value="$PROJECT_DIR$/header.php" />
-        <option value="$PROJECT_DIR$/templates/trial.php" />
         <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/inc/css/main.css" />
+        <option value="$PROJECT_DIR$/templates/partners.php" />
+        <option value="$PROJECT_DIR$/templates/faqs.php" />
       </list>
     </option>
   </component>
@@ -466,7 +204,43 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="template-parts" />
+              <option name="myItemId" value="inc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="XPOS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="XPOS" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="XPOS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="XPOS" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -475,7 +249,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="/home/quocviet/Downloads/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -483,10 +257,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/inc/fonts" />
       <recent name="$PROJECT_DIR$/inc/css" />
       <recent name="$PROJECT_DIR$/inc/images" />
       <recent name="$PROJECT_DIR$/inc/video" />
+      <recent name="$PROJECT_DIR$/inc/fonts" />
       <recent name="$PROJECT_DIR$/inc/js" />
     </key>
   </component>
@@ -568,7 +342,10 @@
       <workItem from="1493787313626" duration="1150000" />
       <workItem from="1493793251268" duration="23337000" />
       <workItem from="1493864070059" duration="8469000" />
-      <workItem from="1493880491101" duration="11457000" />
+      <workItem from="1493880491101" duration="13605000" />
+      <workItem from="1493966372318" duration="17167000" />
+      <workItem from="1493984775229" duration="1223000" />
+      <workItem from="1494211560069" duration="19000" />
     </task>
     <task id="LOCAL-00001" summary="header footer">
       <created>1493177871573</created>
@@ -605,17 +382,24 @@
       <option name="project" value="LOCAL" />
       <updated>1493816928018</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="website wordpress">
+      <created>1493893543351</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1493893543351</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111733000" />
+    <option name="totallyTimeSpent" value="132290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1415" y="18" width="1317" height="750" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2281668" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23996852" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32668713" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -640,12 +424,12 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32668713" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23288749" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23603462" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -672,21 +456,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dist/hardware.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="213" column="14" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="213" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/integration.html" />
-    <entry file="file://$PROJECT_DIR$/dist/integration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="150" column="14" lean-forward="true" selection-start-line="135" selection-start-column="4" selection-end-line="150" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/archive.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -784,14 +553,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/omnichannel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="177" column="141" lean-forward="false" selection-start-line="177" selection-start-column="141" selection-end-line="177" selection-end-column="141" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/integration.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
@@ -811,21 +572,6 @@
     <entry file="file://$PROJECT_DIR$/inc/images/breadcrumb.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2844">
-          <caret line="158" column="43" lean-forward="false" selection-start-line="158" selection-start-column="43" selection-end-line="158" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pricing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/inc/images/integration-banner.jpg">
@@ -880,79 +626,19 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inc/images/Rovan.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/images/Rovandesign.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="77" column="1" lean-forward="false" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2718">
-          <caret line="151" column="29" lean-forward="false" selection-start-line="151" selection-start-column="29" selection-end-line="151" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66060">
-          <caret line="3670" column="22" lean-forward="false" selection-start-line="3670" selection-start-column="22" selection-end-line="3670" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/images/Rovan.png" />
+    <entry file="file://$PROJECT_DIR$/inc/images/Rovandesign.png" />
     <entry file="file://$PROJECT_DIR$/../../../wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="54" column="33" lean-forward="false" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/about-us.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/hardware.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="31" column="46" lean-forward="false" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/feature.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="52" column="67" lean-forward="false" selection-start-line="52" selection-start-column="67" selection-end-line="52" selection-end-column="67" />
-          <folding>
-            <element signature="e#114#223#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/content-page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -964,58 +650,150 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/trial.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="25" column="66" lean-forward="true" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshot.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="16" column="103" lean-forward="false" selection-start-line="16" selection-start-column="103" selection-end-line="16" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/images/magento2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="176" column="73" lean-forward="false" selection-start-line="176" selection-start-column="60" selection-end-line="176" selection-end-column="73" />
+          <folding>
+            <element signature="e#84#189#0#HTML" expanded="false" />
+            <element signature="e#6673#6780#0#HTML" expanded="false" />
+            <element signature="e#7279#7386#0#HTML" expanded="false" />
+            <element signature="e#7877#7984#0#HTML" expanded="false" />
+            <element signature="e#8468#8575#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/feature.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2993">
+          <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="75" column="10" lean-forward="true" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/about-us.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1692">
+          <caret line="96" column="44" lean-forward="false" selection-start-line="96" selection-start-column="44" selection-end-line="96" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jetpack.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/omnichannel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2988">
+          <caret line="168" column="39" lean-forward="false" selection-start-line="168" selection-start-column="39" selection-end-line="168" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/hardware.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2448">
+          <caret line="138" column="26" lean-forward="false" selection-start-line="138" selection-start-column="26" selection-end-line="138" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/inc/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
+        <state relative-caret-position="666">
           <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/payment.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="171" column="44" lean-forward="false" selection-start-line="171" selection-start-column="42" selection-end-line="171" selection-end-column="44" />
+        <state relative-caret-position="576">
+          <caret line="34" column="65" lean-forward="false" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
+    <entry file="file://$PROJECT_DIR$/inc/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="3096">
+          <caret line="172" column="20" lean-forward="false" selection-start-line="172" selection-start-column="20" selection-end-line="172" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/faqs.php">
+    <entry file="file://$PROJECT_DIR$/templates/pricing.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="204" column="190" lean-forward="false" selection-start-line="204" selection-start-column="189" selection-end-line="204" selection-end-column="190" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/trial.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="93" column="220" lean-forward="true" selection-start-line="93" selection-start-column="170" selection-end-line="93" selection-end-column="220" />
+        <state relative-caret-position="6210">
+          <caret line="347" column="59" lean-forward="false" selection-start-line="347" selection-start-column="59" selection-end-line="347" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="80" column="95" lean-forward="false" selection-start-line="80" selection-start-column="95" selection-end-line="80" selection-end-column="95" />
+        <state relative-caret-position="180">
+          <caret line="18" column="81" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="81" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="7239" column="25" lean-forward="true" selection-start-line="7239" selection-start-column="25" selection-end-line="7239" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/partners.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="139" column="76" lean-forward="true" selection-start-line="139" selection-start-column="24" selection-end-line="139" selection-end-column="76" />
+        <state relative-caret-position="278">
+          <caret line="71" column="18" lean-forward="false" selection-start-line="68" selection-start-column="113" selection-end-line="71" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/faqs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="135" column="60" lean-forward="false" selection-start-line="135" selection-start-column="60" selection-end-line="135" selection-end-column="60" />
           <folding />
         </state>
       </provider>

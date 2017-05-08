@@ -21,7 +21,7 @@ get_header(); ?>
                     <div class="planbox">
                         <div class="title">Standard</div>
                         <div class="price"><sup class="currency">$</sup><span id="standard">59</span><span>/mo</span></div>
-                        <div class="unit">Billed in USD annually</div>
+                        <div class="unit">Billed in USD <span>annually</span></div>
                         <p>The first step to the brick-and-mortar store in your dream</p>
                         <ul>
                             <li>Single outlet</li>
@@ -35,8 +35,8 @@ get_header(); ?>
                 <div class="col-xs-12 col-sm-4 pd0">
                     <div class="planbox highlight">
                         <div class="title">Advanced</div>
-                        <div class="price"><sup class="currency">$</sup><span id="advanced">89<span>/mo</span></div>
-                        <div class="unit">Billed in USD annually</div>
+                        <div class="price"><sup class="currency">$</sup><span id="advanced">89</span><span>/mo</span></div>
+                        <div class="unit">Billed in USD <span>annually</span></div>
                         <p>Scale up your business, increase sales and profit</p>
                         <ul>
                             <li>Single outlet</li>
@@ -51,7 +51,7 @@ get_header(); ?>
                     <div class="planbox">
                         <div class="title">Multi-outlet</div>
                         <div class="price"><sup class="currency">$</sup><span id="multioutlet">159</span><span>/mo</span></div>
-                        <div class="unit">Billed in USD annually</div>
+                        <div class="unit">Billed in USD <span>annually</span></div>
                         <p>Embrace and win omnichannel retail</p>
                         <ul>
                             <li>Multiple outlets</li>
@@ -123,7 +123,7 @@ get_header(); ?>
                     </tr>
 					<tr>
                         <td>Barcode scanning</td>
-                        <td></td>
+                        <td><i class="fa fa-check"></i></td>
                         <td><i class="fa fa-check"></i></td>
                         <td><i class="fa fa-check"></i></td>
                     </tr>
@@ -136,7 +136,7 @@ get_header(); ?>
 					<tr>
                         <td>Check inventory from other stores</td>
                         <td></td>
-                        <td><i class="fa fa-check"></i></td>
+                        <td></td>
                         <td><i class="fa fa-check"></i></td>
                     </tr>
                     <tr>
@@ -213,7 +213,7 @@ get_header(); ?>
                     </tr>
 					<tr>
                         <td>Search online orders</td>
-                        <td></td>
+                        <td><i class="fa fa-check"></i></td>
                         <td><i class="fa fa-check"></i></td>
                         <td><i class="fa fa-check"></i></td>
                     </tr>
@@ -273,7 +273,7 @@ get_header(); ?>
                     </tr>
                     <tr>
                         <td>Email & chat support</td>
-                        <td></td>
+                        <td><i class="fa fa-check"></i></td>
                         <td><i class="fa fa-check"></i></td>
                         <td><i class="fa fa-check"></i></td>
                     </tr>

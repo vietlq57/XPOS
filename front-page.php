@@ -35,7 +35,7 @@ get_header(); ?>
                     <div class="col-md-7 col-sm-6 col-xs-12">
                         <div class="tab-content">
                             <div class="tab-pane fade in active" role="tabpanel" id="home">
-                                <video class="tab-video" muted="" volume="0" canplay="false">
+                                <video class="tab-video" muted="" volume="0" autoplay="autoplay">
                                     <source src="<?php echo(get_template_directory_uri()); ?>/inc/video/Order_Click.mp4" type="video/mp4">
                                     <source src="<?php echo(get_template_directory_uri()); ?>/inc/video/Order_Click.mp4" type="video/mp4">Your browser does not support the video tag.
                                 </video>

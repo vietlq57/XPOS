@@ -167,7 +167,6 @@ get_header(); ?>
                         <p>“I implemented ConnectPOS for one of my clients and it is of great help for them in stores. They have a website and they can sell the same products at physical stores and fasten the whole sales process using ConnectPOS.”</p>
                         <div class="author">Claudio Ijaui Silva</div>
                         <div class="role">Magento Developer at ICS - COMPUTER SYSTEM</div>
-                        <div class="tag">Project: Creating a new virtual store on the Magento platform for Colégio DanteAlighieri</div>
                     </div>
                 </div>
             </div>

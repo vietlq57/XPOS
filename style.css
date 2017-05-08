@@ -76,3 +76,15 @@ hr {
 .logo img{
     margin-top: -8px;
 }
+
+.intro .list-inline {
+    margin-top: -8px;
+}
+
+.tabs-container .tab-content .content-text h4.other{
+    text-transform: none;
+}
+
+.blog-item .blog-thumb a img{
+    opacity: 1;
+}

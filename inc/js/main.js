@@ -165,10 +165,12 @@ const FE = {
                 $(this).toggleClass('off');
                 FE.global.onOffTxt();
                 if (!$(this).hasClass('off')) {
+                    $('.unit span').text('monthly');
                     $('#standard').text('69');
                     $('#advanced').text('102');
                     $('#multioutlet').text('169');
                 } else {
+                    $('.unit span').text('annually');
                     $('#standard').text('59');
                     $('#advanced').text('89');
                     $('#multioutlet').text('159');
