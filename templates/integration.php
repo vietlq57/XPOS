@@ -24,7 +24,7 @@ get_header(); ?>
                             <div class="item-article">
                                 <div class="col-md-2 col-sm-2 col-xs-12 alight-img"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/integration-2.png"></div>
                                 <div class="col-md-10 col-sm-10 col-xs-12">
-                                    <div class="item-content"><a class="title-page" href="#">World-leading Integrations</a>
+                                    <div class="item-content"><a class="title-page">World-leading Integrations</a>
                                         <div class="description">
                                             <p>We have built close relationships with the world leaders in retail solutions to make sure you can benefit from the best of both worlds.</p>
                                         </div>
@@ -36,7 +36,7 @@ get_header(); ?>
                             <div class="item-article">
                                 <div class="col-md-2 col-sm-2 col-xs-12 alight-img"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/integration-3.png"></div>
                                 <div class="col-md-10 col-sm-10 col-xs-12">
-                                    <div class="item-content"><a class="title-page" href="#">Constant Updates</a>
+                                    <div class="item-content"><a class="title-page">Constant Updates</a>
                                         <div class="description">
                                             <p>We always keep up with the latest updates from our partners and continue expanding our networks to bring you more helpful integrations. Please do come back regularly for more information.</p>
                                         </div>
@@ -72,17 +72,17 @@ get_header(); ?>
                         <div class="list-feature custom-row-2">
                             <h3 class="title-page">Highlight Features</h3>
                             <ul>
-                                <li><a href="#">Convert from dollar amount spent to points earned and back</a></li>
-                                <li><a href="#">Earn & spend rates may differ by customer group</a></li>
-                                <li><a href="#">Limit point use</a></li>
-                                <li><a href="#">Refund to points</a></li>
-                                <li><a href="#">In-store reminders show how many points may be earned per activity</a></li>
-                                <li><a href="#">Usage statistics, balance editing available to admin from backend</a></li>
+                                <li>Convert from dollar amount spent to points earned and back</li>
+                                <li>Earn & spend rates may differ by customer group</li>
+                                <li>Limit point use</li>
+                                <li>Refund to points</a></li>
+                                <li>In-store reminders show how many points may be earned per activity</li>
+                                <li>Usage statistics, balance editing available to admin from backend</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="get-link"><a class="btn-free" href="https://ecommerce.aheadworks.com/magento-2-extensions/points-and-rewards">Get Reward Points Extension</a></div>
+                <div class="get-link"><a class="btn-free" href="https://ecommerce.aheadworks.com/magento-2-extensions/points-and-rewards" target="_blank">Get Reward Points Extension</a></div>
                 <h2 class="title-page-3">And we have many more to come so make sure you come back<br> and check regularly</h2>
             </div>
         </div>

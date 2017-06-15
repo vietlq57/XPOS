@@ -1,3 +1,4 @@
+  <?php do_action('installation_point'); ?>
 <?php
 /**
  * The template for displaying the footer
@@ -58,14 +59,14 @@
                                 <li><a href="#" title=""><i class="fa fa-google-plus"></i></a></li>
                             </ul>
                         </h5>
-                        <ul class="no-bullet">
+                        <!--<ul class="no-bullet">
                             <li>
                                 <p>18th Floor, Handico Tower, Me Tri Ha New Urban Area, Pham Hung Street, Nam Tu Liem District, Hanoi</p>
                             </li>
                             <li>
                                 <p><a href="tel:0437620248">(+84) 4 3762 0248</a></p>
                             </li>
-                        </ul>
+                        </ul>-->
                     </div>
                 </div>
             </div>

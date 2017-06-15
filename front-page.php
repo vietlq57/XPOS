@@ -29,43 +29,43 @@ get_header(); ?>
                             <li role="presentation"><a href="#messages" aria-controls="home" role="tab" data-toggle="tab"><i class="fa fa-play-circle-o"></i>Refund and exchange</a></li>
                             <li role="presentation"><a href="#tab4" aria-controls="home" role="tab" data-toggle="tab"><i class="fa fa-play-circle-o"></i>Manage multiple stores, registers and users</a></li>
                             <li role="presentation"><a href="#tab5" aria-controls="home" role="tab" data-toggle="tab"><i class="fa fa-play-circle-o"></i>Sync physical stores in real time Magento webstore</a></li>
-                            <li role="presentation"><a href="#tab6" aria-controls="home" role="tab" data-toggle="tab"><i class="fa fa-play-circle-o"></i>Work on PC, Mac and iPad</a></li>
+                            <li role="presentation"><a href="#tab6" aria-controls="home" role="tab" data-toggle="tab"><i class="fa fa-play-circle-o"></i>Work on PC, Mac and iPad (coming soon)</a></li>
                         </ul>
                     </div>
                     <div class="col-md-7 col-sm-6 col-xs-12">
                         <div class="tab-content">
                             <div class="tab-pane fade in active" role="tabpanel" id="home">
-                                <video class="tab-video" muted="" volume="0" autoplay="autoplay">
+                                <video class="tab-video" muted="" volume="0" canplay="false" id="video1">
                                     <source src="<?php echo(get_template_directory_uri()); ?>/inc/video/Order_Click.mp4" type="video/mp4">
                                     <source src="<?php echo(get_template_directory_uri()); ?>/inc/video/Order_Click.mp4" type="video/mp4">Your browser does not support the video tag.
                                 </video>
                             </div>
                             <div class="tab-pane fade" role="tabpanel" id="profile">
-                                <video class="tab-video" muted="" volume="0" canplay="false">
+                                <video class="tab-video" muted="" volume="0" canplay="false" id="video2">
                                     <source type="video/webm" src="<?php echo(get_template_directory_uri()); ?>/inc/video/Split _tenders_Layaway.mp4">
                                     <source type="video/mp4" src="<?php echo(get_template_directory_uri()); ?>/inc/video/Split _tenders_Layaway.mp4">
                                 </video>
                             </div>
                             <div class="tab-pane fade" role="tabpanel" id="messages">
-                                <video class="tab-video" muted="" volume="0" canplay="false">
+                                <video class="tab-video" muted="" volume="0" canplay="false" id="video3">
                                     <source type="video/webm" src="<?php echo(get_template_directory_uri()); ?>/inc/video/Refund_Exchange_(effects).mp4">
                                     <source type="video/mp4" src="<?php echo(get_template_directory_uri()); ?>/inc/video/Refund_Exchange_(effects).mp4">
                                 </video>
                             </div>
                             <div class="tab-pane fade" role="tabpanel" id="tab4">
-                                <video class="tab-video" muted="" volume="0" canplay="false">
+                                <video class="tab-video" muted="" volume="0" canplay="false" id="video4">
                                     <source type="video/webm" src="<?php echo(get_template_directory_uri()); ?>/inc/video/Manage_multiple_outlets.mp4">
                                     <source type="video/mp4" src="<?php echo(get_template_directory_uri()); ?>/inc/video/Manage_multiple_outlets.mp4">
                                 </video>
                             </div>
                             <div class="tab-pane fade" role="tabpanel" id="tab5">
-                                <video class="tab-video" muted="" volume="0" canplay="false">
+                                <video class="tab-video" muted="" volume="0" canplay="false" id="video5">
                                     <source type="video/webm" src="<?php echo(get_template_directory_uri()); ?>/inc/video/Realtime_sync_(effect).mp4">
                                     <source type="video/mp4" src="<?php echo(get_template_directory_uri()); ?>/inc/video/Realtime_sync_(effect).mp4">
                                 </video>
                             </div>
                             <div class="tab-pane fade" role="tabpanel" id="tab6">
-                                <div class="img"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/2-devices.png" alt=""></div>
+                                <div class="img"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/2-devices.jpg" alt=""></div>
                             </div>
                         </div>
                     </div>

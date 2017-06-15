@@ -104,8 +104,14 @@ const FE = {
         },
         clickActive: () => {
             $('.item-category').on('click', function() {
-                $('.item-category').removeClass('active');
+                $(this).parent().siblings().find('.item-category').removeClass('active');
                 $(this).addClass('active');
+                $(this).next().find('input').prop('checked', 'checked');
+                var ele = $(this).closest('.form-group').next();
+                ele.removeClass('section-collapsed');
+                $('html, body').animate({
+                    scrollTop: $(ele).offset().top - 60
+                }, 1000);
             });
         },
         slickSlider: () => {
@@ -161,21 +167,21 @@ const FE = {
             }
         },
         switchBtn: () => {
-            $('.switchery').on('click', function() {
-                $(this).toggleClass('off');
-                FE.global.onOffTxt();
-                if (!$(this).hasClass('off')) {
-                    $('.unit span').text('monthly');
-                    $('#standard').text('69');
-                    $('#advanced').text('102');
-                    $('#multioutlet').text('169');
-                } else {
-                    $('.unit span').text('annually');
-                    $('#standard').text('59');
-                    $('#advanced').text('89');
-                    $('#multioutlet').text('159');
-                }
-            });
+          $('.switchery').on('click', function() {
+            $(this).toggleClass('off');
+            FE.global.onOffTxt();
+            if (!$(this).hasClass('off')) {
+              $('.unit span').text('monthly');
+              $('#standard').text('69');
+              $('#advanced').text('102');
+              $('#multioutlet').text('169');
+            } else {
+              $('.unit span').text('annually');
+              $('#standard').text('59');
+              $('#advanced').text('89');
+              $('#multioutlet').text('159');
+            }
+          });
         },
         gotoArea: function(target) {
             if (isMobile) {
@@ -194,6 +200,11 @@ const FE = {
                 $(this).removeClass('active');
             });
         },
+        /*triggerClickRadioBtn: () => {
+            $(".trial-block-content .item-category").click(function() {
+                $(this).next().find('input').prop("checked", "checked");
+            });
+        },*/
         init: () => {
             FE.global.equalHeightByRow('.eqh');
             FE.global.styleSelect();
@@ -206,6 +217,7 @@ const FE = {
             FE.global.switchBtn();
             FE.global.replaceImgToBackground($('.blog-thumb .bg-image'));
             FE.global.removeActiveClass();
+            
         },
         loaded: () => {
             FE.global.equalHeightByRow('.eqh');

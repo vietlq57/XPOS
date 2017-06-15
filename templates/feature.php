@@ -53,7 +53,7 @@ get_header(); ?>
                                     <h4 class="header-title"> Inventory Look-see</h4>
                                     <p>Check the stocks of each store. Sync in real time with online store, avoid selling out-of-stock products.</p>
                                 </li>
-                                <li><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/product1.png"></li>
+                                <li><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/product1.jpg"></li>
                             </ul>
                         </div>
                     </div>
@@ -81,7 +81,7 @@ get_header(); ?>
                                 </li>
                                 <li>
                                     <h4 class="header-title"> Multiple Tax Levels</h4>
-                                    <p>Flexible tax configuration system to allow for every possible scenario</p>
+                                    <p>Flexible tax configuration system to allow for every possible scenario. Calculate taxes immediately and correctly applying Magento tax rules.</p>
                                 </li>
                             </ul>
                         </div>
@@ -255,7 +255,7 @@ get_header(); ?>
         <div class="block-content-pay">
             <div class="row">
                 <div class="col-md-6">
-                    <h2 class="title">Power your store with the best POS for Magento</h2><a class="btn btn-free" href="trial">free trial</a><span class="no-required">No credit card required</span>
+                    <h2 class="title">Power your store with the best POS for Magento</h2><a class="btn btn-free" href="<?php echo esc_url(home_url('/free-trial'));?>">free trial</a><span class="no-required">No credit card required</span>
                 </div>
                 <div class="col-md-6">
                     <div class="pull-right"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/fearture.jpg"></div>

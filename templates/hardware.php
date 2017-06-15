@@ -144,7 +144,7 @@ get_header(); ?>
                         <div class="col-md-4 col-sm-4">
                             <div class="item-help">
                                 <div class="item-thum"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/icon-help-1.png"></div>
-                                <div class="item-content"><a class="title-page-2" href="https://support.smartosc.com/">View our Help Center</a></div>
+                                <div class="item-content"><a class="title-page-2" href="https://support.smartosc.com/" target="_blank">View our Help Center</a></div>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-4">

@@ -119,7 +119,7 @@ get_header(); ?>
                         <td>5</td>
                     </tr>
                     <tr>
-                        <td class="tit" colspan="4">Features</td>
+                        <td class="tit" colspan="4">Product & Inventory</td>
                     </tr>
 					<tr>
                         <td>Barcode scanning</td>
@@ -140,10 +140,13 @@ get_header(); ?>
                         <td><i class="fa fa-check"></i></td>
                     </tr>
                     <tr>
-                        <td>Order notes</td>
+                        <td>Multiwarehouse</td>
                         <td></td>
-                        <td> <i class="fa fa-check"></i></td>
+                        <td></td>
                         <td><i class="fa fa-check"></i></td>
+                    </tr>
+                    <tr>
+                        <td class="tit" colspan="4">Order & Checkout</td>
                     </tr>
 					<tr>
                         <td>Price override</td>
@@ -170,6 +173,27 @@ get_header(); ?>
                         <td><i class="fa fa-check"></i></td>
                     </tr>
 					<tr>
+                        <td>Search online orders</td>
+                        <td><i class="fa fa-check"></i></td>
+                        <td><i class="fa fa-check"></i></td>
+                        <td><i class="fa fa-check"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Add products to cart from wishlist</td>
+                        <td></td>
+                        <td><i class="fa fa-check"></i></td>
+                        <td><i class="fa fa-check"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Order notes</td>
+                        <td></td>
+                        <td><i class="fa fa-check"></i></td>
+                        <td><i class="fa fa-check"></i></td>
+                    </tr>
+                    <tr>
+                        <td class="tit" colspan="4">Payments</td>
+                    </tr>
+					<tr>
                         <td>Custom payment methods</td>
                         <td><i class="fa fa-check"></i></td>
                         <td><i class="fa fa-check"></i></td>
@@ -188,6 +212,12 @@ get_header(); ?>
                         <td><i class="fa fa-check"></i></td>
                     </tr>
 					<tr>
+                        <td>Refund/Exchange</td>
+                        <td><i class="fa fa-check"></i></td>
+                        <td><i class="fa fa-check"></i></td>
+                        <td><i class="fa fa-check"></i></td>
+                    </tr>
+					<tr>
                         <td>Reward points</td>
                         <td></td>
                         <td><i class="fa fa-check"></i></td>
@@ -197,30 +227,6 @@ get_header(); ?>
                         <td>Gift cards</td>
                         <td></td>
                         <td><i class="fa fa-check"></i></td>
-                        <td><i class="fa fa-check"></i></td>
-                    </tr>
-					<tr>
-                        <td>Refund/Exchange</td>
-                        <td><i class="fa fa-check"></i></td>
-                        <td><i class="fa fa-check"></i></td>
-                        <td><i class="fa fa-check"></i></td>
-                    </tr>
-                    <tr>
-                        <td>Add products to cart from wishlist</td>
-                        <td></td>
-                        <td><i class="fa fa-check"></i></td>
-                        <td><i class="fa fa-check"></i></td>
-                    </tr>
-					<tr>
-                        <td>Search online orders</td>
-                        <td><i class="fa fa-check"></i></td>
-                        <td><i class="fa fa-check"></i></td>
-                        <td><i class="fa fa-check"></i></td>
-                    </tr>
-                    <tr>
-                        <td>Multiwarehouse</td>
-                        <td></td>
-                        <td></td>
                         <td><i class="fa fa-check"></i></td>
                     </tr>
                     <tr>
@@ -251,15 +257,15 @@ get_header(); ?>
                         <td><i class="fa fa-check"></i></td>
                     </tr>
                     <tr>
-                        <td>Inventory Reports</td>
-                        <td></td>
-                        <td></td>
-                        <td><i class="fa fa-check"></i></td>
-                    </tr>
-                    <tr>
                         <td>Gift Card reports</td>
                         <td></td>
                         <td><i class="fa fa-check"></i></td>
+                        <td><i class="fa fa-check"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Inventory Reports</td>
+                        <td></td>
+                        <td></td>
                         <td><i class="fa fa-check"></i></td>
                     </tr>
                     <tr>

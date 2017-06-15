@@ -80,7 +80,7 @@ get_header(); ?>
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 hidden-xs">
                         <ul class="no-bullet">
-                            <li><a href="javascript:void(0)"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/omni-img-1.png"></a></li>
+                            <li><a><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/omni-img-1.png"></a></li>
                         </ul>
                     </div>
                     <div class="col-xs-12 col-xs-12 col-sm-6">
@@ -124,7 +124,7 @@ get_header(); ?>
                 </div>
                 <div class="col-sm-6 hidden-xs">
                     <ul class="no-bullet">
-                        <li><a href="javascript:void(0)"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/omni-img-2.png"></a></li>
+                        <li><a><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/omni-img-2.png"></a></li>
                     </ul>
                 </div>
             </div>
@@ -134,7 +134,7 @@ get_header(); ?>
                 <div class="row">
                     <div class="col-sm-6 hidden-xs">
                         <ul class="no-bullet">
-                            <li><a href="javascript:void(0)"><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/omni-img-3.png"></a></li>
+                            <li><a><img class="img-responsive" src="<?php echo(get_template_directory_uri()); ?>/inc/images/omni-img-3.png"></a></li>
                         </ul>
                     </div>
                     <div class="col-xs-12 col-sm-6">

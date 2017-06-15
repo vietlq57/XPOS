@@ -16,7 +16,7 @@ get_header(); ?>
 
     <section class="omni">
         <div class="container block">
-            <div class="row">
+            <!--<div class="row">
                 <div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0">
                     <div class="block-container">
                         <h2 class="title-page">Find your local experts</h2>
@@ -24,12 +24,12 @@ get_header(); ?>
                         <div class="all-Choose">
                             <select class="form-control">
                                 <option>All regions</option>
-                                <option>All regions 2</option>
+                                <option>All regions 2/option>
                                 <option>All regions 3</option>
                                 <option>All regions 4</option>
                             </select>
                         </div>
-                        <div class="contact-item"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/contact-us-1.png">
+                        <div class="contact-item"><img src="<?php /*echo(get_template_directory_uri()); */?>/inc/images/contact-us-1.png">
                             <h3 class="title-page-4">Ottenevaz</h3>
                             <p>Lorem ipsum dolor sit amet, ad delicata efficiendi mei, nam ex sint percipitur. In his consul oportere inciderint. Id est labore patrioque. Usu nibh nominati an, quem autem appetere ius te. Ne diam invidunt complectitur cum.</p>
                             <ul>
@@ -50,7 +50,7 @@ get_header(); ?>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>-->
             <div class="row">
                 <div class="trial-content-main custom-contact">
                     <h2 class="title-page">Get in touch with us!</h2>

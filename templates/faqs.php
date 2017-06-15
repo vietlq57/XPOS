@@ -16,7 +16,7 @@ get_header(); ?>
 
     <div class="container">
         <div id="faqs">
-            <h3>Choose the topic and find quick answers to your questions</h3>
+            <h3 class="text-center">Choose the topic and find quick answers to your questions</h3>
             <div class="ul list-inline categories">
                 <li><a href="javascript:FE.global.gotoArea('#connect-features')"><i class="ico40x40 ico-star-circle" style="background-image: url('<?php echo(get_template_directory_uri()); ?>/inc/images/ico-star-circle.png');"></i><span>ConnectPOS Features</span></a></li>
                 <li><a href="javascript:FE.global.gotoArea('#hpi')"><i class="ico40x40 ico-tape" style="background-image: url('<?php echo(get_template_directory_uri()); ?>/inc/images/ico-tape.png');"></i><span>Hardware, Payments and Integrations</span></a></li>
@@ -167,17 +167,7 @@ get_header(); ?>
                     </div>
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapse24"> <span>4</span><i class="fa fa-plus"></i>How does ConnectPOS connect with a card reader?</a></h4>
-                        </div>
-                        <div class="panel-collapse collapse" id="collapse24">
-                            <div class="panel-body">
-                                <p>ConnectPOS Web can connect with USB credit card swiper through payment gateway built-in including Authorize.NET and Paypal Payment Pro. ConnectPOS iPad App can connect directly with Paypal Here and Stripe chip and pin readers.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapse25"> <span>5</span><i class="fa fa-plus"></i>Is ConnectPOS compatible with other extensions that I have already installed?</a></h4>
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapse25"> <span>4</span><i class="fa fa-plus"></i>Is ConnectPOS compatible with other extensions that I have already installed?</a></h4>
                         </div>
                         <div class="panel-collapse collapse" id="collapse25">
                             <div class="panel-body">
@@ -192,27 +182,17 @@ get_header(); ?>
                 <div class="panel-group panel-omni" id="accordion2">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion2" href="#collapse31"> <span>1</span><i class="fa fa-plus"></i>What is your refund policy?</a></h4>
-                        </div>
-                        <div class="panel-collapse collapse" id="collapse31">
-                            <div class="panel-body">
-                                <p>We offer 30-day money back guarantee for Life-time plan. You can get a full refund if you are not fully satisfied with our product within 30 days after your purchase. Please submit a ticket with your order information to our ticket system to request refund. You will receive refund within 7 days since your request is confirmed.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion2" href="#collapse32"> <span>2</span><i class="fa fa-plus"></i>Do I have to sign a long term contract?</a></h4>
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion2" href="#collapse32"> <span>1</span><i class="fa fa-plus"></i>Do I have to sign a long term contract?</a></h4>
                         </div>
                         <div class="panel-collapse collapse" id="collapse32">
                             <div class="panel-body">
-                                <p>You can try a free demo or 30-day trial of ConnectPOS with no commitment. If you choose to activate your account to a paid plan, you can pay for a one-off license or monthly. With monthly subscription, can cancel at any time. There is no commitment and no long-term contracts.</p>
+                                <p>You can get a free 15-day trial of ConnectPOS with no commitment. If you decide on a paid plan later, you can choose to pay monthly or annually and can cancel at any time. There is no commitment and no long-term contracts.</p>
                             </div>
                         </div>
                     </div>
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion2" href="#collapse33"> <span>3</span><i class="fa fa-plus"></i>Need a tailored solution?</a></h4>
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion2" href="#collapse33"> <span>2</span><i class="fa fa-plus"></i>Need a tailored solution?</a></h4>
                         </div>
                         <div class="panel-collapse collapse" id="collapse33">
                             <div class="panel-body">
@@ -229,7 +209,7 @@ get_header(); ?>
         <div class="ask-more">
             <h3>Can't find the answer you need? Don't hesitate to contact us!</h3>
             <ul class="list-inline">
-                <li><a href="https://support.smartosc.com/"><i class="ico80x80 ico-book-dot" style="background-image: url('<?php echo(get_template_directory_uri()); ?>/inc/images/ico-message.png');"></i><span>View our Help Center</span></a></li>
+                <li><a href="https://support.smartosc.com/" target="_blank"><i class="ico80x80 ico-book-dot" style="background-image: url('<?php echo(get_template_directory_uri()); ?>/inc/images/ico-message.png');"></i><span>View our Help Center</span></a></li>
                 <li><a href="<?php echo esc_url(home_url('/contact-us'));?>"><i class="ico80x80 ico-mail-move" style="background-image: url('<?php echo(get_template_directory_uri()); ?>/inc/images/ico-book-dot.png');"></i><span>Send us your question</span></a></li>
             </ul>
         </div>

@@ -182,7 +182,7 @@ get_header(); ?>
             <div class="block-content-pay">
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-12">
-                        <h2 class="title">We work with the best to make sure you have a great experience</h2><a class="btn btn-free" href="trial">free trial</a><span class="no-required">No credit card required</span>
+                        <h2 class="title">We work with the best to make sure you have a great experience</h2><a class="btn btn-free" href="<?php echo esc_url(home_url('/free-trial'));?>">free trial</a><span class="no-required">No credit card required</span>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="pull-right"><img src="<?php echo(get_template_directory_uri()); ?>/inc/images/payment-1.png"></div>
