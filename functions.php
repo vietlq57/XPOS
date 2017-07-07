@@ -158,3 +158,64 @@ require get_template_directory() . '/inc/jetpack.php';
  * Load custom nav walker
  */
 require get_template_directory() . '/inc/navwalker.php';
+
+# Replaces the excerpt "more" text by a link
+if( !function_exists( 'xposblog_excerpt_more' ) ) {
+
+    function xposblog_excerpt_more( $more ) {
+        global $post;
+
+        # Start building the return string
+        $return = '<div class="moretag">';
+        $return .= '<br />';
+        $return .= '<a href="' . get_permalink( $post->ID ) . '" title="' . get_the_title() . '">';
+        $return .= __('Read more', 'xpos');
+        $return .= '&nbsp;&rarr;&nbsp;';
+        $return .= '</a>';
+        $return .= '</div>';
+
+        # Actually return it
+        return $return;
+    }
+    add_filter('excerpt_more', 'xposblog_excerpt_more');
+}
+
+if ( ! function_exists( 'the_post_navigation' ) ) :
+    /**
+     * Display navigation to next/previous post when applicable.
+     *
+     * @todo Remove this function when WordPress 4.3 is released.
+     */
+    function the_post_navigation() {
+        // Don't print empty markup if there's nowhere to navigate.
+        $previous = ( is_attachment() ) ? get_post( get_post()->post_parent ) : get_adjacent_post( false, '', true );
+        $next     = get_adjacent_post( false, '', false );
+
+        if ( ! $next && ! $previous ) {
+            return;
+        }
+        ?>
+        <nav class="navigation post-navigation" role="navigation">
+            <h2 class="screen-reader-text"><?php _e( 'Post navigation', 'amadeus' ); ?></h2>
+            <div class="nav-links">
+                <?php
+                previous_post_link( '<div class="nav-previous">%link</div>', '%title' );
+                next_post_link( '<div class="nav-next">%link</div>', '%title' );
+                ?>
+            </div><!-- .nav-links -->
+        </nav><!-- .navigation -->
+        <?php
+    }
+endif;
+
+
+add_action( 'ninja_forms_after_submission', 'my_ninja_forms_after_submission' );
+function my_ninja_forms_after_submission( $form_data ){
+    $form_fields = $form_data['fields'];
+    $fields = [];
+    foreach( $form_fields as $field ){
+        $fields[$field['type']] = $field['value'];
+    }
+    mail($form_data['email'], 'Hello', 'Hello Viet');
+}
+
