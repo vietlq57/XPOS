@@ -1,0 +1,121 @@
+.item-icon {
+    width: 62px;
+    height: 52px;
+    background-image: url(../images/list-item-icon.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.checkout {
+    background-position: left -56px;
+}
+
+.payment {
+    background-position: left -118px;
+}
+
+.customer {
+    background-position: left -172px;
+}
+
+.report-system {
+    background-position: left -233px;
+}
+
+.multi-store {
+    background-position: left -288px;    
+}
+
+.fearture {
+    .left-menu {
+        padding-top: 65px;
+        float: left;
+        width: 170px;
+        @include xs {
+            width: 100%;
+            float: none;
+            padding-top: 0;
+        }
+        &.fixed {
+            float: none;
+            position: fixed;
+            top: 0;
+        }
+        &.position {
+            position: absolute;
+        }
+        li {
+            a {
+                font-weight: 300;
+                font-size: 16px;
+                color: $dark-grey;
+                padding: 10px 0;
+                display: block;
+                &.active {
+                    color: $blue;
+                    font-weight: 500;
+                    position: relative;
+                    &:after {
+                        position: absolute;
+                        content: "";
+                        bottom: 8px;
+                        width: 25px;
+                        height: 3px;
+                        background: $blue;
+                        border-radius: 2px;
+                        left: 0;
+                    }
+                }
+            }
+        }
+    }
+    .list-container {
+        border-bottom: 1px solid $white-smook;
+        padding-top: 45px;
+        padding-bottom: 65px;
+        margin-left: 190px;
+        @include xs {
+            margin-left: 0;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        .header-list {
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            @include clearfix;
+            .item-icon{
+                float: left;
+                &.customer{
+                    margin-right: 15px;
+                }
+            }
+        }
+        .header-title {
+            a {
+                color: $blue-dark;
+            }
+        }
+        li {
+            a {
+                img {
+                    margin-top: 40px;
+                }
+            }
+            p {
+                margin-bottom: 35px;
+            }
+        }
+    }
+}
+.content-pay-feature{
+    margin: 40px 0 0;
+    .feature-work{
+        @media (min-width: 768px){
+            display: flex;
+            align-items: center; 
+        }
+        
+    }
+}

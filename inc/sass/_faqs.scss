@@ -1,0 +1,203 @@
+/***** FAQs stylesheet **/
+
+.ico40x40 {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+.ico-star-circle {
+    background-image: url(../images/ico-star-circle.png);
+}
+
+.ico-tape {
+    background-image: url(../images/ico-tape.png);
+}
+
+.ico-khien {
+    background-image: url(../images/ico-khien.png);
+}
+
+.ico80x80 {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+.ico-message {
+    background-image: url(../images/ico-message.png);
+}
+
+.ico-book-dot {
+    background-image: url(../images/ico-book-dot.png);
+}
+
+.ico-mail-move {
+    background-image: url(../images/ico-mail-move.png);
+}
+
+#faqs {
+    padding: 43px 100px;
+    @include xs {
+        padding: 30px 0;
+    }
+    @include sm {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    @include md {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .categories {
+        margin: 38px 0px 0;
+        li {
+            margin-right: 105px;
+            @include xs {
+                margin-right: 0;
+                width: calc(100% / 3 - 5px);
+                text-align: center;
+                vertical-align: top;
+                span {
+                    display: block;
+                }
+            }
+            @include sm {
+                margin-right: 0;
+                width: calc(100% / 3 - 5px);
+                text-align: center;
+                vertical-align: top;
+                span {
+                    display: block;
+                }
+            }
+            @include md {
+                margin-right: 0;
+            }
+            &:last-child {
+                margin-right: 0;
+            }
+            a {
+                font-size: 16px;
+                font-weight: 300;
+                color: #172434;
+                @include xs {
+                    font-size: 14px;
+                }
+                &:hover {
+                    color: $blue;
+                }
+            }
+        }
+    }
+}
+
+.faq-list {
+    background-color: #f9fafc;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 65px;
+    @include xs {
+        padding-bottom: 15px;
+    }
+}
+
+#connect-features,
+#hpi,
+#our-policy {
+    padding: 0 100px;
+    @include xs {
+        padding: 0;
+    }
+    @include sm {
+        padding: 0;
+    }
+    @include md {
+        padding: 0;
+    }
+    h2 {
+        text-align: center;
+        margin: 85px 0 55px;
+        @include xs {
+            margin: 15px 0;
+        }
+        @include sm {
+            margin: 15px 0;
+        }
+    }
+}
+
+.ask-more {
+    padding-top: 88px;
+    text-align: center;
+    @include xs {
+        padding-top: 0;
+    }
+    @include sm {
+        padding-top: 30px;
+    }
+    h3 {
+        text-align: center;
+        margin: 0 27%;
+        font-weight: 500;
+        @include xs {
+            margin: 0;
+            font-size: 20px;
+        }
+        @include sm {
+            margin: 0;
+        }
+    }
+    li {
+        margin: 30px 0 60px;
+        width: 25%;
+        @include xs {
+            width: calc(100% / 3 - 10px);
+            vertical-align: top;
+        }
+        a {
+            display: inline-block;
+            border: 1px solid transparent;
+            padding: 20px 30px 30px;
+            color: #172434;
+            @include xs {
+                border: none;
+            }
+            &:hover {
+                border-color: $blue;
+                color: $blue;
+            }
+        }
+        span {
+            position: relative;
+            display: block;
+            margin: 4px 0;
+            @include xs {
+                font-size: 14px;
+            }
+            &:after {
+                position: absolute;
+                width: 40px;
+                height: 0;
+                content: "";
+                border-top: 2px solid $blue;
+                left: 50%;
+                transform: translateX(-50%);
+                bottom: -4px;
+                @include xs {
+                    display: none;
+                }
+            }
+        }
+    }
+    i {
+        display: block;
+        margin: auto;
+    }
+}

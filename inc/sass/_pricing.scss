@@ -1,0 +1,270 @@
+.planbox {
+    border: 1px solid #e4e6e9;
+    text-align: center;
+    color: #172434;
+    margin-top: 25px;
+    height: 563px;
+    padding: 0 30px;
+    @include xs {
+        padding-bottom: 20px;
+        height: auto;
+        margin-bottom: 25px;
+    }
+    @include sm {
+        height: 600px;
+        padding: 0 5px;
+    }
+    .title {
+        font-size: 20px;
+        padding: 30px 0 8px;
+        font-weight: 500;
+    }
+    .price {
+        font-size: 38px;
+        font-weight: 400;
+        color: $blue;
+        position: relative;
+    }
+    .currency,
+    span {
+        font-size: 18px;
+        font-weight: 300;
+    }
+    #standard,
+    #multioutlet {
+        font-size: 38px;
+        font-weight: 400;
+        color: $blue;
+    }
+    #advanced {
+        font-size: 38px;
+        font-weight: 400;
+        color: $white;
+    }
+    .unit {
+        font-size: 16px;
+        margin: 10px 0 20px;
+        line-height: 26px;
+    }
+    p {
+        font-size: 13px;
+        line-height: 18px;
+        color: #8c8c8c;
+        border-top: 1px solid #e4e6e9;
+        border-bottom: 1px solid #e4e6e9;
+        height: 70px;
+        display: table-cell;
+        vertical-align: middle;
+        @include xs {
+            display: block;
+            height: auto;
+            border: none;
+        }
+    }
+    ul {
+        margin: 20px 0;
+    }
+    li {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .btn {
+        padding: 13px 33px;
+        text-transform: uppercase;
+        border: 1px solid $blue;
+        color: $blue;
+    }
+    &.highlight {
+        background-color: $blue;
+        border: none;
+        border-top: 8px solid #f0b562;
+        color: $white;
+        margin-top: 0;
+        height: 615px;
+        @include xs {
+            height: auto;
+        }
+        @include sm {
+            height: 650px;
+        }
+        .title {
+            font-size: 25px;
+            padding: 41px 0 8px;
+        }
+        .price {
+            color: $white;
+        }
+        p {
+            color: $white;
+            border-color: #6abeb8;
+        }
+        .btn {
+            border: 1px solid $white;
+            color: $white;
+        }
+    }
+}
+
+.to-desc {
+    margin: 45px 0 80px;
+    @include xs {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    @include sm {
+        margin-bottom: 0;
+    }
+    span {
+        color: red;
+    }
+}
+
+.switch-state {
+    margin: 45px auto 60px;
+    width: 270px;
+    .txt {
+        padding: 5px 0;
+        &.off {
+            color: #b3b3b3;
+        }
+    }
+    input {
+        display: none;
+    }
+    .switchery {
+        border: 3px solid #484c50;
+        @include border-radius(20px);
+        cursor: pointer;
+        display: inline-block;
+        height: 30px;
+        position: relative;
+        vertical-align: middle;
+        width: 60px;
+        -moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        box-sizing: content-box;
+        background-clip: content-box;
+        background-color: $white;
+        transition: border 0.4s ease 0s, box-shadow 0.4s ease 0s, background-color 1.2s ease 0s;
+        small {
+            border-radius: 100%;
+            height: 25px;
+            position: absolute;
+            top: 3px;
+            width: 25px;
+            left: 4px;
+            transition: background-color 0.4s ease 0s, left 0.2s ease 0s;
+            background-color: $blue;
+        }
+        &.off {
+            small {
+                transition: background-color 0.4s ease 0s, left 0.2s ease 0s;
+                left: 31px;
+            }
+        }
+    }
+}
+
+.table-compare-features {
+    padding-top: 60px;
+    padding-bottom: 65px;
+    @include xs {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    table {
+        width: 100%;
+        margin-top: 55px;
+    }
+    td {
+        border-collapse: collapse;
+        border-color: #dcdddd !important;
+        padding: 13px 20px;
+        text-align: center;
+        @include xs {
+            padding: 13px 5px;
+            font-size: 10px;
+        }
+        &.tit {
+            text-transform: uppercase;
+            color: #172434;
+            font-size: 16px;
+            font-weight: 600;
+            text-align: left;
+        }
+        &:first-child {
+            width: 38%;
+            text-align: left;
+        }
+        i {
+            color: $blue;
+        }
+    }
+    thead tr {
+        background-color: #505656;
+        color: $white;
+        th {
+            padding: 18px 0;
+            text-align: left;
+            border-color: #5e6666 !important;
+            text-align: center;
+            text-transform: uppercase;
+            @include xs {
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+.custom-solution {
+    padding-top: 75px;
+    padding-bottom: 70px;
+    @include xs {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    @include sm {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    h2 {
+        margin: 85px 0px 0;
+        @include xs {
+            margin-top: 30px;
+        }
+        @include sm {
+            margin-top: 1px;
+        }
+    }
+    p {
+        margin: 16px 0 12px;
+        font-size: 20px;
+    }
+    .btn {
+        padding: 12px 45px;
+    }
+}
+
+.pricing-faqs {
+    padding: 83px 0;
+    @include xs {
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+    @include sm {
+        padding: 30px 0;
+    }
+    .panel-omni {
+        margin: 45px 0 22px;
+    }
+}
+
+.pricing-plans {
+    padding-top: 75px;
+    @include xs {
+        padding-top: 15px;
+    }
+}

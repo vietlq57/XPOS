@@ -1,0 +1,203 @@
+header.header {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    @include xs {
+        position: relative;
+    }
+    .top-header {
+        .navbar-default {
+            background-color: $blue-violet-dark;
+            border: none;
+            border-radius: 0;
+            min-height: 40px;
+            li {
+                @include xs {
+                    display: inline-block;
+                }
+                a {
+                    display: inline-block;
+                    color: white;
+                    font-size: 11px;
+                    padding: 10px 0 10px 5px;
+                    font-weight: 300;
+                    @include transition(0.3s);
+                    &:hover,
+                    &:focus {
+                        color: $light-grey;
+                        background-color: none;
+                    }
+                }
+                &.open {
+                    a:focus,
+                    a,
+                    a:hover {
+                        background: none;
+                        color: $light-grey;
+                    }
+                }
+                .fa {
+                    font-size: 11px;
+                    color: white;
+                    margin: 0 0 0 20px;
+                    @include xs {
+                        margin-left: 15px;
+                    }
+                    @include xxs {
+                        margin-left: 10px;
+                    }
+                }
+                .dropdown-menu {
+                    li a {
+                        color: black;
+                        padding: 5px 15px;
+                    }
+                }
+                .search-main {
+                    @include xs {
+                        margin-right: 14px;
+                    }
+                }
+            }
+            .navbar-right {
+                @include xs {
+                    float: right;
+                }
+            }
+            .navbar-collapse {
+                border: none;
+            }
+        }
+        .navbar-right {
+            margin-right: 10px;
+        }
+    }
+    .navbar-default {
+        margin: 0;
+        border: none;
+    }
+    .main-menu {
+        .navbar-default {
+            background-color: white;
+            padding: 16px 0;
+            li {
+                a {
+                    font-size: 14px;
+                    font-weight: 500;
+                    padding: 8px 26px;
+                    border-radius: 4px;
+                    color: $blue-dark;
+                    text-transform: uppercase;
+                    position: relative;
+                    &:after {
+                        position: absolute;
+                        content: "";
+                        width: 0;
+                        height: 0;
+                        border-top: 2px solid $blue;
+                        bottom: 5px;
+                        left: 50%;
+                        @include translateX(-50%);
+                        @include transition(.5s);
+                    }
+                    @include xs {
+                        border-radius: 0;
+                    }
+                    &:hover,
+                    &:focus {
+                        background: none;
+                        color: $blue-dark;
+                        opacity: 1;
+                        @include transition(3s);
+                        &:after {
+                            width: 25%;
+                        }
+                    }
+                    @include sm {
+                        padding: 8px 20px;
+                    }
+                }
+                &.open {
+                    a:focus,
+                    a,
+                    a:hover {
+                        background: none;
+                        color: $blue-dark;
+                    }
+                    .dropdown-menu {
+                        li {
+                            a {
+                                &:focus,
+                                &:hover {
+                                    background: $blue;
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+                }
+                .dropdown-menu {
+                    li {
+                        @include xs {
+                            padding-left: 30px;
+                        }
+                        a {
+                            padding: 5px 10px;
+                            border-radius: 0;
+                            &:focus,
+                            &:hover {
+                                background: $blue;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+                &.blue-bg {
+                    background-color: $blue;
+                    border-radius: 4px;
+                    margin-left: 10px;
+                    @include xs {
+                        margin-left: 0;
+                        border-radius: 0;
+                    }
+                    a {
+                        color: $white;
+                        background-color: $blue;
+                    }
+                }
+                &.active a {
+                    background: none;
+                    color: $blue-dark;
+                    &:after {
+                        position: absolute;
+                        content: "";
+                        width: 25%;
+                        height: 0;
+                        border-top: 2px solid $blue;
+                        bottom: 5px;
+                        left: 50%;
+                        @include translateX(-50%);
+                    }
+                }
+            }
+            .logo {
+                margin-top: -14px;
+                img{
+                    margin-top: -8px;
+                }
+            }
+            .navbar-toggle {
+                margin-top: 0px;
+                @include xs {
+                    margin-bottom: 15px;
+                }
+            }
+            .navbar-right {
+                .fa-angle-down {
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}

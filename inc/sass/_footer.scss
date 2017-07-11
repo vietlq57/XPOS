@@ -1,0 +1,76 @@
+/****   Footer Stylesheet  */
+
+footer {
+    background-color: #1b1f20;
+    color: #ddd;
+    padding: 15px 0;
+    border-bottom: 12px solid $white;
+    letter-spacing: 0.01em;
+    a {
+        color: #ddd;
+        &:hover,
+        &:active,
+        &:focus {
+            color: $white;
+            opacity: 1;
+        }
+    }
+    h5 {
+        color: rgba(255, 255, 255, 0.9);
+        text-transform: uppercase;
+        margin-top: 23px;
+        font-weight: 400;
+        letter-spacing: 0.01em;
+        font-size: 16px;
+        a {
+            color: rgba(255, 255, 255, 0.9);
+            font-weight: 400;
+            font-size: 16px;
+        }
+    }
+    .intro {
+        padding-right: 90px;
+        @include xs {
+            padding-right: 0;
+        }
+        p {
+            margin: 13px 0 22px;
+            font-size: 14px;
+            font-weight: 100;
+            line-height: 1.42;
+            color: #ddd;
+        }
+        li:nth-child(2) {
+            padding-left: 17px;
+            padding-right: 17px;
+        }
+    }
+    .item-footer {
+        li {
+            padding: 4px 10px 5px 0;
+            font-weight: 100;
+            font-size: 14px;
+        }
+        p {
+            font-size: 14px;
+            color: #ddd;
+            font-weight: 100;
+        }
+    }
+    .social-ico {
+        display: inline-block;
+        margin-left: 25px;
+    }
+    hr {
+        border-top: 1px solid #323637;
+        height: 0px;
+        width: 100%;
+        margin: 8px 0 12px;
+    }
+    .bottom-note,
+    .bottom-note p {
+        font-size: 13px;
+        font-weight: 100;
+        color: #ddd;
+    }
+}

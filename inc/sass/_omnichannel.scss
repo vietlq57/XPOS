@@ -1,0 +1,200 @@
+.ico-magento-webstore {
+    background-image: url(../images/ico-magento-webstore.png);
+}
+
+.ico-on-the-go {
+    background-image: url(../images/ico-on-the-go.png);
+}
+
+.ico-omni-customer {
+    background-image: url(../images/ico-omni-customer.png);
+}
+
+.ico-social-network {
+    background-image: url(../images/ico-social-network.png);
+}
+
+.ico-in-store {
+    background-image: url(../images/ico-in-store.png);
+}
+
+.customer-features {
+    padding: 0 0 75px;
+    @include xs {
+        padding-bottom: 0;
+    }
+    .list-item {
+        text-align: center;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    li {
+        text-align: left;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 300;
+        padding: 5px 0 5px 30px;
+        position: relative;
+        .fa {
+            margin-right: 5px;
+            color: $blue;
+            position: absolute;
+            left: 10px;
+            top: 10px;
+        }
+    }
+    .content {
+        position: relative;
+        margin: 10px -20px 20px;
+        .img {
+            overflow: hidden;
+        }
+        .txt {
+            position: absolute;
+            left: 50%;
+            transition: all .3s;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+    }
+    .ico80x80 {
+        margin-right: 0;
+    }
+}
+
+.title {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    @include xs {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        h2 {
+            font-size: 24px;
+        }
+    }
+    .desc {
+        margin: 17px 17% 0;
+        font-weight: 300;
+        @include xs {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+}
+
+#omnichannel {
+    .list-container {
+        padding-top: 65px;
+        padding-bottom: 75px;
+        @include xs {
+            padding-top: 15px;
+            padding-bottom: 0;
+        }
+        @include sm {
+            padding-top: 0px;
+            padding-bottom: 20px;
+        }
+        @include md {
+            padding-top: 15px;
+            padding-bottom: 25px;
+        }
+        h3 {
+            margin: 22px 0 42px;
+        }
+        h4 {
+            margin: 30px 0 20px;
+            font-size: 20px;
+            @include xs {
+                font-size: 18px;
+            }
+        }
+    }
+    .quotes {
+        .img {
+            margin: 20px 0 0 20px;
+            @include xs {
+                margin: 0;
+            }
+        }
+        p {
+            font-size: 20px;
+            color: #172434;
+            line-height: 30px;
+            @include xs {
+                font-size: 14px;
+            }
+        }
+        .author {
+            font-size: 30px;
+            color: #172434;
+            margin: 22px 0 0;
+            @include xs {
+                font-size: 20px;
+            }
+        }
+        .role {
+            font-size: 16px;
+            color: #757575;
+            @include xs {
+                font-size: 14px;
+            }
+        }
+        .tag {
+            font-size: 16px;
+            line-height: 26px;
+            font-style: italic;
+            color: #757575;
+            font-weight: 300;
+            @include xs {
+                font-size: 14px;
+            }
+        }
+        .entry-item {
+            padding: 98px 0 0 0;
+            @include xs {
+                padding-top: 10px;
+            }
+            &:before {
+                content: '\f10d';
+                position: absolute;
+                top: 20px;
+                left: 0px;
+                color: #f3f3f3;
+                font-family: FontAwesome;
+                font-size: 40px;
+                @include xs {
+                    display: none;
+                }
+            }
+            &:after {
+                content: '\f10e';
+                position: absolute;
+                color: #f3f3f3;
+                font-family: FontAwesome;
+                font-size: 40px;
+                right: 35px;
+                bottom: -62px;
+                @include xs {
+                    display: none;
+                }
+                @include sm {
+                    bottom: -30px;
+                }
+                @include md {
+                    bottom: -40px;
+                }
+            }
+        }
+    }
+}
+
+.btn-trial {
+    padding: 35px 0 85px;
+    h3 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+}

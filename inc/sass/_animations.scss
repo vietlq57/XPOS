@@ -1,0 +1,297 @@
+// Animations
+// @-webkit-keyframes spin {
+//     0% {
+//         -webkit-transform: rotate(0deg);
+//         /* Chrome, Opera 15+, Safari 3.1+ */
+//         -ms-transform: rotate(0deg);
+//         /* IE 9 */
+//         transform: rotate(0deg);
+//         /* Firefox 16+, IE 10+, Opera */
+//     }
+//     100% {
+//         -webkit-transform: rotate(360deg);
+//         /* Chrome, Opera 15+, Safari 3.1+ */
+//         -ms-transform: rotate(360deg);
+//         /* IE 9 */
+//         transform: rotate(360deg);
+//         /* Firefox 16+, IE 10+, Opera */
+//     }
+// }
+
+// @keyframes spin {
+//     0% {
+//         -webkit-transform: rotate(0deg);
+//         /* Chrome, Opera 15+, Safari 3.1+ */
+//         -ms-transform: rotate(0deg);
+//         /* IE 9 */
+//         transform: rotate(0deg);
+//         /* Firefox 16+, IE 10+, Opera */
+//     }
+//     100% {
+//         -webkit-transform: rotate(360deg);
+//         /* Chrome, Opera 15+, Safari 3.1+ */
+//         -ms-transform: rotate(360deg);
+//         /* IE 9 */
+//         transform: rotate(360deg);
+//         /* Firefox 16+, IE 10+, Opera */
+//     }
+// }
+
+// @-webkit-keyframes slideInLeft {
+//     0% {
+//         -webkit-transform: translate3d(-100%, 0, 0);
+//         transform: translate3d(-100%, 0, 0);
+//         visibility: visible;
+//     }
+//     100% {
+//         -webkit-transform: translate3d(0, 0, 0);
+//         transform: translate3d(0, 0, 0);
+//     }
+// }
+
+// @keyframes slideInLeft {
+//     0% {
+//         -webkit-transform: translate3d(-100%, 0, 0);
+//         transform: translate3d(-100%, 0, 0);
+//         visibility: visible;
+//     }
+//     100% {
+//         -webkit-transform: translate3d(0, 0, 0);
+//         transform: translate3d(0, 0, 0);
+//     }
+// }
+
+// @-moz-keyframes blinker {
+//     0% {
+//         opacity: 1.0;
+//     }
+//     50% {
+//         opacity: 0.0;
+//     }
+//     100% {
+//         opacity: 1.0;
+//     }
+// }
+
+// @-webkit-keyframes blinker {
+//     0% {
+//         opacity: 1.0;
+//     }
+//     50% {
+//         opacity: 0.0;
+//     }
+//     100% {
+//         opacity: 1.0;
+//     }
+// }
+
+// @keyframes blinker {
+//     0% {
+//         opacity: 1.0;
+//     }
+//     50% {
+//         opacity: 0.0;
+//     }
+//     100% {
+//         opacity: 1.0;
+//     }
+// }
+
+// @-webkit-keyframes fadeInDown {
+//     0% {
+//         opacity: 0;
+//         -webkit-transform: translate3d(0, -100%, 0);
+//         transform: translate3d(0, -100%, 0);
+//     }
+//     100% {
+//         opacity: 1;
+//         -webkit-transform: none;
+//         transform: none;
+//     }
+// }
+
+
+// /* fadeInDown */
+
+// @keyframes fadeInDown {
+//     0% {
+//         opacity: 0;
+//         -webkit-transform: translate3d(0, -100%, 0);
+//         transform: translate3d(0, -100%, 0);
+//     }
+//     100% {
+//         opacity: 1;
+//         -webkit-transform: none;
+//         transform: none;
+//     }
+// }
+
+// @-webkit-keyframes fadeInLeft {
+//     0% {
+//         opacity: 0;
+//         -webkit-transform: translate3d(-100%, 0, 0);
+//         transform: translate3d(-100%, 0, 0);
+//     }
+//     100% {
+//         opacity: 1;
+//         -webkit-transform: none;
+//         transform: none;
+//     }
+// }
+
+
+/* fadeInUp */
+
+// @-webkit-keyframes fadeInUp {
+//     0% {
+//         opacity: 0;
+//         -webkit-transform: translate3d(0, 100%, 0);
+//         transform: translate3d(0, 100%, 0);
+//     }
+//     100% {
+//         opacity: 1;
+//         -webkit-transform: none;
+//         transform: none;
+//     }
+// }
+
+// @keyframes fadeInUp {
+//     0% {
+//         opacity: 0;
+//         -webkit-transform: translate3d(0, 100%, 0);
+//         transform: translate3d(0, 100%, 0);
+//     }
+//     100% {
+//         opacity: 1;
+//         -webkit-transform: none;
+//         transform: none;
+//     }
+// }
+
+
+/* fadeInLeft*/
+
+// @keyframes fadeInLeft {
+//     0% {
+//         opacity: 0;
+//         -webkit-transform: translate3d(-100%, 0, 0);
+//         transform: translate3d(-100%, 0, 0);
+//     }
+//     100% {
+//         opacity: 1;
+//         -webkit-transform: none;
+//         transform: none;
+//     }
+// }
+
+
+// /* fadeOutLeft */
+
+// @-webkit-keyframes fadeOutLeft {
+//     0% {
+//         opacity: 1;
+//     }
+//     100% {
+//         opacity: 0;
+//         -webkit-transform: translate3d(-100%, 0, 0);
+//         transform: translate3d(-100%, 0, 0);
+//     }
+// }
+
+// @keyframes fadeOutLeft {
+//     0% {
+//         opacity: 1;
+//     }
+//     100% {
+//         opacity: 0;
+//         -webkit-transform: translate3d(-100%, 0, 0);
+//         transform: translate3d(-100%, 0, 0);
+//     }
+// }
+
+
+// /* fadeInRight */
+
+// @-webkit-keyframes fadeInRight {
+//     0% {
+//         opacity: 0;
+//         -webkit-transform: translate3d(100%, 0, 0);
+//         transform: translate3d(100%, 0, 0);
+//     }
+//     100% {
+//         opacity: 1;
+//         -webkit-transform: none;
+//         transform: none;
+//     }
+// }
+
+// @keyframes fadeInRight {
+//     0% {
+//         opacity: 0;
+//         -webkit-transform: translate3d(100%, 0, 0);
+//         transform: translate3d(100%, 0, 0);
+//     }
+//     100% {
+//         opacity: 1;
+//         -webkit-transform: none;
+//         transform: none;
+//     }
+// }
+
+
+// /* fadeOutRight */
+
+// @-webkit-keyframes fadeOutRight {
+//     0% {
+//         opacity: 1;
+//     }
+//     100% {
+//         opacity: 0;
+//         -webkit-transform: translate3d(100%, 0, 0);
+//         transform: translate3d(100%, 0, 0);
+//     }
+// }
+
+// @keyframes fadeOutRight {
+//     0% {
+//         opacity: 1;
+//     }
+//     100% {
+//         opacity: 0;
+//         -webkit-transform: translate3d(100%, 0, 0);
+//         transform: translate3d(100%, 0, 0);
+//     }
+// }
+
+
+// /* blinking */
+
+// @-webkit-keyframes blinking {
+//     0% {
+//         -webkit-transform: scale(1);
+//         transform: scale(1);
+//     }
+//     50% {
+//         -webkit-transform: scale(0.75);
+//         transform: scale(0.75);
+//     }
+//     100% {
+//         -webkit-transform: scale(1);
+//         transform: scale(1);
+//     }
+// }
+
+// @keyframes blinking {
+//     0% {
+//         -webkit-transform: scale(1);
+//         transform: scale(1);
+//     }
+//     50% {
+//         -webkit-transform: scale(0.75);
+//         transform: scale(0.75);
+//     }
+//     100% {
+//         -webkit-transform: scale(1);
+//         transform: scale(1);
+//     }
+// }

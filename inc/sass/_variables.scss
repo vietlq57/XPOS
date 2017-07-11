@@ -1,0 +1,33 @@
+$screen-md: 1025px !default;
+// Font family
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900italic,900,700italic,700,600italic,600,400italic,300italic,300,200italic,200);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,300,300i,400,400i,500,500i,700,700i,800,800i,900,900i);
+// Color
+$white: #fff;
+$black: #000;
+$dark-grey: #5c5f5f;
+$light-grey: #a1a3a6;
+$dark-blue: #001a34;
+$light-blue: #0079a0;
+$branch-color: #09183f;
+$blue-violet-dark: #1b1f20;
+$blue: #2db9b0;
+$blue-dark: #111b27;
+$white-smook: #e8eaeb;
+$white-smook-light: #f9fafc;
+$dark-grey2: #8f949a;
+$blue-lighter: #d9eeef;
+$vhFull: 100vh;
+$minVhFull: 900px;
+$minVhFullMobile: 540px;
+// Font-faceregular
+// Global Component
+$heightHeader: 70px;
+$heightSubHeader: 50px;
+// variables for mobile
+$heightHeaderMobile: 50px;
+$heightMenuItemsMobile: 45px;
+//font georgia
+$font-family-sans-serif: "Montserrat", sans-serif !default;
+$font-size-base: 16px !default;
+$container-lg: 1200px;
