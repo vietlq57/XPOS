@@ -8,6 +8,14 @@ get_header(); ?>
 <div id="content" class="site-content container">
     <div id="primary" class="content-area">
         <main id="main" class="site-main" role="main">
+            <?php
+                $args1 = array(
+                    'category__name' => 'category1'
+                );
+                $posts1 = get_posts($args1);
+                var_dump($posts1);
+            ?>
+
             <?php if ( have_posts() ) : ?>
 
                 <?php /* Start the Loop */ ?>
