@@ -219,3 +219,17 @@ function my_ninja_forms_after_submission( $form_data ){
     mail($form_data['email'], 'Hello', 'Hello Viet');
 }
 
+function getNWordsFromString($text,$numberOfWords = 6)
+{
+    if($text != null)
+    {
+        $textArray = explode(" ", $text);
+        if(count($textArray) > $numberOfWords)
+        {
+            return implode(" ",array_slice($textArray, 0, $numberOfWords))."...";
+        }
+        return $text;
+    }
+    return "";
+}
+

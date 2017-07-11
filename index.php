@@ -16,28 +16,38 @@ get_header(); ?>
 <div id="content" class="site-content container">
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-		<?php
-		if ( have_posts() ) :
+        <?php
+            $categories = get_categories();
+            foreach($categories as $category){
+                $recent_post = wp_get_recent_posts(array(
+                        'numberposts' => 1,
+                        'category' => $category->term_id
+                    )
+                );
+                $args = array(
+                    'posts_per_page' => 3,
+                    'category_name' => $category->slug
+                );
+                $posts = get_posts($args);
+        ?>
+                <div class="category_name"><?php echo $category->name; ?></div>
+                <?php
+                foreach($posts as $post){
+                    if(get_the_post_thumbnail($post->ID)){
+                ?>
 
-			/* Start the Loop */
-			while ( have_posts() ) : the_post();
+                    <div class="thumbnail1"><?php echo get_the_post_thumbnail($post->ID, array(32, 32)); ?></div>
+                <?php }
+                ?>
 
-				/*
-				 * Include the Post-Format-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', get_post_format() );
+                    <h1 class="title"><a href="<?php echo $post->guid; ?>"><?php echo $post->post_title; ?></a></h1>
+                    <div class="content"><?php echo getNWordsFromString($post->post_content, 50); ?></div>
+                    <div class="read_more"><a href="<?php echo $post->guid; ?>">Read More</a></div>
 
-			endwhile;
-
-			the_posts_navigation();
-
-		else :
-
-			get_template_part( 'template-parts/content', 'none' );
-
-		endif; ?>
+                <?php
+                }
+            }
+        ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
@@ -46,4 +56,5 @@ get_header(); ?>
 <div class="clearfix"></div>
 
 <?php
+get_sidebar();
 get_footer();
