@@ -1,0 +1,117 @@
+.blog-site{
+	font-size: 15px;
+	a{
+		color: $blue;
+	}
+	padding-top: 112px;
+	.category_name{		
+		color: $white;		
+	    margin-bottom: 20px;	    
+	    span{
+	    	display: inline-block;
+	    	color:$white;
+	    	padding: 5px 20px;
+	    	font-size: 20px;
+	    	border-radius: 0 20px 0 20px;
+	    	// border: 1px solid $blue;
+	    	background: $blue;
+	    	
+	    }
+	}
+	.post-title{
+		font-size: 15px;
+		a{
+			color: $blue;
+		}
+	}
+	.content-text{
+		font-size: 13px;
+	}
+	.read_more{		
+		font-size: 12px;		
+		text-decoration: underline;
+		text-transform: normal;
+	}
+	.recent_post{
+		margin-bottom: 30px;
+		.post-title{
+			font-size: 20px;
+		}
+		.content-text{
+			font-size: 15px;
+		}
+	}	
+	.normal-post-list{
+		margin-bottom: 50px;
+		display: flex;
+		.normal-post{
+			flex: 1;
+			display: flex;
+			align-items: flex-start;			
+			.thumbnail1{				
+				width: 100px;
+				margin-right: 10px;
+				flex: 1 0 auto;
+			}
+			.post-title{
+				margin: 0;
+			}
+			.post-infor{
+
+			}
+		}
+	}
+
+	//side bar
+	.blog-sidebar{
+		padding-top: 58px;
+		.widget{
+			.widget-title{
+				display: inline-block;
+		    	color:#666;
+		    	padding: 8px 20px;
+		    	font-size: 20px;
+		    	border-radius: 0 20px 0 20px ;
+		    	border: 1px solid $dark-grey2;		    	
+		    	font-size: 18px;
+		    	font-weight: normal;
+		    	margin-bottom: 0;
+			}
+			ul{
+				padding-left: 20px;
+				padding-top: 10px;
+				li{
+					margin-bottom: 5px;
+				}
+			}
+			.tagcloud{
+				padding-left: 20px;
+				padding-top: 10px;
+				a{
+					background: $blue;
+					color: $white;
+					margin-right: 5px;
+					display: inline-block;
+					padding: 1px 5px;
+					border-radius: 3px;
+				}
+			}
+			.search-form{				
+		    	display: block;
+		    	color:$white;
+		    	padding: 10px 20px 20px 20px;		    	
+		    	border-radius: 0 20px 0 20px;		    	
+		    	background: $blue;
+				label{
+					font-weight: normal
+				}
+				input[type="search"]{
+					margin: 5px 0;
+				}
+				.screen-reader-text{
+					font-size: 18px;
+				}
+			}
+		}
+	}
+}

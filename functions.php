@@ -230,6 +230,6 @@ function getNWordsFromString($text,$numberOfWords = 6)
         }
         return $text;
     }
-    return "";
+    return "huongtt";
 }
 

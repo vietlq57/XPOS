@@ -13,9 +13,9 @@
  */
 
 get_header(); ?>
-<div id="content" class="site-content container">
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+<div id="content" class="blog-site site-content container">
+    <div id="primary" class="col-sm-9 content-area">
+        <main id="main" class="site-main" role="main">
         <?php
             $categories = get_categories();
             foreach($categories as $category){
@@ -30,31 +30,61 @@ get_header(); ?>
                 );
                 $posts = get_posts($args);
         ?>
-                <div class="category_name"><?php echo $category->name; ?></div>
+                <div class="category_name"><span><?php echo $category->name; ?></span></div>
+                <div class="recent_post">
+                    <?php
+                    if(get_the_post_thumbnail($recent_post->ID)){ ?>
+                        <div class="thumbnail-recent"><?php echo get_the_post_thumbnail($recent_post->ID); ?></div>
+                    <?php } ?>
+                    <h3 class="post-title"><a href="<?php echo $recent_post->guid; ?>">Where does it come from?<?php echo $recent_post->post_title; ?></a></h3>
+                    <div class="content-text">
+                        <?php echo getNWordsFromString($recent_post->post_content, 20); ?>
+                        <a  class="read_more" href="<?php echo $recent_post->guid; ?>">Read More</a>
+                    </div>
+                </div>
+                <div class="normal-post-list row">
                 <?php
-                foreach($posts as $post){
-                    if(get_the_post_thumbnail($post->ID)){
+                foreach($posts as $k => $post){
+                    
                 ?>
-
-                    <div class="thumbnail1"><?php echo get_the_post_thumbnail($post->ID, array(32, 32)); ?></div>
-                <?php }
-                ?>
-
-                    <h1 class="title"><a href="<?php echo $post->guid; ?>"><?php echo $post->post_title; ?></a></h1>
-                    <div class="content"><?php echo getNWordsFromString($post->post_content, 50); ?></div>
-                    <div class="read_more"><a href="<?php echo $post->guid; ?>">Read More</a></div>
-
+                
                 <?php
+                    if($k!=0) { ?>
+                        
+                            <div class="col-sm-6 normal-post">
+                        <?php
+                            if (get_the_post_thumbnail($post->ID)) {
+                                ?>
+
+                                <div class="thumbnail1"><?php echo get_the_post_thumbnail($post->ID, array(32, 32)); ?></div>
+                            <?php }
+                            ?>
+                                <div class="post-infor">
+                                    <h3 class="post-title"><a href="<?php echo $post->guid; ?>"><?php echo $post->post_title; ?></a></h3>
+                                    <div class="content-text">
+                                        <?php echo getNWordsFromString($post->post_content, 20); ?>
+                                        <a class="read_more" href="<?php echo $post->guid; ?>">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        <?php
+                    }
                 }
+                ?>
+                </div>
+                <?php
             }
         ?>
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
+        </main><!-- #main -->
+    </div><!-- #primary -->
+    <div class="col-sm-3 blog-sidebar">
+    <?php get_sidebar();?>
+    </div>
 </div>
 
-<div class="clearfix"></div>
+
 
 <?php
-get_sidebar();
 get_footer();

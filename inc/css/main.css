@@ -7380,4 +7380,113 @@ footer .bottom-note p {
   font-weight: 300;
 }
 
+.blog-site {
+  font-size: 15px;
+  padding-top: 112px;
+}
+.blog-site a {
+  color: #2db9b0;
+}
+.blog-site .category_name {
+  color: white;
+  margin-bottom: 20px;
+}
+.blog-site .category_name span {
+  display: inline-block;
+  color: white;
+  padding: 5px 20px;
+  font-size: 20px;
+  border-radius: 0 20px 0 20px;
+  background: #2db9b0;
+}
+.blog-site .post-title {
+  font-size: 15px;
+}
+.blog-site .post-title a {
+  color: #2db9b0;
+}
+.blog-site .content-text {
+  font-size: 13px;
+}
+.blog-site .read_more {
+  font-size: 12px;
+  text-decoration: underline;
+  text-transform: normal;
+}
+.blog-site .recent_post {
+  margin-bottom: 30px;
+}
+.blog-site .recent_post .post-title {
+  font-size: 20px;
+}
+.blog-site .recent_post .content-text {
+  font-size: 15px;
+}
+.blog-site .normal-post-list {
+  margin-bottom: 50px;
+  display: flex;
+}
+.blog-site .normal-post-list .normal-post {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+}
+.blog-site .normal-post-list .normal-post .thumbnail1 {
+  width: 100px;
+  margin-right: 10px;
+  flex: 1 0 auto;
+}
+.blog-site .normal-post-list .normal-post .post-title {
+  margin: 0;
+}
+.blog-site .blog-sidebar {
+  padding-top: 58px;
+}
+.blog-site .blog-sidebar .widget .widget-title {
+  display: inline-block;
+  color: #666;
+  padding: 8px 20px;
+  font-size: 20px;
+  border-radius: 0 20px 0 20px;
+  border: 1px solid #8f949a;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+.blog-site .blog-sidebar .widget ul {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.blog-site .blog-sidebar .widget ul li {
+  margin-bottom: 5px;
+}
+.blog-site .blog-sidebar .widget .tagcloud {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.blog-site .blog-sidebar .widget .tagcloud a {
+  background: #2db9b0;
+  color: white;
+  margin-right: 5px;
+  display: inline-block;
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+.blog-site .blog-sidebar .widget .search-form {
+  display: block;
+  color: white;
+  padding: 10px 20px 20px 20px;
+  border-radius: 0 20px 0 20px;
+  background: #2db9b0;
+}
+.blog-site .blog-sidebar .widget .search-form label {
+  font-weight: normal;
+}
+.blog-site .blog-sidebar .widget .search-form input[type="search"] {
+  margin: 5px 0;
+}
+.blog-site .blog-sidebar .widget .search-form .screen-reader-text {
+  font-size: 18px;
+}
+
 /*# sourceMappingURL=main.css.map */
