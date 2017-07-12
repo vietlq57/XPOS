@@ -5820,7 +5820,7 @@ textarea {
   font-size: 64px;
   position: absolute;
   bottom: 0;
-  color: #333;
+  color: #666;
 }
 .listradio-container .listradio-wrap ul li:first-of-type label:before {
   content: "\e903";
