@@ -6,7 +6,7 @@
 get_header(); ?>
 
 <div id="content" class="site-content container">
-    <div id="primary" class="content-area">
+    <div id="primary" class="col-sm-9 content-area">
         <main id="main" class="site-main" role="main">
             <?php
                 $args1 = array(
@@ -42,6 +42,9 @@ get_header(); ?>
 
         </main><!-- #main -->
     </div><!-- #primary -->
+    <div class="col-sm-3 blog-sidebar">
+    <?php get_sidebar();?>
+    </div>
 </div>
 <div class="clearfix"></div>
 <?php get_footer(); ?>

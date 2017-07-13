@@ -13,7 +13,7 @@
  */
 
 get_header(); ?>
-<div id="content" class="blog-site site-content container">
+<div id="content" class="blog-index site-content container">
     <div id="primary" class="col-sm-9 content-area">
         <main id="main" class="site-main" role="main">
         <?php
