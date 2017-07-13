@@ -33,13 +33,13 @@ get_header(); ?>
                 <div class="category_name"><span><?php echo $category->name; ?></span></div>
                 <div class="recent_post">
                     <?php
-                    if(get_the_post_thumbnail($recent_post->ID)){ ?>
-                        <div class="thumbnail-recent"><?php echo get_the_post_thumbnail($recent_post->ID); ?></div>
+                    if(get_the_post_thumbnail($recent_post[0]["ID"])){ ?>
+                        <div class="thumbnail-recent"><?php echo get_the_post_thumbnail($recent_post[0]["ID"]); ?></div>
                     <?php } ?>
-                    <h3 class="post-title"><a href="<?php echo $recent_post->guid; ?>">Where does it come from?<?php echo $recent_post->post_title; ?></a></h3>
+                    <h3 class="post-title"><a href="<?php echo $recent_post[0]["guid"]; ?>"><?php echo $recent_post[0]["post_title"]; ?><?php echo $recent_post->post_title; ?></a></h3>
                     <div class="content-text">
-                        <?php echo getNWordsFromString($recent_post->post_content, 20); ?>
-                        <a  class="read_more" href="<?php echo $recent_post->guid; ?>">Read More</a>
+                        <?php echo getNWordsFromString($recent_post[0]["post_content"], 20); ?>
+                        <a  class="read_more" href="<?php echo $recent_post[0]["guid"]; ?>">Read More</a>
                     </div>
                 </div>
                 <div class="normal-post-list row">
