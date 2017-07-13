@@ -2206,8 +2206,8 @@ textarea {
 @include sm{
     .container{
         width: 100%;
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .video-tabs > row{
         display: flex;
@@ -2221,10 +2221,7 @@ textarea {
     }
 }
 @include tablet-ver{
-    .container{        
-        padding-left: 5%;
-        padding-right: 5%;
-    }
+    
     header .main-menu .navbar-default .navbar-header{
         float: none;
         text-align: center;

@@ -8,7 +8,7 @@
  */
 
 get_header(); ?>
-<div id="content" class="site-content container">
+<div id="content" class="site-content container ">
 	<section id="primary" class="col-sm-9 content-area">
 		<main id="main" class="site-main" role="main">
 

@@ -1,4 +1,4 @@
-<?php
+s<?php
 /**
  * Template Name: Front Page
  */

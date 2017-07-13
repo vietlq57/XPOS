@@ -60,7 +60,7 @@ header.header {
                     }
                 }
             }
-            .navbar-right {
+            .navbar-right {                
                 @include xs {
                     float: right;
                 }
@@ -81,6 +81,14 @@ header.header {
         .navbar-default {
             background-color: white;
             padding: 16px 0;
+            @include tablet-ver{
+                .navbar-right{
+                    width: 592px;
+                    margin: 0 auto;
+                    float: none !important;
+                }
+            }
+            
             li {
                 a {
                     font-size: 14px;

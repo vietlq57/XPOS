@@ -1,5 +1,5 @@
 .site-content{
-	padding-top: 112px;
+	padding-top: 140px;
 	font-size: 15px;
 	color: #333;
 
@@ -44,6 +44,9 @@
 
 	.content-area{
 		padding-right: 50px;
+		@include sm{
+			padding-right: 15px; 
+		}
 	}
 	.category_name{		
 		color: $white;		
@@ -88,9 +91,12 @@
 	    border-bottom: 1px solid #eee;
 		display: flex;
 		.normal-post{
+			
 			flex: 1;
 			display: flex;
-			align-items: flex-start;			
+			align-items: flex-start;	
+		
+					
 			.thumbnail1{				
 				width: 100px;
 				margin-right: 10px;

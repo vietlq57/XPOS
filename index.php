@@ -13,7 +13,7 @@
  */
 
 get_header(); ?>
-<div id="content" class="blog-index site-content container">
+<div id="content" class="blog-index site-content container ">
     <div id="primary" class="col-sm-9 content-area">
         <main id="main" class="site-main" role="main">
         <?php
@@ -38,7 +38,7 @@ get_header(); ?>
                     <?php } ?>
                     <h3 class="post-title"><a href="<?php echo $recent_post[0]["guid"]; ?>"><?php echo $recent_post[0]["post_title"]; ?><?php echo $recent_post->post_title; ?></a></h3>
                     <div class="content-text">
-                        <?php echo getNWordsFromString($recent_post[0]["post_content"], 20); ?>
+                        <?php echo getNWordsFromString($recent_post[0]["post_content"], 80); ?>
                         <a  class="read_more" href="<?php echo $recent_post[0]["guid"]; ?>">Read More</a>
                     </div>
                 </div>
@@ -51,7 +51,7 @@ get_header(); ?>
                 <?php
                     if($k!=0) { ?>
                         
-                            <div class="col-sm-6 normal-post">
+                            <div class="col-md-6 normal-post">
                         <?php
                             if (get_the_post_thumbnail($post->ID)) {
                                 ?>

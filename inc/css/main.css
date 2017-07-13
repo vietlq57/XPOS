@@ -5707,8 +5707,8 @@ textarea {
 @media (min-width: 768px) and (max-width: 1024px) {
   .container {
     width: 100%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .video-tabs > row {
@@ -5724,11 +5724,6 @@ textarea {
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-  .container {
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-
   header .main-menu .navbar-default .navbar-header {
     float: none;
     text-align: center;
@@ -5919,6 +5914,13 @@ header.header .navbar-default {
 header.header .main-menu .navbar-default {
   background-color: white;
   padding: 16px 0;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  header.header .main-menu .navbar-default .navbar-right {
+    width: 592px;
+    margin: 0 auto;
+    float: none !important;
+  }
 }
 header.header .main-menu .navbar-default li a {
   font-size: 14px;
@@ -7381,7 +7383,7 @@ footer .bottom-note p {
 }
 
 .site-content {
-  padding-top: 112px;
+  padding-top: 140px;
   font-size: 15px;
   color: #333;
 }
@@ -7422,6 +7424,11 @@ footer .bottom-note p {
 }
 .site-content .content-area {
   padding-right: 50px;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .site-content .content-area {
+    padding-right: 15px;
+  }
 }
 .site-content .category_name {
   color: white;
