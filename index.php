@@ -17,7 +17,10 @@ get_header(); ?>
     <div id="primary" class="col-sm-9 content-area">
         <main id="main" class="site-main" role="main">
         <?php
-            $categories = get_categories();
+            $categories = get_categories(array(
+                    'parent' => 0,
+                    'hide_empty' => 0
+                                         ));
             foreach($categories as $category){
                 $recent_post = wp_get_recent_posts(array(
                         'numberposts' => 1,
