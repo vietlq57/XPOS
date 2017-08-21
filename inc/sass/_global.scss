@@ -1,7 +1,7 @@
 @import "mixin.scss";
 body {
     letter-spacing: 0.01em;
-    font-weight: 400;
+    font-weight: 400;        
 }
 
 ul {
@@ -2048,56 +2048,7 @@ textarea {
     margin-bottom: 20px;
 }
 
-.modal-backdrop {
-    background-color: #2b2d2d;
-    &.in {
-        opacity: 1;
-    }
-}
 
-.modal {
-    .modal-dialog {
-        width: auto;
-        max-width: 650px;
-    }
-    .close {
-        font-size: 60px;
-        color: $blue;
-        position: absolute;
-        top: -15px;
-        right: -80px;
-        opacity: 1;
-        text-shadow: none;
-        @include xs {
-            right: 0;
-        }
-        @include sm {
-            right: 0;
-        }
-    }
-    .modal-header {
-        border: none;
-        padding: 47px 0 35px;
-    }
-    .modal-title {
-        color: $white;
-        font-size: 30px;
-        text-align: center;
-    }
-    .modal-content {
-        background-color: transparent;
-        box-shadow: none;
-        border: none;
-    }
-    .modal-body {
-        padding: 15px 40px 0;
-    }
-    .modal-footer {
-        border: none;
-        padding-left: 40px;
-        padding-right: 40px;
-    }
-}
 
 .bootstrap-select > .dropdown-toggle {
     padding-top: 12px;
@@ -2339,4 +2290,7 @@ textarea {
     }
     
     
+}
+.css-hide{
+    display: none;
 }

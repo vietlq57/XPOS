@@ -135,6 +135,46 @@
     transition: all $time ease;
 }
 
+//position
+@mixin ver-pos {
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+@mixin hoz-pos {
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+@mixin center-pos {
+  top: 50%; left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+@mixin no-pos {
+  top: auto; left: auto;
+  -ms-transform: translate(0,0);
+  -webkit-transform: translate(0,0);
+  transform: translate(0,0);
+}
+@mixin pos($x,$y) {
+  top: $y; left: $x;
+  -ms-transform: translate(-$x,-$y);
+  -webkit-transform: translate(-$x,-$y);
+  transform: translate(-$x,-$y);
+}
+
+// placeholder
+@mixin placeholder($color,$font-family){
+  &::-webkit-input-placeholder {color:$color; opacity: 1; font-family:$font-family}
+  &:-moz-placeholder {/*Firefox 18-*/ color: $color; opacity: 1; font-family: $font-family}
+  &::-moz-placeholder {/*Firefox 19+*/ color: $color; opacity: 1; font-family: $font-family}
+  &:-ms-input-placeholder {color: $color; opacity: 1;  font-family: $font-family}
+}
+
 // Breakpoint
 $lg-width: 1200px;
 $md-width: 1025px;
@@ -142,6 +182,11 @@ $sm-width: 768px;
 $xxs-width: 481px;
 @mixin lg {
     @media screen and (min-width: #{$lg-width}) {
+        @content;
+    }
+}
+@mixin min-md {
+    @media screen and (min-width: #{$md-width - 1px}) {
         @content;
     }
 }
@@ -185,6 +230,7 @@ $xxs-width: 481px;
         @content;
     }
 }
+
 
 @mixin tablet {
     @media (min-width: #{$sm-width}) and (max-width: #{$md-width - 1px}) {

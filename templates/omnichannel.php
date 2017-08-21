@@ -5,10 +5,187 @@
 
 get_header(); ?>
 
+<!-- Trigger the modal with a button -->
+
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog popups">
+
+    <!-- Modal content -->
+    <div class="modal-content">  
+     <!-- Popup login     -->
+      <div class="modal-body popup-login css-hide">
+        <div class="img-hero">
+            <div class="text">
+                <h2>
+                    Win clients' hearts with the world-class <span class="nowrap">Magento POS</span>
+                </h2>
+            </div>
+            <div class="form-signup">                
+                <form>               
+                    <h3 >
+                        Sign up now
+                    </h3>
+                    <p class="desc">
+                        Enter your infomation below and submit to join our worldwide agency network
+                    </p>     
+                  <div class="form-group">                    
+                    <input type="text" class="form-control" placeholder="Full Name">
+                  </div>
+                  <div class="form-group">                    
+                    <input type="email" class="form-control"  placeholder="Email Address">
+                  </div>
+                  <div class="form-group">                    
+                    <input type="text" class="form-control" placeholder="Phone Number">
+                  </div>
+                  <div class="form-group">                    
+                    <select class="form-control" placeholder>
+                        <option selected>Choose...</option>
+                        <option value="1">Country</option>
+                        <option value="2">Country 1</option>
+                        <option value="3">Country 2</option>
+                      </select>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Become our agency</button>
+                </form>
+                <div class="bottom-link">
+                    <a href="#">
+                        Terms of Use
+                    </a>
+                    <a href="#">&nbsp; |&nbsp;
+                       Privacy Policy
+                    </a>                    
+                    <p>©2017 ConnectPOS</p>
+                </div>
+            </div>
+            <img src="<?php echo(get_template_directory_uri()); ?>/inc/images/popups/login-hero.jpg" alt="login-hero">
+        </div>
+        <div class="partners">
+            <ul>
+                <li>
+                    <a>
+                        <img src="<?php echo(get_template_directory_uri()); ?>/inc/images/popups/logo-partner-02.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <img src="<?php echo(get_template_directory_uri()); ?>/inc/images/popups/logo-partner-03.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <img src="<?php echo(get_template_directory_uri()); ?>/inc/images/popups/logo-partner-04.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <img src="<?php echo(get_template_directory_uri()); ?>/inc/images/popups/logo-partner-05.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <img src="<?php echo(get_template_directory_uri()); ?>/inc/images/popups/logo-partner-06.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <img src="<?php echo(get_template_directory_uri()); ?>/inc/images/popups/logo-partner-07.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <img src="<?php echo(get_template_directory_uri()); ?>/inc/images/popups/logo-partner-08.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+      </div> 
+
+
+      
+      <!-- Celebrate with us -->
+      <div class="modal-body popup-celebrate css-hide">
+        <div class="celebrate-content">
+            <div class="text">
+                <h3>Celebrate with us!</h3>
+                <div class="desc">
+                    To celebrate the official launch of ConnectPOS, we offer<span class="discount-num"> 15% discount</span> <br />
+                    on ConnectPOS for a limited time. 
+                    <p>Register for a FREE Trial now and get your discount code!</p>
+
+                </div>
+                <button class="btn btn-primary">Register Now</button>
+            </div>
+            <ul class="exp-datetime">
+                <li>
+                    <span class="number">6</span>
+                    <span class="label">Days</span>
+                </li>
+                <li>
+                    <span class="number">12</span>
+                    <span class="label">Hours</span>
+                </li>
+                <li>
+                    <span class="number">32</span>
+                    <span class="label">Minutes</span>
+                </li>
+                <li>
+                    <span class="number">24</span>
+                    <span class="label">Seconds</span>
+                </li>
+            </ul>
+
+        </div>
+        <div class="img-bg">            
+            <img src="<?php echo(get_template_directory_uri()); ?>/inc/images/popups/celebrate.jpg" alt="celebrate">
+        </div>        
+      </div>
+
+      <!-- Discover popup -->
+      <div class="modal-body popup-discover css-hide ">
+        <div class="celebrate-content">
+            <div class="text">
+                <h3>Discover the first <span class="nowrap">Magento POS</span> for Omnichannel</h3>
+                <div class="desc">
+                    Compatible with Magento 1 and 2. Powerful features for physical stores. Real time synchronization for a truly omnichannel experience.
+                    <p>Explore ConnectPOS today and get a FREE trial, plus a special offer!</p>
+
+                </div>
+                <button class="btn btn-primary">Learn more</button>
+            </div>            
+
+        </div>
+        <div class="img-bg">            
+            <img src="<?php echo(get_template_directory_uri()); ?>/inc/images/popups/discover.jpg" alt="celebrate">
+        </div>        
+      </div>
+
+      <!-- Congratulations popup -->
+      <div class="modal-body popup-congratulations">
+        <div class="content">
+            <img src="<?php echo(get_template_directory_uri()); ?>/inc/images/popups/Congratulations.jpg" alt="celebrate">
+            <br />
+            <h3>Congratulations</h3>
+            <div class="desc">
+                <p>You are the <span class="x">X</span> to register. You have won one month free trial and a one-year license of Multi-Outlet plan.
+                </p>
+
+                <p>Our sales rep will reach out to you soon with more details. For now, you can go back our website to learn more about ConnectPOS
+                </p>
+            </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
     <div class="banner">
         <div class="hero-img" style="background-image: url('<?php echo(get_template_directory_uri()); ?>/inc/images/omnichannel-hero-banner.jpg');"><img class="hidden" src="<?php echo(get_template_directory_uri()); ?>/inc/images/omnichannel-hero-banner.jpg" alt="">
             <div class="content text-center">
-                <h1>Omnichannel Features</h1>
+                <h1>Omnichannel Features</h1><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
                 <div></div>
             </div>
         </div>
@@ -178,6 +355,8 @@ get_header(); ?>
             </div>
         </section>
     </div>
+
+
 
 <?php
 get_footer();
