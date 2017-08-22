@@ -8,25 +8,25 @@ get_header(); ?>
 <!-- Trigger the modal with a button -->
 
 
-<!-- Modal -->
-<div id="myModal" class="modal fade" role="dialog">
+<!-- Login moda;-->
+<div id="popLogin" class="modal fade" role="dialog">
   <div class="modal-dialog popups">
-
     <!-- Modal content -->
     <div class="modal-content">  
      <!-- Popup login     -->
-      <div class="modal-body popup-login css-hide">
+      <div class="modal-body popup-login">
         <div class="img-hero">
             <div class="text">
                 <h2>
                     Win clients' hearts with the world-class <span class="nowrap">Magento POS</span>
                 </h2>
             </div>
-            <div class="form-signup">                
-                <form>               
-                    <h3 >
+            <div class="form-signup"> 
+                <h3>
                         Sign up now
-                    </h3>
+                </h3>               
+                <form>               
+                    
                     <p class="desc">
                         Enter your infomation below and submit to join our worldwide agency network
                     </p>     
@@ -100,93 +100,112 @@ get_header(); ?>
                 </li>
             </ul>
         </div>
-      </div> 
-
-
-      
-      <!-- Celebrate with us -->
-      <div class="modal-body popup-celebrate css-hide">
-        <div class="celebrate-content">
-            <div class="text">
-                <h3>Celebrate with us!</h3>
-                <div class="desc">
-                    To celebrate the official launch of ConnectPOS, we offer<span class="discount-num"> 15% discount</span> <br />
-                    on ConnectPOS for a limited time. 
-                    <p>Register for a FREE Trial now and get your discount code!</p>
-
-                </div>
-                <button class="btn btn-primary">Register Now</button>
-            </div>
-            <ul class="exp-datetime">
-                <li>
-                    <span class="number">6</span>
-                    <span class="label">Days</span>
-                </li>
-                <li>
-                    <span class="number">12</span>
-                    <span class="label">Hours</span>
-                </li>
-                <li>
-                    <span class="number">32</span>
-                    <span class="label">Minutes</span>
-                </li>
-                <li>
-                    <span class="number">24</span>
-                    <span class="label">Seconds</span>
-                </li>
-            </ul>
-
-        </div>
-        <div class="img-bg">            
-            <img src="<?php echo(get_template_directory_uri()); ?>/inc/images/popups/celebrate.jpg" alt="celebrate">
-        </div>        
-      </div>
-
-      <!-- Discover popup -->
-      <div class="modal-body popup-discover css-hide ">
-        <div class="celebrate-content">
-            <div class="text">
-                <h3>Discover the first <span class="nowrap">Magento POS</span> for Omnichannel</h3>
-                <div class="desc">
-                    Compatible with Magento 1 and 2. Powerful features for physical stores. Real time synchronization for a truly omnichannel experience.
-                    <p>Explore ConnectPOS today and get a FREE trial, plus a special offer!</p>
-
-                </div>
-                <button class="btn btn-primary">Learn more</button>
-            </div>            
-
-        </div>
-        <div class="img-bg">            
-            <img src="<?php echo(get_template_directory_uri()); ?>/inc/images/popups/discover.jpg" alt="celebrate">
-        </div>        
-      </div>
-
-      <!-- Congratulations popup -->
-      <div class="modal-body popup-congratulations">
-        <div class="content">
-            <img src="<?php echo(get_template_directory_uri()); ?>/inc/images/popups/Congratulations.jpg" alt="celebrate">
-            <br />
-            <h3>Congratulations</h3>
-            <div class="desc">
-                <p>You are the <span class="x">X</span> to register. You have won one month free trial and a one-year license of Multi-Outlet plan.
-                </p>
-
-                <p>Our sales rep will reach out to you soon with more details. For now, you can go back our website to learn more about ConnectPOS
-                </p>
-            </div>
-        </div>
       </div>
     </div>
-    
-  </div>
+ </div>
+</div>
+
+<!-- Celebrate with us -->
+<div id="popCelebrate" class="modal fade" role="dialog">
+   <div class="modal-dialog popups">
+        <div class="modal-content"> 
+          <div class="modal-body popup-celebrate">
+            <div class="celebrate-content">
+                <div class="text">
+                    <h3>Celebrate with us!</h3>
+                    <div class="desc">
+                        To celebrate the official launch of ConnectPOS, we offer<span class="discount-num"> 15% discount</span> <br />
+                        on ConnectPOS for a limited time. 
+                        <p>Register for a FREE Trial now and get your discount code!</p>
+
+                    </div>
+                    <button class="btn btn-primary">Register Now</button>
+                </div>
+                <ul class="exp-datetime">
+                    <li>
+                        <span class="number">6</span>
+                        <span class="label">Days</span>
+                    </li>
+                    <li>
+                        <span class="number">12</span>
+                        <span class="label">Hours</span>
+                    </li>
+                    <li>
+                        <span class="number">32</span>
+                        <span class="label">Minutes</span>
+                    </li>
+                    <li>
+                        <span class="number">24</span>
+                        <span class="label">Seconds</span>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="img-bg">            
+                <img src="<?php echo(get_template_directory_uri()); ?>/inc/images/popups/celebrate.jpg" alt="celebrate">
+            </div>        
+          </div>
+      </div>
+   </div>
+</div>
+
+<!-- Discover popup -->
+<div id="popDiscover" class="modal fade" role="dialog">
+   <div class="modal-dialog popups">
+        <div class="modal-content"> 
+          <div class="modal-body popup-discover">
+            <div class="celebrate-content">
+                <div class="text">
+                    <h3>Discover the first <span class="nowrap">Magento POS</span> for Omnichannel</h3>
+                    <div class="desc">
+                        Compatible with Magento 1 and 2. Powerful features for physical stores. Real time synchronization for a truly omnichannel experience.
+                        <p>Explore ConnectPOS today and get a FREE trial, plus a special offer!</p>
+
+                    </div>
+                    <button class="btn btn-primary">Learn more</button>
+                </div>            
+            </div>
+            <div class="img-bg">            
+                <img src="<?php echo(get_template_directory_uri()); ?>/inc/images/popups/discover.jpg" alt="celebrate">
+            </div>        
+          </div>
+      </div>
+    </div>
+</div>
+
+<!-- Congratulations popup -->
+<div id="popCongratulations" class="modal fade" role="dialog">
+   <div class="modal-dialog popups">
+        <div class="modal-content"> 
+          <div class="modal-body">
+            <div class="content">
+                <img src="<?php echo(get_template_directory_uri()); ?>/inc/images/popups/Congratulations.jpg" alt="celebrate">
+                <br />
+                <h3>Congratulations</h3>
+                <div class="desc">
+                    <p>You are the <span class="x">X</span> to register. You have won one month free trial and a one-year license of Multi-Outlet plan.
+                    </p>
+
+                    <p>Our sales rep will reach out to you soon with more details. For now, you can go back our website to learn more about ConnectPOS
+                    </p>
+                </div>
+                <button class="btn btn-primary">Back to ConnectPOS</button>
+                
+            </div>
+          </div>
+      </div>
+    </div>
 </div>
 
 
     <div class="banner">
         <div class="hero-img" style="background-image: url('<?php echo(get_template_directory_uri()); ?>/inc/images/omnichannel-hero-banner.jpg');"><img class="hidden" src="<?php echo(get_template_directory_uri()); ?>/inc/images/omnichannel-hero-banner.jpg" alt="">
             <div class="content text-center">
-                <h1>Omnichannel Features</h1><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
-                <div></div>
+                <h1>Omnichannel Features</h1>
+                <a data-toggle="modal" data-target="#popLogin">Login</a> ||
+                <a data-toggle="modal" data-target="#popCelebrate">Celebrate</a> ||
+                <a data-toggle="modal" data-target="#popDiscover">Discover</a> ||
+                <a data-toggle="modal" data-target="#popCongratulations">Congratulations</a>
             </div>
         </div>
     </div>

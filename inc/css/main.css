@@ -9094,7 +9094,13 @@ footer .bottom-note p {
   font-size: 18px;
 }
 
-/* line 3, _popup.scss */
+@media screen and (max-width: 1023px) {
+  /* line 2, _popup.scss */
+  .modal.in {
+    z-index: 99999999;
+  }
+}
+/* line 6, _popup.scss */
 .modal.in .modal-dialog {
   position: absolute;
   top: 50%;
@@ -9102,8 +9108,17 @@ footer .bottom-note p {
   -ms-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  top: 45%;
 }
-/* line 6, _popup.scss */
+@media screen and (max-width: 1023px) {
+  /* line 6, _popup.scss */
+  .modal.in .modal-dialog {
+    width: 90%;
+    max-width: 600px;
+    margin: 0;
+  }
+}
+/* line 15, _popup.scss */
 .modal.in .modal-dialog .close {
   font-size: 60px;
   color: #2db9b0;
@@ -9114,28 +9129,40 @@ footer .bottom-note p {
   text-shadow: none;
 }
 @media screen and (max-width: 767px) {
-  /* line 6, _popup.scss */
+  /* line 15, _popup.scss */
   .modal.in .modal-dialog .close {
     right: 0;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-  /* line 6, _popup.scss */
+  /* line 15, _popup.scss */
   .modal.in .modal-dialog .close {
     right: 0;
   }
 }
-/* line 25, _popup.scss */
+@media screen and (min-width: 1024px) {
+  /* line 32, _popup.scss */
+  .modal.in .modal-dialog.popups {
+    width: 980px;
+  }
+}
+/* line 37, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-header, .modal.in .modal-dialog.popups .modal-content .modal-footer {
   display: none;
 }
-/* line 28, _popup.scss */
+/* line 40, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body {
   padding: 0;
   border-radius: 5px;
   overflow: auto;
 }
-/* line 32, _popup.scss */
+@media screen and (max-width: 1023px) {
+  /* line 40, _popup.scss */
+  .modal.in .modal-dialog.popups .modal-content .modal-body {
+    max-height: 90vh;
+  }
+}
+/* line 47, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body button {
   width: 100%;
   padding: 10px;
@@ -9144,26 +9171,39 @@ footer .bottom-note p {
   margin-top: 0;
   width: auto;
 }
-/* line 40, _popup.scss */
+/* line 55, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body .nowrap {
   white-space: nowrap;
 }
-/* line 45, _popup.scss */
+@media screen and (max-width: 1023px) {
+  /* line 59, _popup.scss */
+  .modal.in .modal-dialog.popups .modal-content .modal-body .img-bg {
+    opacity: .05;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  /* line 64, _popup.scss */
+  .modal.in .modal-dialog.popups .modal-content .modal-body .img-bg img {
+    position: absolute;
+  }
+}
+/* line 69, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body.popup-login .img-hero {
   position: relative;
 }
-/* line 47, _popup.scss */
+/* line 71, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body.popup-login .img-hero .text {
   position: absolute;
   top: 50%;
   -ms-transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.45);
   right: 360px;
   width: calc(100% - 360px);
 }
-/* line 53, _popup.scss */
+/* line 77, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body.popup-login .img-hero .text h2 {
   color: white;
   font-size: 43px;
@@ -9174,17 +9214,28 @@ footer .bottom-note p {
   text-align: right;
   margin: 20px 0;
 }
-/* line 66, _popup.scss */
+@media screen and (max-width: 1023px) {
+  /* line 71, _popup.scss */
+  .modal.in .modal-dialog.popups .modal-content .modal-body.popup-login .img-hero .text {
+    display: none;
+  }
+}
+/* line 92, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body.popup-login .img-hero img {
   width: 100%;
   -webkit-border-radius: 5px 5px 0 0;
   -moz-border-radius: 5px 5px 0 0;
   border-radius: 5px 5px 0 0;
 }
-/* line 71, _popup.scss */
+@media screen and (max-width: 1023px) {
+  /* line 92, _popup.scss */
+  .modal.in .modal-dialog.popups .modal-content .modal-body.popup-login .img-hero img {
+    display: none;
+  }
+}
+/* line 101, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body.popup-login .form-signup {
   background: white;
-  padding: 10px 30px 10px;
   color: #666;
   position: absolute;
   right: 30px;
@@ -9196,18 +9247,24 @@ footer .bottom-note p {
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 82, _popup.scss */
+/* line 110, _popup.scss */
+.modal.in .modal-dialog.popups .modal-content .modal-body.popup-login .form-signup form {
+  padding: 10px 30px 10px;
+}
+/* line 113, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body.popup-login .form-signup h3 {
   font-size: 20px;
   text-transform: uppercase;
   color: #2db9b0;
   font-weight: 700;
+  padding: 10px 30px 0;
+  margin-bottom: 0;
 }
-/* line 88, _popup.scss */
+/* line 122, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body.popup-login .form-signup .desc {
   font-size: 13px;
 }
-/* line 92, _popup.scss */
+/* line 126, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body.popup-login .form-signup .form-control {
   font-size: 14px;
   height: 40px;
@@ -9239,17 +9296,43 @@ footer .bottom-note p {
   opacity: 1;
   font-family: Montserrat;
 }
-/* line 100, _popup.scss */
+/* line 133, _popup.scss */
+.modal.in .modal-dialog.popups .modal-content .modal-body.popup-login .form-signup button {
+  width: 100%;
+}
+/* line 137, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body.popup-login .form-signup .bottom-link {
   text-align: center;
   margin-top: 10px;
+  margin-bottom: 30px;
 }
-/* line 101, _popup.scss */
+/* line 138, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body.popup-login .form-signup .bottom-link *, .modal.in .modal-dialog.popups .modal-content .modal-body.popup-login .form-signup .bottom-link a {
   color: #999;
   font-size: 12px;
 }
-/* line 106, _popup.scss */
+@media screen and (max-width: 1023px) {
+  /* line 101, _popup.scss */
+  .modal.in .modal-dialog.popups .modal-content .modal-body.popup-login .form-signup {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    position: static;
+    width: 100%;
+  }
+  /* line 148, _popup.scss */
+  .modal.in .modal-dialog.popups .modal-content .modal-body.popup-login .form-signup form, .modal.in .modal-dialog.popups .modal-content .modal-body.popup-login .form-signup h3 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  /* line 152, _popup.scss */
+  .modal.in .modal-dialog.popups .modal-content .modal-body.popup-login .form-signup h3 {
+    color: white;
+    background: #2db9b0;
+    margin: 0;
+    padding: 20px;
+  }
+}
+/* line 160, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body.popup-login .partners {
   background: #e6e6e6;
   height: 130px;
@@ -9264,34 +9347,40 @@ footer .bottom-note p {
   display: table;
   clear: both;
 }
-/* line 113, _popup.scss */
+/* line 167, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body.popup-login .partners ul li {
   float: left;
   padding: 10px 15px;
   cursor: pointer;
 }
-/* line 123, _popup.scss */
+@media screen and (max-width: 1023px) {
+  /* line 160, _popup.scss */
+  .modal.in .modal-dialog.popups .modal-content .modal-body.popup-login .partners {
+    display: none;
+  }
+}
+/* line 181, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body .celebrate-content {
   position: absolute;
   bottom: 40px;
   right: 70px;
   text-align: right;
 }
-/* line 128, _popup.scss */
+/* line 186, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body .celebrate-content .text {
   font-size: 16px;
   color: #333;
   line-height: 1.7;
   margin-bottom: 60px;
 }
-/* line 134, _popup.scss */
+/* line 192, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body .celebrate-content .text h3 {
   font-size: 46px;
   font-weight: 300;
   color: #2db9b0;
   margin-bottom: 30px;
 }
-/* line 140, _popup.scss */
+/* line 198, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body .celebrate-content .text .discount-num {
   font-weight: 700;
   display: inline-block;
@@ -9299,7 +9388,7 @@ footer .bottom-note p {
   z-index: 1;
   padding-left: 15px;
 }
-/* line 146, _popup.scss */
+/* line 204, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body .celebrate-content .text .discount-num:after {
   background: url(../images/popups/discount.png) no-repeat;
   content: "";
@@ -9310,15 +9399,15 @@ footer .bottom-note p {
   left: 0;
   z-index: -1;
 }
-/* line 158, _popup.scss */
+/* line 216, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body .celebrate-content .text p {
-  margin-top: 10px;
+  margin-top: 20px;
   font-size: 16px;
   color: #333;
   line-height: 1.5;
   font-weight: 400;
 }
-/* line 165, _popup.scss */
+/* line 223, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body .celebrate-content .text button {
   min-width: 150px;
   padding: 10px;
@@ -9330,83 +9419,184 @@ footer .bottom-note p {
   display: table;
   clear: both;
 }
-/* line 173, _popup.scss */
+/* line 231, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body .celebrate-content .exp-datetime li {
   padding: 0 20px;
   border-right: 1px solid #eeeeee;
   text-align: center;
   display: inline-block;
 }
-/* line 178, _popup.scss */
+/* line 236, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body .celebrate-content .exp-datetime li:last-of-type {
   border-right: none;
   padding-right: 0;
 }
-/* line 179, _popup.scss */
+/* line 237, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body .celebrate-content .exp-datetime li span {
   display: block;
 }
-/* line 181, _popup.scss */
+/* line 239, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body .celebrate-content .exp-datetime li span.number {
   font-size: 28px;
   color: #2db9b0;
   font-weight: 400;
 }
-/* line 186, _popup.scss */
+/* line 244, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body .celebrate-content .exp-datetime li span.label {
   color: #999;
   font-size: 12px;
   font-weight: 400;
 }
-/* line 198, _popup.scss */
+@media screen and (max-width: 1023px) {
+  /* line 181, _popup.scss */
+  .modal.in .modal-dialog.popups .modal-content .modal-body .celebrate-content {
+    text-align: center;
+    width: 89%;
+    position: static;
+    margin: 40px auto 30px;
+  }
+  /* line 258, _popup.scss */
+  .modal.in .modal-dialog.popups .modal-content .modal-body .celebrate-content .text {
+    margin-bottom: 40px;
+  }
+  /* line 260, _popup.scss */
+  .modal.in .modal-dialog.popups .modal-content .modal-body .celebrate-content .text h3 {
+    font-weight: 800;
+    font-size: 26px;
+    color: #2db9b0;
+  }
+  /* line 265, _popup.scss */
+  .modal.in .modal-dialog.popups .modal-content .modal-body .celebrate-content .text .discount-num {
+    margin: 5px 0;
+  }
+}
+@media screen and (max-width: 1023px) and (max-width: 480px) {
+  /* line 270, _popup.scss */
+  .modal.in .modal-dialog.popups .modal-content .modal-body .celebrate-content .exp-datetime li {
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width: 1023px) and (max-width: 480px) {
+  /* line 270, _popup.scss */
+  .modal.in .modal-dialog.popups .modal-content .modal-body .celebrate-content .exp-datetime li {
+    padding: 0 2px;
+  }
+}
+
+/* line 285, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body.popup-discover {
   text-align: right;
 }
-/* line 200, _popup.scss */
+/* line 287, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body.popup-discover .celebrate-content {
   text-align: left;
   right: inherit;
   left: 70px;
   width: 650px;
 }
-/* line 206, _popup.scss */
+/* line 293, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body.popup-discover .celebrate-content .text {
   color: #666;
 }
-/* line 208, _popup.scss */
+/* line 295, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body.popup-discover .celebrate-content .text h3 {
   color: #666;
   font-size: 42px;
 }
-/* line 212, _popup.scss */
+/* line 299, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body.popup-discover .celebrate-content .text p {
   color: #666;
 }
-/* line 215, _popup.scss */
+/* line 302, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body.popup-discover .celebrate-content .desc {
   padding-right: 70px;
   margin-bottom: 20px;
 }
-/* line 220, _popup.scss */
+@media screen and (max-width: 1023px) {
+  /* line 287, _popup.scss */
+  .modal.in .modal-dialog.popups .modal-content .modal-body.popup-discover .celebrate-content {
+    width: 89%;
+  }
+  /* line 305, _popup.scss */
+  .modal.in .modal-dialog.popups .modal-content .modal-body.popup-discover .celebrate-content .text {
+    text-align: center;
+  }
+  /* line 307, _popup.scss */
+  .modal.in .modal-dialog.popups .modal-content .modal-body.popup-discover .celebrate-content .text h3 {
+    color: #2db9b0;
+    text-align: left;
+    font-size: 26px;
+  }
+  /* line 311, _popup.scss */
+  .modal.in .modal-dialog.popups .modal-content .modal-body.popup-discover .celebrate-content .text h3 .nowrap {
+    white-space: normal;
+  }
+  /* line 314, _popup.scss */
+  .modal.in .modal-dialog.popups .modal-content .modal-body.popup-discover .celebrate-content .text .desc {
+    padding-right: 0;
+    text-align: left;
+  }
+}
+/* line 324, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body.popup-congratulations .content {
   text-align: center;
   width: 90%;
   margin: 0 auto;
 }
-/* line 225, _popup.scss */
+/* line 329, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body.popup-congratulations .content h3 {
   color: #666;
   font-size: 26px;
 }
-/* line 229, _popup.scss */
+/* line 333, _popup.scss */
 .modal.in .modal-dialog.popups .modal-content .modal-body.popup-congratulations .content .desc {
   font-size: 15px;
   color: #555;
 }
-@media screen and (min-width: 1024px) {
-  /* line 23, _popup.scss */
-  .modal.in .modal-dialog.popups {
-    width: 980px;
+
+@media screen and (min-width: 768px) {
+  /* line 354, _popup.scss */
+  #popCongratulations .popups {
+    width: 660px;
+  }
+}
+/* line 358, _popup.scss */
+#popCongratulations .popups .content {
+  text-align: center;
+  color: #666;
+  padding: 50px 20px 40px;
+  width: 80%;
+  margin: 0 auto;
+}
+/* line 364, _popup.scss */
+#popCongratulations .popups .content h3 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+/* line 366, _popup.scss */
+#popCongratulations .popups .content .desc, #popCongratulations .popups .content .desc p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #666;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+/* line 373, _popup.scss */
+#popCongratulations .popups .content .desc .x {
+  font-weight: 900;
+}
+/* line 375, _popup.scss */
+#popCongratulations .popups .content button {
+  margin-top: 20px;
+}
+@media screen and (max-width: 480px) {
+  /* line 358, _popup.scss */
+  #popCongratulations .popups .content {
+    padding-right: 0;
+    padding-left: 0;
+    width: 89%;
   }
 }
 

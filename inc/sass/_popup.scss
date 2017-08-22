@@ -1,8 +1,17 @@
 // modal default
 .modal.in {
+    @include max-md{
+        z-index: 99999999;
+    }
     .modal-dialog{
         position: absolute;
        @include center-pos; 
+       top: 45%;
+       @include max-md{
+            width: 90%;
+            max-width: 600px; 
+            margin: 0; 
+        }  
         .close {
             font-size: 60px;
             color: $blue;
@@ -19,8 +28,11 @@
             }
         } 
         
-        // popup default
+        
         &.popups{ 
+            @include min-md{
+                width: 980px;
+            }
             .modal-content{
                 .modal-header, .modal-footer{
                     display: none;
@@ -29,6 +41,9 @@
                     padding: 0;
                     border-radius: 5px;
                     overflow: auto;
+                     @include max-md{
+                        max-height: 90vh;
+                    }
                     button{
                         width: 100%;
                         padding: 10px;
@@ -40,6 +55,15 @@
                     .nowrap{
                         white-space: nowrap;
                     }
+                    @include max-md{
+                        .img-bg{
+                            opacity: .05;
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            img{position: absolute}
+                        }
+                    } 
                     // login popup
                     &.popup-login{
                         .img-hero{                            
@@ -47,7 +71,7 @@
                             .text{
                                 position: absolute;                                
                                 @include ver-pos;                                                              
-                                background: rgba(0,0,0,.3);
+                                background: rgba(0,0,0,.45);
                                 right: 360px;
                                 width: calc(100% - 360px);
                                 h2{
@@ -58,32 +82,42 @@
                                     float: right;
                                     padding-right: 30px;
                                     text-align: right;
-                                    margin: 20px 0;
-                                    
+                                    margin: 20px 0;                                    
+                                }
+                                @include max-md{
+                                    display: none;        
                                 }
 
                             }
                             img{
                                 width: 100%;  
-                                @include border-radius(5px 5px 0 0);                      
+                                @include border-radius(5px 5px 0 0); 
+                                @include max-md{
+                                    display: none;        
+                                }                     
                             }
+                            
                         }
                         .form-signup{
-                            background: $white;
-                            padding: 10px 30px 10px;                            
+                            background: $white;                                                      
                             color: #666;
                             position: absolute;
                             right: 30px;
                             bottom: -30px;
-                            width: 330px;
+                            width: 330px;                            
                             @include box-shadow(0px 0px 10px 4px rgba(0,0,0,.5));
                             @include border-radius(5px);
-
+                            form{
+                                padding: 10px 30px 10px;  
+                            }
                             h3{
                                 font-size: 20px;
                                 text-transform: uppercase;
                                 color: $blue;
                                 font-weight: 700;
+                                padding: 10px 30px 0;
+                                margin-bottom: 0; 
+                                
                             }
                             .desc{
                                 font-size: 13px;
@@ -95,12 +129,32 @@
                                 color: #333;                                
                                 @include placeholder(#999,Montserrat);
 
-                            }                            
+                            }  
+                            button{
+                                width: 100%;
+                            }                          
                             
                             .bottom-link{
                                 *,a{color: #999;font-size: 12px;}                                
                                 text-align: center;
                                 margin-top: 10px;
+                                margin-bottom: 30px;
+                                
+                            }
+                            @include max-md{
+                                @include box-shadow(none);
+                                position: static;
+                                width: 100%;
+                                form,h3{
+                                    padding-left: 20px;
+                                    padding-right: 20px;
+                                }
+                                h3{
+                                    color: $white;
+                                    background: $blue;
+                                    margin: 0; padding: 20px;
+                                }                                
+                                // button{width: auto;}
                             }
                         }
                         .partners{
@@ -116,7 +170,11 @@
                                     cursor: pointer;
                                 }
                             }
-                        }                    
+                            @include max-md{
+                                display: none;        
+                            }
+                        }
+                                           
                     }
 
                     //celebrate-poup
@@ -156,7 +214,7 @@
                                 }
                             }
                             p{
-                                margin-top: 10px;
+                                margin-top: 20px;
                                 font-size: 16px;
                                 color: #333;
                                 line-height: 1.5;
@@ -192,6 +250,35 @@
                                 }
                             }
                         }
+                        @include max-md{
+                           text-align: center;
+                           width: 89%;
+                           position: static;
+                           margin: 40px auto 30px;
+                           .text{
+                            margin-bottom: 40px;
+                            h3{
+                                font-weight: 800;
+                                font-size: 26px;
+                                color: $blue;
+                            }
+                            .discount-num{
+                                margin: 5px 0;
+                            }
+                           }
+                           .exp-datetime{
+                            li{
+                                @include xxs{
+                                    padding: 0 10px;
+                                }
+                                
+                                @include xxs{
+                                    padding: 0 2px;
+                                }
+                            }
+                           }
+
+                        }
                     }
 
                     // popup-discover
@@ -213,6 +300,23 @@
                             } 
 
                             .desc{padding-right: 70px;margin-bottom: 20px;}
+                            @include max-md{
+                                width: 89%; 
+                                .text{
+                                    text-align: center;
+                                    h3{
+                                        color: $blue;
+                                        text-align: left;
+                                        font-size: 26px;
+                                        .nowrap{white-space: normal;}
+
+                                    } 
+                                    .desc{
+                                        padding-right: 0;   
+                                        text-align: left;                                 
+                                    }                                   
+                                }
+                            }
 
                         }
                     }
@@ -230,18 +334,54 @@
                                 font-size: 15px;
                                 color: #555;
                             }
+
                         }
                     }
-                    
-                    
                 }
             } 
-            @include min-md{
-                width: 980px;
-            }
+            
+
+            
+
         }
+
         
-    }  
+    } 
+    
 }
+// popup-congratulations
+#popCongratulations{
+   .popups{
+    @media screen and (min-width: 768px){
+        width: 660px;
+    }
+    .content{
+        text-align: center;
+        color: #666;
+        padding: 50px 20px 40px; 
+        width: 80%;
+        margin: 0 auto;
+        h3 {font-size: 28px; font-weight: 500;margin-bottom: 30px;margin-top: 10px;}
+        .desc{            
+            &,p{
+                font-size: 14px;
+                font-weight: 400;
+                color: #666;
+                margin-bottom: 15px;
+                line-height: 1.4;
+            }            
+            .x{font-weight: 900;}
+        }
+        button{
+            margin-top: 20px;
+        }
+        @include xxs{
+            padding-right: 0;
+            padding-left: 0;
+            width: 89%;
+        }
+     }
+   }    
+} 
 
 
