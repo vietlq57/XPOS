@@ -14,6 +14,7 @@ get_header(); ?>
     <!-- Modal content -->
     <div class="modal-content">  
      <!-- Popup login     -->
+     <button class="close" type="button" data-dismiss="modal">×</button>
       <div class="modal-body popup-login">
         <div class="img-hero">
             <div class="text">
@@ -108,7 +109,8 @@ get_header(); ?>
 <!-- Celebrate with us -->
 <div id="popCelebrate" class="modal fade" role="dialog">
    <div class="modal-dialog popups">
-        <div class="modal-content"> 
+        <div class="modal-content">
+           <button class="close" type="button" data-dismiss="modal">×</button> 
           <div class="modal-body popup-celebrate">
             <div class="celebrate-content">
                 <div class="text">
@@ -153,12 +155,23 @@ get_header(); ?>
 <div id="popDiscover" class="modal fade" role="dialog">
    <div class="modal-dialog popups">
         <div class="modal-content"> 
+            <button class="close" type="button" data-dismiss="modal">×</button>
           <div class="modal-body popup-discover">
             <div class="celebrate-content">
                 <div class="text">
                     <h3>Discover the first <span class="nowrap">Magento POS</span> for Omnichannel</h3>
                     <div class="desc">
-                        Compatible with Magento 1 and 2. Powerful features for physical stores. Real time synchronization for a truly omnichannel experience.
+                        <ul>
+                            <li>
+                                Compatible with Magento 1 and 2.
+                            </li>
+                            <li>
+                                Powerful features for physical stores.
+                            </li>
+                            <li>
+                                Real time synchronization for a truly omnichannel experience.
+                            </li>
+                        </ul>                        
                         <p>Explore ConnectPOS today and get a FREE trial, plus a special offer!</p>
 
                     </div>
@@ -177,6 +190,7 @@ get_header(); ?>
 <div id="popCongratulations" class="modal fade" role="dialog">
    <div class="modal-dialog popups">
         <div class="modal-content"> 
+        <button class="close" type="button" data-dismiss="modal">×</button>
           <div class="modal-body">
             <div class="content">
                 <img src="<?php echo(get_template_directory_uri()); ?>/inc/images/popups/Congratulations.jpg" alt="celebrate">

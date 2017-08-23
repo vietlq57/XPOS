@@ -302,9 +302,9 @@ get_header(); ?>
             </div>
             <div class="col-xs-12 col-sm-6">
                 <h2>Custom Solution</h2>
-                <p>If you need a tailored solution that meets your specific needs, we're here to help.</p><a class="btn btn-primary" data-toggle="modal" data-target="#myModal">Contact us</a>
-                <div class="modal fade" id="myModal" role="dialog">
-                    <div class="modal-dialog">
+                <p>If you need a tailored solution that meets your specific needs, we're here to help.</p><a class="btn btn-primary" data-toggle="modal" data-target="#popupContact">Contact us</a>
+                <div class="modal fade" id="popupContact" role="dialog">
+                    <div class="modal-dialog popupContact">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button class="close" type="button" data-dismiss="modal">&times;</button>

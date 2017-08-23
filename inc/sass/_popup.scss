@@ -7,27 +7,35 @@
         position: absolute;
        @include center-pos; 
        top: 45%;
+       
+
        @include max-md{
             width: 90%;
             max-width: 600px; 
             margin: 0; 
         }  
+         @include xs{
+            top: 50%;
+         }
         .close {
-            font-size: 60px;
-            color: $blue;
+            font-size: 30px;
+            color: #fff;
             position: absolute;
-            top: -15px;
-            right: -80px;
+            top: -10px;
+            right: -10px;
             opacity: 1;
             text-shadow: none;
-            @include xs {
-                right: 0;
-            }
-            @include sm {
-                right: 0;
-            }
+            background: #ce3a00;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            z-index: 100000000;
+            @include box-shadow(0px 0px 4px 1px rgba(0,0,0,.5));
         } 
         
+        
+
         
         &.popups{ 
             @include min-md{
@@ -41,8 +49,9 @@
                     padding: 0;
                     border-radius: 5px;
                     overflow: auto;
-                     @include max-md{
+                    @include max-md{
                         max-height: 90vh;
+                        overflow-y:auto;
                     }
                     button{
                         width: 100%;
@@ -55,14 +64,20 @@
                     .nowrap{
                         white-space: nowrap;
                     }
+                    .img-bg{z-index: 0}
                     @include max-md{
                         .img-bg{
-                            opacity: .05;
+                            opacity: .08;
+                            z-index: 0;
                             position: absolute;
-                            left: 0;
+                            right: 0;
                             top: 0;
-                            img{position: absolute}
+                            left: 0;
+                            overflow: hidden;
+                            max-width: 100%;
+                            max-height: 100%;
                         }
+
                     } 
                     // login popup
                     &.popup-login{
@@ -132,6 +147,11 @@
                             }  
                             button{
                                 width: 100%;
+                                display: inherit;
+                                margin: 0 auto;
+                                @include tablet-ver{
+                                    width: 220px;
+                                }
                             }                          
                             
                             .bottom-link{
@@ -154,8 +174,9 @@
                                     background: $blue;
                                     margin: 0; padding: 20px;
                                 }                                
-                                // button{width: auto;}
+                                
                             }
+
                         }
                         .partners{
                             background: $gray1;
@@ -183,6 +204,7 @@
                         bottom: 40px;
                         right: 70px;                        
                         text-align: right;
+                        z-index: 1;
                         .text{
                             font-size: 16px;
                             color: #333;
@@ -194,6 +216,7 @@
                                 font-weight: 300;
                                 color: $blue;
                                 margin-bottom: 30px;
+                                line-height: 1.2;
                             }
                             .discount-num{
                                 font-weight: 700;                                
@@ -213,6 +236,15 @@
 
                                 }
                             }
+                            .desc ul{
+                                margin-left: 20px;
+                                li{
+                                    line-height: 1.2;
+                                    margin-bottom: 15px;
+                                    list-style: disc;
+                                }
+                            } 
+
                             p{
                                 margin-top: 20px;
                                 font-size: 16px;
@@ -253,8 +285,13 @@
                         @include max-md{
                            text-align: center;
                            width: 89%;
-                           position: static;
+                           position: relative;
+                            left: inherit;
+                            right: inherit;
+                            bottom: inherit;
+                            top: inherit;
                            margin: 40px auto 30px;
+                           
                            .text{
                             margin-bottom: 40px;
                             h3{
@@ -279,6 +316,9 @@
                            }
 
                         }
+                        @include xxs{
+                            margin-top: 20px;
+                        }
                     }
 
                     // popup-discover
@@ -290,18 +330,19 @@
                             left: 70px;
                             width: 650px;
 
-                            .text{
-                                color: #666;
-                                h3{
-                                    color: #666;
+                            .text{                                
+                                h3{                                    
                                     font-size: 42px;
-                                }
-                                p{color: #666;}
+                                    @include xxxs{
+                                       .nowrap{display: block;}
+                                    }
+                                }                                
                             } 
 
                             .desc{padding-right: 70px;margin-bottom: 20px;}
                             @include max-md{
                                 width: 89%; 
+                                left: 0;
                                 .text{
                                     text-align: center;
                                     h3{
@@ -327,23 +368,42 @@
                             margin: 0 auto;
 
                             h3{
-                                color: #666;
+                                color: #333;
                                 font-size: 26px;
                             }
                             .desc{
-                                font-size: 15px;
-                                color: #555;
+                                font-size: 15px;                                
                             }
 
                         }
                     }
                 }
             } 
-            
-
-            
-
+         
         }
+
+        //contact
+        &.popupContact{
+            max-height: 90vh;
+            .modal-header{
+                border: none;
+                margin-bottom: 10px;
+            }
+            textarea {
+                border: 1px solid #eaeaea;
+                    border-radius: 4px;
+    padding: 10px;
+            }
+            @include min-md{
+                width: auto;
+                .modal-content{
+                    padding: 10px 40px;
+                }  
+
+            }
+            
+        }
+        
 
         
     } 
@@ -366,7 +426,7 @@
             &,p{
                 font-size: 14px;
                 font-weight: 400;
-                color: #666;
+                color: #333;
                 margin-bottom: 15px;
                 line-height: 1.4;
             }            
@@ -383,5 +443,6 @@
      }
    }    
 } 
+
 
 
