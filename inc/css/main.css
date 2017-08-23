@@ -8351,6 +8351,10 @@ footer .bottom-note p {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 /* line 217, _home.scss */
 .customer .slide-item .logo-item img.img-hover {
@@ -9600,25 +9604,27 @@ footer .bottom-note p {
 /* line 392, _popup.scss */
 .modal.in .modal-dialog.popupContact textarea {
   border: 1px solid #eaeaea;
+  border-radius: 4px;
+  padding: 10px;
 }
 @media screen and (min-width: 1024px) {
   /* line 386, _popup.scss */
   .modal.in .modal-dialog.popupContact {
     width: auto;
   }
-  /* line 397, _popup.scss */
+  /* line 399, _popup.scss */
   .modal.in .modal-dialog.popupContact .modal-content {
     padding: 10px 40px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  /* line 412, _popup.scss */
+  /* line 414, _popup.scss */
   #popCongratulations .popups {
     width: 660px;
   }
 }
-/* line 416, _popup.scss */
+/* line 418, _popup.scss */
 #popCongratulations .popups .content {
   text-align: center;
   color: #666;
@@ -9626,14 +9632,14 @@ footer .bottom-note p {
   width: 80%;
   margin: 0 auto;
 }
-/* line 422, _popup.scss */
+/* line 424, _popup.scss */
 #popCongratulations .popups .content h3 {
   font-size: 28px;
   font-weight: 500;
   margin-bottom: 30px;
   margin-top: 10px;
 }
-/* line 424, _popup.scss */
+/* line 426, _popup.scss */
 #popCongratulations .popups .content .desc, #popCongratulations .popups .content .desc p {
   font-size: 14px;
   font-weight: 400;
@@ -9641,16 +9647,16 @@ footer .bottom-note p {
   margin-bottom: 15px;
   line-height: 1.4;
 }
-/* line 431, _popup.scss */
+/* line 433, _popup.scss */
 #popCongratulations .popups .content .desc .x {
   font-weight: 900;
 }
-/* line 433, _popup.scss */
+/* line 435, _popup.scss */
 #popCongratulations .popups .content button {
   margin-top: 20px;
 }
 @media screen and (max-width: 480px) {
-  /* line 416, _popup.scss */
+  /* line 418, _popup.scss */
   #popCongratulations .popups .content {
     padding-right: 0;
     padding-left: 0;
