@@ -14,8 +14,8 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="<?php echo(get_template_directory_uri()); ?>/inc/images/favicon.ico" type="image/x-icon">
-
+    <link rel="shortcut icon" href="<?php echo(get_template_directory_uri()); ?>/inc/images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="<?php echo(get_template_directory_uri()); ?>/inc/images/favicon.png" type="image/x-icon">    
 <link rel="profile" href="http://gmpg.org/xfn/11">
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
