@@ -119,23 +119,33 @@
                             position: absolute;
                             right: 30px;
                             bottom: -30px;
-                            width: 330px;                            
+                            width: 330px; 
+                            padding: 0 ;                                                       
                             @include box-shadow(0px 0px 10px 4px rgba(0,0,0,.5));
                             @include border-radius(5px);
-                            form{
-                                padding: 10px 30px 10px;  
+                            @include min-md{
+                                height: 460px;
+                                overflow-y: auto;
+                            }
+                            .nf-form-cont{
+                                padding: 10px 20px 0;  
                             }
                             h3{
                                 font-size: 20px;
                                 text-transform: uppercase;
                                 color: $blue;
                                 font-weight: 700;
-                                padding: 10px 30px 0;
+                                padding: 0 20px 10px;
                                 margin-bottom: 0; 
                                 
                             }
                             .desc{
                                 font-size: 13px;
+                                padding: 0 20px;
+                                margin-bottom: 0;
+                                @include max-md{
+                                    padding-top: 10px;
+                                }
 
                             }
                             .form-control{
@@ -152,13 +162,22 @@
                                 @include tablet-ver{
                                     width: 220px;
                                 }
-                            }                          
-                            
+                            }       
+                            .recaptcha-container{
+                                margin-bottom: 0;
+                            }
+                            .g-recaptcha{
+                                transform:scale(0.954);
+                                transform-origin:0 0;
+                                @include xxxs {
+                                   transform: scale(0.81);
+                                }
+                            }
                             .bottom-link{
                                 *,a{color: #999;font-size: 12px;}                                
                                 text-align: center;
                                 margin-top: 10px;
-                                margin-bottom: 30px;
+                                margin-bottom: 20px;
                                 
                             }
                             @include max-md{
